@@ -1,0 +1,4 @@
+*.pdf
+*.tex
+*cache*
+.DS_Store
