@@ -1,0 +1,17 @@
+Card,Guess,Reward,Correction,Reaction
+ELE,dog,0,1,Not right!
+ELE,elephant,2,1,Yes! You get a big star!
+DOG-ELE,elephant,1,3,Kinda right! It's a dog AND an elephant.
+DOG,dog or elephant,1,2,No it's just a dog!
+CAT-ELE,cat and elephant,2,3,It's a cat AND an elephant!
+CAT-ELE,dog,0,1,No! You're not right!
+CAT-DOG,cat or dog,2,3,It's a cat AND a dog! You're right!
+ELE,cat and elephant,1,2,kinda right! It's just an elephant!
+CAT-ELE,cat or elephant,2,3,It's a cat AND an elephant!
+ELE,dog or elephant,1,2,It's just an elephant.
+DOG-ELE,dog and elephant,2,1,Yes!
+CAT,cat and elephant,1,2,It's just a cat!
+DOG,dog,2,1,Yes!
+CAT-ELE,cat,1,2,Yes! He's kinda right! It's just a cat and an elephant.
+CAT,dog,1,2,Just a cat! ... [was Jazzy right?] No!
+CAT-DOG,elephant,1,2,It's just a dog and a cat. [Jazzy was not right]

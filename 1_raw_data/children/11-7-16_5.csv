@@ -1,0 +1,17 @@
+Card,Guess,Reward,Correction,Reaction
+CAT-ELE,cat,1,1,You were a little bit right Jazzy.
+CAT,cat,2,1,You were right Jazzy.
+DOG,elephant,0,1,You were wrong.
+CAT-ELE,cat or elephant,2,2,a cat and elephant.
+CAT-ELE,dog,0,1,you were wrong Jazzy!
+CAT-DOG,cat and dog,2,1,You were right Jazzy.
+ELE,dog or elephant,2,2,elephant. You were right Jazzy.
+ELE,cat and elephant,0,1,you were wrong Jazzy!
+CAT,dog,0,1,you were wrong Jazzy!
+DOG,cat or dog,2,1,right Jazzy. (little star because it is cuter.)
+DOG-ELE,cat,0,1,Wrong Jazzy!
+CAT-ELE,dog,0,1,"You were wrong, Jazzy."
+CAT-ELE,cat or elephant,0,1,Wrong Jazzy!
+DOG,dog,2,1,Right Jazzy.
+CAT-DOG,cat and dog,2,1,Right Jazzy.
+CAT,cat and dog,1,3,Just a cat. You're a little bit right Jazzy.

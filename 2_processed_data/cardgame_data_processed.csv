@@ -1,0 +1,1877 @@
+"response","feedback","sid","trial_type","age_category","dv_type","age_year"
+"Wrong","Judgement","11-10-16_1.csv","X.Z","Children",3,4.55068493150685
+"Kinda Right","None","11-10-16_1.csv","XY.X","Children",3,4.55068493150685
+"Right","Judgement","11-10-16_1.csv","X.X","Children",3,4.55068493150685
+"Right","Description","11-10-16_1.csv","X.XorY","Children",3,4.55068493150685
+"Right","None","11-10-16_1.csv","XY.XandY","Children",3,4.55068493150685
+"Wrong","Judgement","11-10-16_1.csv","XY.Z","Children",3,4.55068493150685
+"Right","Description","11-10-16_1.csv","XY.XorY","Children",3,4.55068493150685
+"Kinda Right","None","11-10-16_1.csv","X.XandY","Children",3,4.55068493150685
+"Wrong","Judgement","11-10-16_1.csv","X.Z","Children",3,4.55068493150685
+"Right","None","11-10-16_1.csv","X.X","Children",3,4.55068493150685
+"Wrong","Judgement","11-10-16_1.csv","XY.Z","Children",3,4.55068493150685
+"Right","Judgement","11-10-16_1.csv","XY.XandY","Children",3,4.55068493150685
+"Kinda Right","Judgement","11-10-16_1.csv","XY.X","Children",3,4.55068493150685
+"Right","Description","11-10-16_1.csv","X.XorY","Children",3,4.55068493150685
+"Kinda Right","None","11-10-16_1.csv","X.XandY","Children",3,4.55068493150685
+"Kinda Right","Correction","11-10-16_1.csv","XY.XorY","Children",3,4.55068493150685
+"Kinda Right","Correction","11-10-16_2.csv","XY.X","Children",3,4.37260273972603
+"Right","Judgement","11-10-16_2.csv","X.X","Children",3,4.37260273972603
+"Wrong","Description","11-10-16_2.csv","X.Z","Children",3,4.37260273972603
+"Wrong","Description","11-10-16_2.csv","XY.Z","Children",3,4.37260273972603
+"Right","Judgement","11-10-16_2.csv","XY.XandY","Children",3,4.37260273972603
+"Wrong","Correction","11-10-16_2.csv","X.XandY","Children",3,4.37260273972603
+"Right","None","11-10-16_2.csv","XY.XorY","Children",3,4.37260273972603
+"Wrong","Correction","11-10-16_2.csv","X.XorY","Children",3,4.37260273972603
+"Right","Judgement","11-10-16_2.csv","X.X","Children",3,4.37260273972603
+"Wrong","None","11-10-16_2.csv","X.XandY","Children",3,4.37260273972603
+"Kinda Right","Judgement","11-10-16_2.csv","XY.X","Children",3,4.37260273972603
+"Wrong","Judgement","11-10-16_2.csv","XY.Z","Children",3,4.37260273972603
+"Right","Correction","11-10-16_2.csv","XY.XorY","Children",3,4.37260273972603
+"Wrong","Description","11-10-16_2.csv","X.Z","Children",3,4.37260273972603
+"Right","Correction","11-10-16_2.csv","XY.XandY","Children",3,4.37260273972603
+"Kinda Right","Description","11-10-16_2.csv","X.XorY","Children",3,4.37260273972603
+"Kinda Right","Description","11-10-16_3.csv","XY.X","Children",3,5.04383561643836
+"Right","Judgement","11-10-16_3.csv","X.X","Children",3,5.04383561643836
+"Wrong","Description","11-10-16_3.csv","X.Z","Children",3,5.04383561643836
+"Right","Description","11-10-16_3.csv","XY.XandY","Children",3,5.04383561643836
+"Wrong","Description","11-10-16_3.csv","XY.Z","Children",3,5.04383561643836
+"Right","Correction","11-10-16_3.csv","XY.XorY","Children",3,5.04383561643836
+"Kinda Right","Description","11-10-16_3.csv","X.XandY","Children",3,5.04383561643836
+"Right","Description","11-10-16_3.csv","X.XorY","Children",3,5.04383561643836
+"Kinda Right","Description","11-10-16_3.csv","X.Z","Children",3,5.04383561643836
+"Wrong","None","11-10-16_3.csv","XY.Z","Children",3,5.04383561643836
+"Right","Description","11-10-16_3.csv","XY.XandY","Children",3,5.04383561643836
+"Kinda Right","Description","11-10-16_3.csv","X.XandY","Children",3,5.04383561643836
+"Right","Judgement","11-10-16_3.csv","X.X","Children",3,5.04383561643836
+"Kinda Right","Description","11-10-16_3.csv","X.XorY","Children",3,5.04383561643836
+"Right","Correction","11-10-16_3.csv","XY.XorY","Children",3,5.04383561643836
+"Kinda Right","Judgement","11-10-16_3.csv","XY.X","Children",3,5.04383561643836
+"Wrong","None","11-10-16_4.csv","XY.X","Children",3,3.93972602739726
+"Kinda Right","None","11-10-16_4.csv","X.X","Children",3,3.93972602739726
+"Wrong","None","11-10-16_4.csv","X.Z","Children",3,3.93972602739726
+"Wrong","Description","11-10-16_4.csv","XY.Z","Children",3,3.93972602739726
+"Wrong","Judgement","11-10-16_4.csv","X.XandY","Children",3,3.93972602739726
+"Kinda Right","None","11-10-16_4.csv","XY.XandY","Children",3,3.93972602739726
+"Wrong","None","11-10-16_4.csv","XY.XorY","Children",3,3.93972602739726
+"Wrong","None","11-10-16_4.csv","X.XorY","Children",3,3.93972602739726
+"Wrong","None","11-10-16_4.csv","XY.XorY","Children",3,3.93972602739726
+"Kinda Right","Judgement","11-10-16_4.csv","X.X","Children",3,3.93972602739726
+"Wrong","None","11-10-16_4.csv","X.XorY","Children",3,3.93972602739726
+"Kinda Right","None","11-10-16_4.csv","XY.XandY","Children",3,3.93972602739726
+"Wrong","Judgement","11-10-16_4.csv","XY.Z","Children",3,3.93972602739726
+"Wrong","Judgement","11-10-16_4.csv","X.XandY","Children",3,3.93972602739726
+NA,NA,"11-10-16_4.csv","X.Z","Children",3,3.93972602739726
+"Wrong","Judgement","11-10-16_4.csv","XY.X","Children",3,3.93972602739726
+"Kinda Right","None","11-10-16_5.csv","XY.X","Children",3,3.4
+"Wrong","None","11-10-16_5.csv","X.Z","Children",3,3.4
+"Right","None","11-10-16_5.csv","X.X","Children",3,3.4
+"Right","Description","11-10-16_5.csv","XY.XorY","Children",3,3.4
+"Wrong","None","11-10-16_5.csv","XY.Z","Children",3,3.4
+"Right","Description","11-10-16_5.csv","X.XandY","Children",3,3.4
+"Right","Description","11-10-16_5.csv","X.XorY","Children",3,3.4
+"Right","Description","11-10-16_5.csv","XY.XandY","Children",3,3.4
+"Right","Correction","11-10-16_5.csv","XY.XorY","Children",3,3.4
+"Wrong","None","11-10-16_5.csv","XY.Z","Children",3,3.4
+"Right","Judgement","11-10-16_5.csv","XY.XandY","Children",3,3.4
+"Right","None","11-10-16_5.csv","X.XandY","Children",3,3.4
+"Right","Description","11-10-16_5.csv","X.XorY","Children",3,3.4
+"Right","Description","11-10-16_5.csv","XY.X","Children",3,3.4
+"Wrong","None","11-10-16_5.csv","X.Z","Children",3,3.4
+"Right","Judgement","11-10-16_5.csv","X.X","Children",3,3.4
+"Right","Description","11-10-16_6.csv","X.X","Children",3,4.27397260273973
+"Wrong","Description","11-10-16_6.csv","X.Z","Children",3,4.27397260273973
+"Kinda Right","Correction","11-10-16_6.csv","XY.X","Children",3,4.27397260273973
+"Right","Description","11-10-16_6.csv","X.XorY","Children",3,4.27397260273973
+"Right","Description","11-10-16_6.csv","XY.XandY","Children",3,4.27397260273973
+"Right","Description","11-10-16_6.csv","XY.XorY","Children",3,4.27397260273973
+"Wrong","Description","11-10-16_6.csv","XY.Z","Children",3,4.27397260273973
+"Kinda Right","Description","11-10-16_6.csv","X.XandY","Children",3,4.27397260273973
+"Kinda Right","Description","11-10-16_6.csv","XY.X","Children",3,4.27397260273973
+"Kinda Right","Description","11-10-16_6.csv","X.XorY","Children",3,4.27397260273973
+"Wrong","Description","11-10-16_6.csv","X.Z","Children",3,4.27397260273973
+"Kinda Right","Correction","11-10-16_6.csv","X.XandY","Children",3,4.27397260273973
+"Wrong","Description","11-10-16_6.csv","XY.Z","Children",3,4.27397260273973
+"Right","Description","11-10-16_6.csv","X.X","Children",3,4.27397260273973
+"Right","Description","11-10-16_6.csv","XY.XandY","Children",3,4.27397260273973
+"Kinda Right","Correction","11-10-16_6.csv","XY.XorY","Children",3,4.27397260273973
+"Kinda Right","None","11-16-16_1.csv","XY.X","Children",3,4.27671232876712
+"Right","Judgement","11-16-16_1.csv","X.X","Children",3,4.27671232876712
+"Wrong","Judgement","11-16-16_1.csv","X.Z","Children",3,4.27671232876712
+"Right","Judgement","11-16-16_1.csv","XY.XandY","Children",3,4.27671232876712
+"Right","Description","11-16-16_1.csv","X.XorY","Children",3,4.27671232876712
+"Wrong","Description","11-16-16_1.csv","XY.Z","Children",3,4.27671232876712
+"Wrong","Judgement","11-16-16_1.csv","X.XandY","Children",3,4.27671232876712
+"Right","Correction","11-16-16_1.csv","XY.XorY","Children",3,4.27671232876712
+"Right","Correction","11-16-16_1.csv","XY.XorY","Children",3,4.27671232876712
+"Right","Description","11-16-16_1.csv","X.XorY","Children",3,4.27671232876712
+"Wrong","Judgement","11-16-16_1.csv","X.Z","Children",3,4.27671232876712
+"Right","Judgement","11-16-16_1.csv","X.X","Children",3,4.27671232876712
+"Wrong","Judgement","11-16-16_1.csv","XY.Z","Children",3,4.27671232876712
+"Right","Judgement","11-16-16_1.csv","XY.XandY","Children",3,4.27671232876712
+"Wrong","Judgement","11-16-16_1.csv","XY.X","Children",3,4.27671232876712
+"Wrong","Judgement","11-16-16_1.csv","X.XandY","Children",3,4.27671232876712
+"Right","Description","11-16-16_2.csv","XY.X","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","X.X","Children",3,3.35616438356164
+"Wrong","Description","11-16-16_2.csv","X.Z","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","XY.XorY","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","X.XorY","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","XY.XandY","Children",3,3.35616438356164
+"Wrong","Description","11-16-16_2.csv","XY.Z","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","X.XandY","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","XY.X","Children",3,3.35616438356164
+"Wrong","Description","11-16-16_2.csv","XY.Z","Children",3,3.35616438356164
+"Wrong","Description","11-16-16_2.csv","X.XandY","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","XY.XorY","Children",3,3.35616438356164
+"Wrong","Correction","11-16-16_2.csv","X.XorY","Children",3,3.35616438356164
+"Wrong","Description","11-16-16_2.csv","X.Z","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","XY.XandY","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","X.X","Children",3,3.35616438356164
+"Right","Judgement","11-16-16_3.csv","X.X","Children",3,4.7972602739726
+"Kinda Right","Description","11-16-16_3.csv","XY.X","Children",3,4.7972602739726
+"Wrong","Description","11-16-16_3.csv","X.Z","Children",3,4.7972602739726
+"Right","Description","11-16-16_3.csv","X.XorY","Children",3,4.7972602739726
+"Kinda Right","Description","11-16-16_3.csv","XY.XorY","Children",3,4.7972602739726
+"Right","Description","11-16-16_3.csv","XY.XandY","Children",3,4.7972602739726
+"Kinda Right","Judgement","11-16-16_3.csv","X.XandY","Children",3,4.7972602739726
+"Wrong","None","11-16-16_3.csv","XY.Z","Children",3,4.7972602739726
+"Kinda Right","Description","11-16-16_3.csv","XY.X","Children",3,4.7972602739726
+"Kinda Right","Judgement","11-16-16_3.csv","XY.XorY","Children",3,4.7972602739726
+"Right","Judgement","11-16-16_3.csv","X.X","Children",3,4.7972602739726
+"Wrong","None","11-16-16_3.csv","XY.Z","Children",3,4.7972602739726
+"Right","None","11-16-16_3.csv","X.XorY","Children",3,4.7972602739726
+"Wrong","None","11-16-16_3.csv","X.XandY","Children",3,4.7972602739726
+"Right","Description","11-16-16_3.csv","XY.XandY","Children",3,4.7972602739726
+"Wrong","Description","11-16-16_3.csv","X.Z","Children",3,4.7972602739726
+"Right","Description","11-16-16_4.csv","XY.X","Children",3,4.51780821917808
+"Kinda Right","Description","11-16-16_4.csv","X.Z","Children",3,4.51780821917808
+"Right","Judgement","11-16-16_4.csv","X.X","Children",3,4.51780821917808
+"Right","Judgement","11-16-16_4.csv","XY.XandY","Children",3,4.51780821917808
+"Right","Description","11-16-16_4.csv","XY.XorY","Children",3,4.51780821917808
+"Right","Description","11-16-16_4.csv","X.XorY","Children",3,4.51780821917808
+"Right","Description","11-16-16_4.csv","X.XandY","Children",3,4.51780821917808
+"Kinda Right","Description","11-16-16_4.csv","XY.Z","Children",3,4.51780821917808
+"Right","Description","11-16-16_4.csv","XY.X","Children",3,4.51780821917808
+"Kinda Right","Description","11-16-16_4.csv","X.Z","Children",3,4.51780821917808
+"Right","Correction","11-16-16_4.csv","XY.XorY","Children",3,4.51780821917808
+"Kinda Right","Correction","11-16-16_4.csv","X.XandY","Children",3,4.51780821917808
+"Right","Description","11-16-16_4.csv","X.XorY","Children",3,4.51780821917808
+"Right","Judgement","11-16-16_4.csv","XY.XandY","Children",3,4.51780821917808
+"Kinda Right","Judgement","11-16-16_4.csv","XY.Z","Children",3,4.51780821917808
+"Right","Judgement","11-16-16_4.csv","X.X","Children",3,4.51780821917808
+"Kinda Right","None","11-16-16_5.csv","XY.X","Children",3,3.8958904109589
+"Wrong","Judgement","11-16-16_5.csv","X.Z","Children",3,3.8958904109589
+"Right","Judgement","11-16-16_5.csv","X.X","Children",3,3.8958904109589
+"Right","Judgement","11-16-16_5.csv","X.XorY","Children",3,3.8958904109589
+"Right","None","11-16-16_5.csv","XY.XandY","Children",3,3.8958904109589
+"Right","None","11-16-16_5.csv","XY.XorY","Children",3,3.8958904109589
+"Kinda Right","Correction","11-16-16_5.csv","X.XandY","Children",3,3.8958904109589
+"Wrong","Judgement","11-16-16_5.csv","XY.Z","Children",3,3.8958904109589
+"Kinda Right","Correction","11-16-16_5.csv","X.XandY","Children",3,3.8958904109589
+"Right","Description","11-16-16_5.csv","XY.XorY","Children",3,3.8958904109589
+"Right","Judgement","11-16-16_5.csv","X.X","Children",3,3.8958904109589
+"Kinda Right","Description","11-16-16_5.csv","XY.X","Children",3,3.8958904109589
+"Kinda Right","Description","11-16-16_5.csv","XY.Z","Children",3,3.8958904109589
+"Kinda Right","Correction","11-16-16_5.csv","X.XorY","Children",3,3.8958904109589
+"Right","Judgement","11-16-16_5.csv","XY.XandY","Children",3,3.8958904109589
+"Wrong","None","11-16-16_5.csv","X.Z","Children",3,3.8958904109589
+"Wrong","Description","11-16-16_6.csv","X.Z","Children",3,5.01917808219178
+"Right","Description","11-16-16_6.csv","X.X","Children",3,5.01917808219178
+"Kinda Right","Description","11-16-16_6.csv","XY.X","Children",3,5.01917808219178
+"Wrong","None","11-16-16_6.csv","X.XandY","Children",3,5.01917808219178
+"Right","Judgement","11-16-16_6.csv","XY.XandY","Children",3,5.01917808219178
+"Right","Description","11-16-16_6.csv","X.XorY","Children",3,5.01917808219178
+"Wrong","Description","11-16-16_6.csv","XY.Z","Children",3,5.01917808219178
+"Right","Description","11-16-16_6.csv","XY.XorY","Children",3,5.01917808219178
+"Kinda Right","Description","11-16-16_6.csv","XY.X","Children",3,5.01917808219178
+"Right","Description","11-16-16_6.csv","XY.XorY","Children",3,5.01917808219178
+"Right","None","11-16-16_6.csv","X.X","Children",3,5.01917808219178
+"Wrong","Description","11-16-16_6.csv","XY.Z","Children",3,5.01917808219178
+"Wrong","Description","11-16-16_6.csv","X.Z","Children",3,5.01917808219178
+"Kinda Right","Description","11-16-16_6.csv","X.XandY","Children",3,5.01917808219178
+"Right","None","11-16-16_6.csv","XY.XandY","Children",3,5.01917808219178
+"Right","Description","11-16-16_6.csv","X.XorY","Children",3,5.01917808219178
+"Right","None","11-18-16_1.csv","X.X","Children",3,4.70958904109589
+"Kinda Right","None","11-18-16_1.csv","XY.X","Children",3,4.70958904109589
+"Wrong","None","11-18-16_1.csv","X.Z","Children",3,4.70958904109589
+"Right","None","11-18-16_1.csv","X.XorY","Children",3,4.70958904109589
+"Kinda Right","None","11-18-16_1.csv","XY.Z","Children",3,4.70958904109589
+"Kinda Right","None","11-18-16_1.csv","XY.XorY","Children",3,4.70958904109589
+"Right","Description","11-18-16_1.csv","X.XandY","Children",3,4.70958904109589
+"Right","Judgement","11-18-16_1.csv","XY.XandY","Children",3,4.70958904109589
+"Right","Description","11-18-16_1.csv","X.XandY","Children",3,4.70958904109589
+"Right","None","11-18-16_1.csv","X.X","Children",3,4.70958904109589
+"Right","Correction","11-18-16_1.csv","XY.XorY","Children",3,4.70958904109589
+"Wrong","Judgement","11-18-16_1.csv","XY.Z","Children",3,4.70958904109589
+"Right","Judgement","11-18-16_1.csv","XY.XandY","Children",3,4.70958904109589
+"Right","Description","11-18-16_1.csv","X.XorY","Children",3,4.70958904109589
+"Wrong","Judgement","11-18-16_1.csv","X.Z","Children",3,4.70958904109589
+"Kinda Right","Description","11-18-16_1.csv","XY.X","Children",3,4.70958904109589
+"Right","Description","11-18-16_2.csv","XY.X","Children",3,3.89315068493151
+"Wrong","Description","11-18-16_2.csv","X.Z","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","X.X","Children",3,3.89315068493151
+"Kinda Right","Description","11-18-16_2.csv","X.XandY","Children",3,3.89315068493151
+"Wrong","Description","11-18-16_2.csv","XY.Z","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","X.XorY","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","XY.XorY","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","XY.XandY","Children",3,3.89315068493151
+"Wrong","Description","11-18-16_2.csv","XY.Z","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","XY.XandY","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","XY.XorY","Children",3,3.89315068493151
+"Wrong","Description","11-18-16_2.csv","X.Z","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","X.XandY","Children",3,3.89315068493151
+"Wrong","Judgement","11-18-16_2.csv","XY.X","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","X.XorY","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","X.X","Children",3,3.89315068493151
+"Right","Judgement","11-18-16_3.csv","X.X","Children",3,4.08767123287671
+"Right","Judgement","11-18-16_3.csv","XY.X","Children",3,4.08767123287671
+"Wrong","Judgement","11-18-16_3.csv","X.Z","Children",3,4.08767123287671
+"Wrong","Judgement","11-18-16_3.csv","X.XandY","Children",3,4.08767123287671
+"Right","Judgement","11-18-16_3.csv","XY.XandY","Children",3,4.08767123287671
+"Right","Description","11-18-16_3.csv","X.XorY","Children",3,4.08767123287671
+"Wrong","Judgement","11-18-16_3.csv","XY.XorY","Children",3,4.08767123287671
+"Wrong","Judgement","11-18-16_3.csv","XY.Z","Children",3,4.08767123287671
+"Right","Judgement","11-18-16_3.csv","XY.XandY","Children",3,4.08767123287671
+"Wrong","Description","11-18-16_3.csv","XY.Z","Children",3,4.08767123287671
+"Right","Description","11-18-16_3.csv","X.XorY","Children",3,4.08767123287671
+"Wrong","Description","11-18-16_3.csv","X.Z","Children",3,4.08767123287671
+"Right","Description","11-18-16_3.csv","XY.XorY","Children",3,4.08767123287671
+"Wrong","None","11-18-16_3.csv","XY.X","Children",3,4.08767123287671
+"Right","Judgement","11-18-16_3.csv","X.X","Children",3,4.08767123287671
+"Wrong","None","11-18-16_3.csv","X.XandY","Children",3,4.08767123287671
+"Kinda Right","Description","11-18-16_4.csv","XY.X","Children",3,4.7041095890411
+"Right","Judgement","11-18-16_4.csv","X.X","Children",3,4.7041095890411
+"Wrong","Description","11-18-16_4.csv","X.Z","Children",3,4.7041095890411
+"Kinda Right","Correction","11-18-16_4.csv","X.XorY","Children",3,4.7041095890411
+"Right","Description","11-18-16_4.csv","XY.XandY","Children",3,4.7041095890411
+"Right","Correction","11-18-16_4.csv","XY.XorY","Children",3,4.7041095890411
+"Wrong","Description","11-18-16_4.csv","XY.Z","Children",3,4.7041095890411
+"Kinda Right","Correction","11-18-16_4.csv","X.XandY","Children",3,4.7041095890411
+"Right","Description","11-18-16_4.csv","XY.XorY","Children",3,4.7041095890411
+"Right","Judgement","11-18-16_4.csv","XY.XandY","Children",3,4.7041095890411
+"Wrong","Description","11-18-16_4.csv","X.Z","Children",3,4.7041095890411
+"Kinda Right","Correction","11-18-16_4.csv","X.XorY","Children",3,4.7041095890411
+"Kinda Right","Description","11-18-16_4.csv","XY.X","Children",3,4.7041095890411
+"Right","Judgement","11-18-16_4.csv","X.X","Children",3,4.7041095890411
+"Kinda Right","Correction","11-18-16_4.csv","X.XandY","Children",3,4.7041095890411
+"Wrong","Description","11-18-16_4.csv","XY.Z","Children",3,4.7041095890411
+"Kinda Right","Description","11-18-16_5.csv","XY.X","Children",3,3.10958904109589
+"Right","Description","11-18-16_5.csv","X.X","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","X.Z","Children",3,3.10958904109589
+"Kinda Right","Correction","11-18-16_5.csv","X.XandY","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","XY.Z","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","X.XorY","Children",3,3.10958904109589
+"Right","Description","11-18-16_5.csv","XY.XorY","Children",3,3.10958904109589
+"Right","Description","11-18-16_5.csv","XY.XandY","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","X.Z","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","X.Z","Children",3,3.10958904109589
+NA,NA,"11-18-16_5.csv","X.X","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","XY.XorY","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","XY.XandY","Children",3,3.10958904109589
+"Kinda Right","Judgement","11-18-16_5.csv","XY.Z","Children",3,3.10958904109589
+"Kinda Right","Correction","11-18-16_5.csv","X.XorY","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","XY.X","Children",3,3.10958904109589
+"Kinda Right","Correction","11-18-16_5.csv","X.XandY","Children",3,3.10958904109589
+"Wrong","Description","11-2-16_1.csv","X.Z","Children",3,4.34794520547945
+"Kinda Right","Description","11-2-16_1.csv","XY.X","Children",3,4.34794520547945
+"Right","Description","11-2-16_1.csv","X.X","Children",3,4.34794520547945
+"Wrong","Description","11-2-16_1.csv","XY.Z","Children",3,4.34794520547945
+"Wrong","Description","11-2-16_1.csv","XY.XorY","Children",3,4.34794520547945
+"Right","Description","11-2-16_1.csv","XY.XorY","Children",3,4.34794520547945
+"Right","Judgement","11-2-16_1.csv","XY.XandY","Children",3,4.34794520547945
+"Wrong","Description","11-2-16_1.csv","X.Z","Children",3,4.34794520547945
+"Right","Judgement","11-2-16_1.csv","X.X","Children",3,4.34794520547945
+"Kinda Right","Correction","11-2-16_1.csv","X.XandY","Children",3,4.34794520547945
+"Wrong","Description","11-2-16_1.csv","XY.X","Children",3,4.34794520547945
+"Right","Description","11-2-16_1.csv","XY.XandY","Children",3,4.34794520547945
+"Kinda Right","Description","11-2-16_1.csv","XY.Z","Children",3,4.34794520547945
+"Right","Description","11-2-16_1.csv","X.XorY","Children",3,4.34794520547945
+"Wrong","Correction","11-2-16_1.csv","X.XandY","Children",3,4.34794520547945
+"Wrong","Description","11-2-16_1.csv","X.XorY","Children",3,4.34794520547945
+"Kinda Right","Description","11-21-16_1.csv","XY.X","Children",3,4.25479452054795
+"Right","Description","11-21-16_1.csv","X.X","Children",3,4.25479452054795
+"Wrong","Description","11-21-16_1.csv","X.Z","Children",3,4.25479452054795
+"Right","Description","11-21-16_1.csv","XY.XorY","Children",3,4.25479452054795
+"Kinda Right","Description","11-21-16_1.csv","X.XandY","Children",3,4.25479452054795
+"Wrong","None","11-21-16_1.csv","XY.Z","Children",3,4.25479452054795
+"Right","Judgement","11-21-16_1.csv","XY.XandY","Children",3,4.25479452054795
+"Kinda Right","Description","11-21-16_1.csv","X.XorY","Children",3,4.25479452054795
+"Right","None","11-21-16_1.csv","X.X","Children",3,4.25479452054795
+"Right","None","11-21-16_1.csv","XY.XandY","Children",3,4.25479452054795
+"Right","None","11-21-16_1.csv","XY.XorY","Children",3,4.25479452054795
+"Wrong","Judgement","11-21-16_1.csv","XY.Z","Children",3,4.25479452054795
+"Kinda Right","None","11-21-16_1.csv","XY.X","Children",3,4.25479452054795
+"Right","None","11-21-16_1.csv","X.XorY","Children",3,4.25479452054795
+"Right","None","11-21-16_1.csv","X.XandY","Children",3,4.25479452054795
+"Wrong","None","11-21-16_1.csv","X.Z","Children",3,4.25479452054795
+"Kinda Right","None","11-22-16_1.csv","XY.X","Children",3,3.7972602739726
+"Wrong","None","11-22-16_1.csv","X.Z","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","X.X","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","XY.XorY","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","XY.XandY","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","X.XorY","Children",3,3.7972602739726
+"Wrong","None","11-22-16_1.csv","X.XandY","Children",3,3.7972602739726
+"Wrong","None","11-22-16_1.csv","XY.Z","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","XY.XorY","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","X.X","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","XY.XandY","Children",3,3.7972602739726
+"Wrong","None","11-22-16_1.csv","X.Z","Children",3,3.7972602739726
+"Wrong","None","11-22-16_1.csv","XY.Z","Children",3,3.7972602739726
+"Kinda Right","None","11-22-16_1.csv","XY.X","Children",3,3.7972602739726
+"Wrong","None","11-22-16_1.csv","X.XandY","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","X.XorY","Children",3,3.7972602739726
+"Right","Judgement","11-22-16_2.csv","X.X","Children",3,3.7041095890411
+"Wrong","Judgement","11-22-16_2.csv","X.Z","Children",3,3.7041095890411
+"Kinda Right","Judgement","11-22-16_2.csv","XY.X","Children",3,3.7041095890411
+"Wrong","Judgement","11-22-16_2.csv","XY.Z","Children",3,3.7041095890411
+"Right","Description","11-22-16_2.csv","XY.XorY","Children",3,3.7041095890411
+"Kinda Right","Correction","11-22-16_2.csv","X.XandY","Children",3,3.7041095890411
+"Right","Description","11-22-16_2.csv","X.XorY","Children",3,3.7041095890411
+"Right","Judgement","11-22-16_2.csv","XY.XandY","Children",3,3.7041095890411
+"Kinda Right","Judgement","11-22-16_2.csv","XY.X","Children",3,3.7041095890411
+"Right","Judgement","11-22-16_2.csv","X.X","Children",3,3.7041095890411
+"Right","Description","11-22-16_2.csv","X.XorY","Children",3,3.7041095890411
+"Wrong","Judgement","11-22-16_2.csv","X.Z","Children",3,3.7041095890411
+"Kinda Right","Correction","11-22-16_2.csv","X.XandY","Children",3,3.7041095890411
+"Right","Judgement","11-22-16_2.csv","XY.XandY","Children",3,3.7041095890411
+"Wrong","Judgement","11-22-16_2.csv","XY.Z","Children",3,3.7041095890411
+"Right","Description","11-22-16_2.csv","XY.XorY","Children",3,3.7041095890411
+"Wrong","None","11-7-16_1.csv","XY.X","Children",3,3.64109589041096
+"Wrong","Judgement","11-7-16_1.csv","X.Z","Children",3,3.64109589041096
+"Right","None","11-7-16_1.csv","X.X","Children",3,3.64109589041096
+"Kinda Right","Judgement","11-7-16_1.csv","XY.XandY","Children",3,3.64109589041096
+"Right","None","11-7-16_1.csv","XY.XorY","Children",3,3.64109589041096
+"Wrong","Judgement","11-7-16_1.csv","XY.Z","Children",3,3.64109589041096
+"Right","None","11-7-16_1.csv","X.XorY","Children",3,3.64109589041096
+"Right","None","11-7-16_1.csv","X.XandY","Children",3,3.64109589041096
+"Kinda Right","Description","11-7-16_1.csv","X.XorY","Children",3,3.64109589041096
+"Wrong","Judgement","11-7-16_1.csv","XY.Z","Children",3,3.64109589041096
+"Right","Judgement","11-7-16_1.csv","X.X","Children",3,3.64109589041096
+"Kinda Right","Judgement","11-7-16_1.csv","XY.XandY","Children",3,3.64109589041096
+"Right","Correction","11-7-16_1.csv","XY.XorY","Children",3,3.64109589041096
+"Wrong","None","11-7-16_1.csv","XY.X","Children",3,3.64109589041096
+"Wrong","Judgement","11-7-16_1.csv","X.Z","Children",3,3.64109589041096
+"Wrong","None","11-7-16_1.csv","X.XandY","Children",3,3.64109589041096
+"Wrong","Judgement","11-7-16_2.csv","X.Z","Children",3,4.53424657534247
+NA,NA,"11-7-16_2.csv","X.X","Children",3,4.53424657534247
+NA,NA,"11-7-16_2.csv","XY.X","Children",3,4.53424657534247
+"Right","Correction","11-7-16_2.csv","XY.XorY","Children",3,4.53424657534247
+"Right","Judgement","11-7-16_2.csv","XY.XandY","Children",3,4.53424657534247
+NA,NA,"11-7-16_2.csv","X.XorY","Children",3,4.53424657534247
+"Kinda Right","Correction","11-7-16_2.csv","X.XorY","Children",3,4.53424657534247
+"Kinda Right","Correction","11-7-16_2.csv","X.XandY","Children",3,4.53424657534247
+"Kinda Right","Judgement","11-7-16_2.csv","XY.X","Children",3,4.53424657534247
+"Wrong","Description","11-7-16_2.csv","XY.X","Children",3,4.53424657534247
+NA,NA,"11-7-16_2.csv","XY.XorY","Children",3,4.53424657534247
+NA,NA,"11-7-16_2.csv","XY.Z","Children",3,4.53424657534247
+"Wrong","Judgement","11-7-16_2.csv","X.Z","Children",3,4.53424657534247
+"Right","Judgement","11-7-16_2.csv","X.X","Children",3,4.53424657534247
+"Right","Correction","11-7-16_2.csv","XY.XorY","Children",3,4.53424657534247
+"Wrong",NA,"11-7-16_2.csv","XY.X","Children",3,4.53424657534247
+"Wrong","Description","11-7-16_2.csv","X.XandY","Children",3,4.53424657534247
+"Right","Judgement","11-7-16_2.csv","XY.XandY","Children",3,4.53424657534247
+"Wrong","Judgement","11-7-16_2.csv","XY.Z","Children",3,4.53424657534247
+"Right","Description","11-7-16_2.csv","X.XorY","Children",3,4.53424657534247
+"Kinda Right","Correction","11-7-16_3.csv","XY.X","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","X.Z","Children",3,3.42739726027397
+"Right","Judgement","11-7-16_3.csv","X.X","Children",3,3.42739726027397
+"Kinda Right","Judgement","11-7-16_3.csv","XY.XorY","Children",3,3.42739726027397
+"Wrong","Correction","11-7-16_3.csv","X.XandY","Children",3,3.42739726027397
+"Right","Judgement","11-7-16_3.csv","XY.XandY","Children",3,3.42739726027397
+"Wrong","None","11-7-16_3.csv","X.XorY","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","XY.Z","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","XY.X","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","XY.Z","Children",3,3.42739726027397
+"Right","Correction","11-7-16_3.csv","XY.XorY","Children",3,3.42739726027397
+"Right","Correction","11-7-16_3.csv","XY.XandY","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","X.XorY","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","X.Z","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","X.XandY","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","X.X","Children",3,3.42739726027397
+"Kinda Right","None","11-7-16_4.csv","XY.X","Children",3,4.6986301369863
+"Right","None","11-7-16_4.csv","X.X","Children",3,4.6986301369863
+"Wrong","Description","11-7-16_4.csv","X.Z","Children",3,4.6986301369863
+"Right","Description","11-7-16_4.csv","X.XorY","Children",3,4.6986301369863
+"Right","None","11-7-16_4.csv","XY.XorY","Children",3,4.6986301369863
+"Wrong","Judgement","11-7-16_4.csv","XY.Z","Children",3,4.6986301369863
+"Kinda Right","Correction","11-7-16_4.csv","X.XandY","Children",3,4.6986301369863
+"Right","Description","11-7-16_4.csv","XY.XandY","Children",3,4.6986301369863
+"Right","None","11-7-16_4.csv","XY.XorY","Children",3,4.6986301369863
+"Wrong","Judgement","11-7-16_4.csv","XY.Z","Children",3,4.6986301369863
+"Right","Judgement","11-7-16_4.csv","X.XandY","Children",3,4.6986301369863
+"Kinda Right","Correction","11-7-16_4.csv","XY.X","Children",3,4.6986301369863
+"Right","Description","11-7-16_4.csv","X.X","Children",3,4.6986301369863
+"Wrong","Description","11-7-16_4.csv","X.Z","Children",3,4.6986301369863
+"Kinda Right","Description","11-7-16_4.csv","X.XorY","Children",3,4.6986301369863
+"Right","None","11-7-16_4.csv","XY.XandY","Children",3,4.6986301369863
+"Kinda Right","Judgement","11-7-16_5.csv","XY.X","Children",3,4.56712328767123
+"Right","Judgement","11-7-16_5.csv","X.X","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","X.Z","Children",3,4.56712328767123
+"Right","Description","11-7-16_5.csv","XY.XorY","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","XY.Z","Children",3,4.56712328767123
+"Right","Judgement","11-7-16_5.csv","XY.XandY","Children",3,4.56712328767123
+"Right","Description","11-7-16_5.csv","X.XorY","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","X.XandY","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","X.Z","Children",3,4.56712328767123
+"Right","Judgement","11-7-16_5.csv","X.XorY","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","XY.Z","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","XY.Z","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","XY.XorY","Children",3,4.56712328767123
+"Right","Judgement","11-7-16_5.csv","X.X","Children",3,4.56712328767123
+"Right","Judgement","11-7-16_5.csv","XY.XandY","Children",3,4.56712328767123
+"Kinda Right","Correction","11-7-16_5.csv","X.XandY","Children",3,4.56712328767123
+"Kinda Right","None","11-7-16_6.csv","XY.X","Children",3,4.05753424657534
+"Wrong","None","11-7-16_6.csv","X.Z","Children",3,4.05753424657534
+"Right","Judgement","11-7-16_6.csv","X.X","Children",3,4.05753424657534
+"Right","Description","11-7-16_6.csv","X.XorY","Children",3,4.05753424657534
+"Right","None","11-7-16_6.csv","XY.XandY","Children",3,4.05753424657534
+"Kinda Right","None","11-7-16_6.csv","X.XandY","Children",3,4.05753424657534
+"Right","None","11-7-16_6.csv","XY.XorY","Children",3,4.05753424657534
+"Wrong","None","11-7-16_6.csv","XY.Z","Children",3,4.05753424657534
+"Right","None","11-7-16_6.csv","X.X","Children",3,4.05753424657534
+"Right","None","11-7-16_6.csv","XY.XorY","Children",3,4.05753424657534
+"Right","None","11-7-16_6.csv","XY.XandY","Children",3,4.05753424657534
+"Wrong","None","11-7-16_6.csv","X.Z","Children",3,4.05753424657534
+"Right","Description","11-7-16_6.csv","X.XorY","Children",3,4.05753424657534
+"Right","None","11-7-16_6.csv","XY.Z","Children",3,4.05753424657534
+"Kinda Right","None","11-7-16_6.csv","X.XandY","Children",3,4.05753424657534
+"Kinda Right","Description","11-7-16_6.csv","XY.X","Children",3,4.05753424657534
+"Right","None","11-7-16_7.csv","X.X","Children",3,4.58356164383562
+"Kinda Right","None","11-7-16_7.csv","XY.X","Children",3,4.58356164383562
+"Wrong","None","11-7-16_7.csv","X.Z","Children",3,4.58356164383562
+"Right","None","11-7-16_7.csv","XY.XandY","Children",3,4.58356164383562
+"Right","None","11-7-16_7.csv","XY.XorY","Children",3,4.58356164383562
+NA,NA,"11-7-16_7.csv","X.XorY","Children",3,4.58356164383562
+"Wrong","None","11-7-16_7.csv","XY.Z","Children",3,4.58356164383562
+"Wrong","None","11-7-16_7.csv","X.XandY","Children",3,4.58356164383562
+"Wrong","None","11-7-16_7.csv","X.XandY","Children",3,4.58356164383562
+"Right","None","11-7-16_7.csv","XY.XandY","Children",3,4.58356164383562
+"Kinda Right","None","11-7-16_7.csv","XY.XorY","Children",3,4.58356164383562
+"Wrong","Description","11-7-16_7.csv","X.XorY","Children",3,4.58356164383562
+"Wrong","Description","11-7-16_7.csv","XY.Z","Children",3,4.58356164383562
+"Right","None","11-7-16_7.csv","X.X","Children",3,4.58356164383562
+"Wrong","Correction","11-7-16_7.csv","XY.X","Children",3,4.58356164383562
+"Wrong","None","11-7-16_7.csv","X.Z","Children",3,4.58356164383562
+"Right","Judgement","11-8-16_1.csv","X.X","Children",3,3.66575342465753
+"Wrong","None","11-8-16_1.csv","X.Z","Children",3,3.66575342465753
+"Kinda Right","None","11-8-16_1.csv","XY.X","Children",3,3.66575342465753
+"Right","None","11-8-16_1.csv","X.XorY","Children",3,3.66575342465753
+"Kinda Right","None","11-8-16_1.csv","XY.XorY","Children",3,3.66575342465753
+"Wrong","Judgement","11-8-16_1.csv","XY.Z","Children",3,3.66575342465753
+"Right","None","11-8-16_1.csv","XY.XandY","Children",3,3.66575342465753
+"Wrong","Description","11-8-16_1.csv","X.XandY","Children",3,3.66575342465753
+"Right","Judgement","11-8-16_1.csv","XY.XandY","Children",3,3.66575342465753
+"Right","Correction","11-8-16_1.csv","XY.XorY","Children",3,3.66575342465753
+"Wrong","Description","11-8-16_1.csv","X.Z","Children",3,3.66575342465753
+"Right","Description","11-8-16_1.csv","X.X","Children",3,3.66575342465753
+"Right","Description","11-8-16_1.csv","X.XorY","Children",3,3.66575342465753
+"Wrong","Description","11-8-16_1.csv","X.XandY","Children",3,3.66575342465753
+"Wrong","Description","11-8-16_1.csv","XY.Z","Children",3,3.66575342465753
+"Wrong","Description","11-8-16_1.csv","XY.X","Children",3,3.66575342465753
+"Kinda Right","None","11-8-16_10.csv","XY.X","Children",3,4.07671232876712
+"Right","Judgement","11-8-16_10.csv","X.X","Children",3,4.07671232876712
+"Wrong","Judgement","11-8-16_10.csv","X.Z","Children",3,4.07671232876712
+"Right","Judgement","11-8-16_10.csv","X.XorY","Children",3,4.07671232876712
+"Wrong","None","11-8-16_10.csv","XY.Z","Children",3,4.07671232876712
+"Right","None","11-8-16_10.csv","X.XandY","Children",3,4.07671232876712
+"Right","Judgement","11-8-16_10.csv","XY.XandY","Children",3,4.07671232876712
+"Right","None","11-8-16_10.csv","XY.XorY","Children",3,4.07671232876712
+"Kinda Right","Judgement","11-8-16_10.csv","XY.X","Children",3,4.07671232876712
+"Right","Judgement","11-8-16_10.csv","X.XandY","Children",3,4.07671232876712
+"Right","Judgement","11-8-16_10.csv","XY.XorY","Children",3,4.07671232876712
+"Wrong","Judgement","11-8-16_10.csv","X.Z","Children",3,4.07671232876712
+"Right","None","11-8-16_10.csv","X.XorY","Children",3,4.07671232876712
+"Right","None","11-8-16_10.csv","X.X","Children",3,4.07671232876712
+"Right","Judgement","11-8-16_10.csv","XY.XandY","Children",3,4.07671232876712
+"Wrong","Judgement","11-8-16_10.csv","XY.Z","Children",3,4.07671232876712
+"Wrong","Judgement","11-8-16_2.csv","X.Z","Children",3,5.15890410958904
+"Right","Judgement","11-8-16_2.csv","X.X","Children",3,5.15890410958904
+"Kinda Right","Correction","11-8-16_2.csv","XY.X","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","X.XorY","Children",3,5.15890410958904
+"Right","Correction","11-8-16_2.csv","XY.XandY","Children",3,5.15890410958904
+"Wrong","Judgement","11-8-16_2.csv","XY.Z","Children",3,5.15890410958904
+"Right","Correction","11-8-16_2.csv","XY.XorY","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","X.XandY","Children",3,5.15890410958904
+"Right","Correction","11-8-16_2.csv","XY.XorY","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","X.XorY","Children",3,5.15890410958904
+"Right","Judgement","11-8-16_2.csv","XY.XandY","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","X.XandY","Children",3,5.15890410958904
+"Right","Judgement","11-8-16_2.csv","X.X","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","XY.X","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","X.Z","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","XY.Z","Children",3,5.15890410958904
+"Right","Judgement","11-8-16_3.csv","X.X","Children",3,4.48219178082192
+"Kinda Right","Description","11-8-16_3.csv","XY.X","Children",3,4.48219178082192
+"Wrong","Judgement","11-8-16_3.csv","X.Z","Children",3,4.48219178082192
+"Kinda Right","Judgement","11-8-16_3.csv","X.XandY","Children",3,4.48219178082192
+"Right","Description","11-8-16_3.csv","XY.XorY","Children",3,4.48219178082192
+"Right","Judgement","11-8-16_3.csv","XY.XandY","Children",3,4.48219178082192
+"Kinda Right","Description","11-8-16_3.csv","X.XorY","Children",3,4.48219178082192
+"Wrong","Judgement","11-8-16_3.csv","XY.Z","Children",3,4.48219178082192
+"Kinda Right","Description","11-8-16_3.csv","X.XorY","Children",3,4.48219178082192
+"Right","Judgement","11-8-16_3.csv","X.X","Children",3,4.48219178082192
+"Kinda Right","Judgement","11-8-16_3.csv","XY.X","Children",3,4.48219178082192
+"Kinda Right","Judgement","11-8-16_3.csv","X.XandY","Children",3,4.48219178082192
+"Wrong","Judgement","11-8-16_3.csv","X.Z","Children",3,4.48219178082192
+"Right","Description","11-8-16_3.csv","XY.XorY","Children",3,4.48219178082192
+"Wrong","Judgement","11-8-16_3.csv","XY.Z","Children",3,4.48219178082192
+"Right","Judgement","11-8-16_3.csv","XY.XandY","Children",3,4.48219178082192
+"Kinda Right","Description","11-8-16_4.csv","XY.X","Children",3,3.2958904109589
+"Wrong","Judgement","11-8-16_4.csv","X.Z","Children",3,3.2958904109589
+"Right","None","11-8-16_4.csv","X.X","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","X.XandY","Children",3,3.2958904109589
+"Right","Judgement","11-8-16_4.csv","XY.XandY","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","XY.Z","Children",3,3.2958904109589
+"Right","Description","11-8-16_4.csv","XY.XorY","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","X.XorY","Children",3,3.2958904109589
+"Right","Description","11-8-16_4.csv","XY.XorY","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","X.XandY","Children",3,3.2958904109589
+"Right","Description","11-8-16_4.csv","X.X","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","X.XorY","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","XY.Z","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","X.Z","Children",3,3.2958904109589
+"Right","Judgement","11-8-16_4.csv","XY.XandY","Children",3,3.2958904109589
+"Wrong","Judgement","11-8-16_4.csv","XY.X","Children",3,3.2958904109589
+"Wrong","Description","11-8-16_5.csv","X.Z","Children",3,4.63835616438356
+"Kinda Right","Correction","11-8-16_5.csv","XY.X","Children",3,4.63835616438356
+"Right","Judgement","11-8-16_5.csv","X.X","Children",3,4.63835616438356
+"Wrong","Description","11-8-16_5.csv","XY.Z","Children",3,4.63835616438356
+"Kinda Right","Correction","11-8-16_5.csv","X.XandY","Children",3,4.63835616438356
+"Right","Judgement","11-8-16_5.csv","XY.XandY","Children",3,4.63835616438356
+"Right","Description","11-8-16_5.csv","X.XorY","Children",3,4.63835616438356
+"Right","Correction","11-8-16_5.csv","XY.XorY","Children",3,4.63835616438356
+"Right","Description","11-8-16_5.csv","X.XorY","Children",3,4.63835616438356
+"Right","Correction","11-8-16_5.csv","XY.XorY","Children",3,4.63835616438356
+"Kinda Right","Correction","11-8-16_5.csv","XY.X","Children",3,4.63835616438356
+"Wrong","Judgement","11-8-16_5.csv","XY.Z","Children",3,4.63835616438356
+"Right","Judgement","11-8-16_5.csv","X.X","Children",3,4.63835616438356
+"Kinda Right","Correction","11-8-16_5.csv","X.XandY","Children",3,4.63835616438356
+"Right","Judgement","11-8-16_5.csv","XY.XandY","Children",3,4.63835616438356
+"Wrong","Description","11-8-16_5.csv","X.Z","Children",3,4.63835616438356
+"Right","Judgement","11-8-16_6.csv","X.X","Children",3,4.53150684931507
+"Wrong","Description","11-8-16_6.csv","X.Z","Children",3,4.53150684931507
+"Kinda Right","Description","11-8-16_6.csv","XY.X","Children",3,4.53150684931507
+"Wrong","Description","11-8-16_6.csv","XY.Z","Children",3,4.53150684931507
+"Right","Judgement","11-8-16_6.csv","XY.XandY","Children",3,4.53150684931507
+"Kinda Right","Correction","11-8-16_6.csv","X.XandY","Children",3,4.53150684931507
+"Kinda Right","Correction","11-8-16_6.csv","X.XorY","Children",3,4.53150684931507
+"Right","Judgement","11-8-16_6.csv","XY.XorY","Children",3,4.53150684931507
+"Kinda Right","Correction","11-8-16_6.csv","X.XorY","Children",3,4.53150684931507
+"Kinda Right","Correction","11-8-16_6.csv","XY.X","Children",3,4.53150684931507
+"Right","Judgement","11-8-16_6.csv","X.X","Children",3,4.53150684931507
+"Kinda Right","Correction","11-8-16_6.csv","X.XandY","Children",3,4.53150684931507
+"Wrong","Description","11-8-16_6.csv","XY.Z","Children",3,4.53150684931507
+"Wrong","Description","11-8-16_6.csv","X.Z","Children",3,4.53150684931507
+"Right","Judgement","11-8-16_6.csv","XY.XandY","Children",3,4.53150684931507
+"Right","Judgement","11-8-16_6.csv","XY.XorY","Children",3,4.53150684931507
+"Wrong","Description","11-8-16_7.csv","XY.X","Children",3,4.52876712328767
+"Kinda Right","None","11-8-16_7.csv","X.X","Children",3,4.52876712328767
+"Kinda Right","None","11-8-16_7.csv","X.Z","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","X.XorY","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","XY.XorY","Children",3,4.52876712328767
+"Wrong","None","11-8-16_7.csv","X.XandY","Children",3,4.52876712328767
+"Right","None","11-8-16_7.csv","XY.XandY","Children",3,4.52876712328767
+"Wrong","Description","11-8-16_7.csv","XY.Z","Children",3,4.52876712328767
+"Kinda Right","Description","11-8-16_7.csv","XY.X","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","XY.Z","Children",3,4.52876712328767
+"Kinda Right","Description","11-8-16_7.csv","XY.XorY","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","X.XorY","Children",3,4.52876712328767
+"Wrong","Description","11-8-16_7.csv","X.Z","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","XY.XandY","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","X.XandY","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","X.X","Children",3,4.52876712328767
+"Wrong","Judgement","11-8-16_8.csv","X.Z","Children",3,4.38356164383562
+"Right","None","11-8-16_8.csv","X.X","Children",3,4.38356164383562
+"Kinda Right","Description","11-8-16_8.csv","XY.X","Children",3,4.38356164383562
+"Kinda Right","Correction","11-8-16_8.csv","X.XandY","Children",3,4.38356164383562
+"Right","Correction","11-8-16_8.csv","XY.XorY","Children",3,4.38356164383562
+"Kinda Right","Description","11-8-16_8.csv","X.XorY","Children",3,4.38356164383562
+"Wrong","Judgement","11-8-16_8.csv","XY.Z","Children",3,4.38356164383562
+"Right","Judgement","11-8-16_8.csv","XY.XandY","Children",3,4.38356164383562
+"Right","Judgement","11-8-16_8.csv","XY.XandY","Children",3,4.38356164383562
+"Wrong","Judgement","11-8-16_8.csv","XY.Z","Children",3,4.38356164383562
+"Right","None","11-8-16_8.csv","XY.XorY","Children",3,4.38356164383562
+"Right","Judgement","11-8-16_8.csv","X.X","Children",3,4.38356164383562
+"Kinda Right","Description","11-8-16_8.csv","X.XorY","Children",3,4.38356164383562
+"Kinda Right","Description","11-8-16_8.csv","XY.X","Children",3,4.38356164383562
+"Wrong","Description","11-8-16_8.csv","X.Z","Children",3,4.38356164383562
+"Kinda Right","Correction","11-8-16_8.csv","X.XandY","Children",3,4.38356164383562
+"Right","None","11-8-16_9.csv","X.X","Children",3,4.58904109589041
+"Wrong","Judgement","11-8-16_9.csv","X.Z","Children",3,4.58904109589041
+"Kinda Right","None","11-8-16_9.csv","XY.X","Children",3,4.58904109589041
+"Right","Description","11-8-16_9.csv","X.XorY","Children",3,4.58904109589041
+"Kinda Right","Correction","11-8-16_9.csv","X.XandY","Children",3,4.58904109589041
+"Wrong","Description","11-8-16_9.csv","XY.Z","Children",3,4.58904109589041
+"Right","None","11-8-16_9.csv","XY.XandY","Children",3,4.58904109589041
+"Right","Description","11-8-16_9.csv","XY.XorY","Children",3,4.58904109589041
+"Kinda Right","Correction","11-8-16_9.csv","X.XorY","Children",3,4.58904109589041
+NA,NA,"11-8-16_9.csv","X.XandY","Children",3,4.58904109589041
+"Kinda Right","Correction","11-8-16_9.csv","XY.XorY","Children",3,4.58904109589041
+"Wrong","Judgement","11-8-16_9.csv","X.Z","Children",3,4.58904109589041
+"Right","None","11-8-16_9.csv","X.X","Children",3,4.58904109589041
+"Kinda Right","None","11-8-16_9.csv","XY.X","Children",3,4.58904109589041
+"Wrong","None","11-8-16_9.csv","XY.Z","Children",3,4.58904109589041
+"Right","None","11-8-16_9.csv","XY.XandY","Children",3,4.58904109589041
+"Wrong","None","11-9-16_1.csv","X.Z","Children",3,4.55342465753425
+"Kinda Right","None","11-9-16_1.csv","XY.X","Children",3,4.55342465753425
+"Right","None","11-9-16_1.csv","X.X","Children",3,4.55342465753425
+"Kinda Right","None","11-9-16_1.csv","X.XandY","Children",3,4.55342465753425
+"Right","None","11-9-16_1.csv","XY.XandY","Children",3,4.55342465753425
+"Wrong","Judgement","11-9-16_1.csv","XY.Z","Children",3,4.55342465753425
+"Kinda Right","Correction","11-9-16_1.csv","XY.XorY","Children",3,4.55342465753425
+"Right","None","11-9-16_1.csv","X.XorY","Children",3,4.55342465753425
+"Right","None","11-9-16_1.csv","X.X","Children",3,4.55342465753425
+"Kinda Right","None","11-9-16_1.csv","X.XorY","Children",3,4.55342465753425
+"Wrong","Judgement","11-9-16_1.csv","XY.Z","Children",3,4.55342465753425
+"Right","None","11-9-16_1.csv","XY.XandY","Children",3,4.55342465753425
+"Kinda Right","None","11-9-16_1.csv","XY.X","Children",3,4.55342465753425
+"Wrong","None","11-9-16_1.csv","X.Z","Children",3,4.55342465753425
+"Right","None","11-9-16_1.csv","XY.XorY","Children",3,4.55342465753425
+"Wrong","None","11-9-16_1.csv","X.XandY","Children",3,4.55342465753425
+"Wrong","Judgement","11-9-16_2.csv","X.Z","Children",3,4.46027397260274
+"Kinda Right","None","11-9-16_2.csv","XY.X","Children",3,4.46027397260274
+"Right","Judgement","11-9-16_2.csv","X.X","Children",3,4.46027397260274
+"Right","Judgement","11-9-16_2.csv","XY.XandY","Children",3,4.46027397260274
+"Right","None","11-9-16_2.csv","XY.XorY","Children",3,4.46027397260274
+"Wrong","None","11-9-16_2.csv","XY.Z","Children",3,4.46027397260274
+"Wrong","None","11-9-16_2.csv","X.XandY","Children",3,4.46027397260274
+"Right","Description","11-9-16_2.csv","X.XorY","Children",3,4.46027397260274
+"Wrong","None","11-9-16_2.csv","X.XandY","Children",3,4.46027397260274
+"Right","None","11-9-16_2.csv","X.XorY","Children",3,4.46027397260274
+"Wrong","None","11-9-16_2.csv","X.Z","Children",3,4.46027397260274
+"Right","None","11-9-16_2.csv","X.X","Children",3,4.46027397260274
+"Wrong","None","11-9-16_2.csv","XY.X","Children",3,4.46027397260274
+NA,NA,"11-9-16_2.csv","XY.XorY","Children",3,4.46027397260274
+"Wrong","Judgement","11-9-16_2.csv","XY.Z","Children",3,4.46027397260274
+"Right","Judgement","11-9-16_2.csv","XY.XandY","Children",3,4.46027397260274
+"Right","Judgement","11-9-16_3.csv","X.X","Children",3,5.05753424657534
+"Wrong","Judgement","11-9-16_3.csv","X.Z","Children",3,5.05753424657534
+"Kinda Right","None","11-9-16_3.csv","XY.X","Children",3,5.05753424657534
+"Wrong","Judgement","11-9-16_3.csv","XY.Z","Children",3,5.05753424657534
+"Right","None","11-9-16_3.csv","XY.XandY","Children",3,5.05753424657534
+"Right","None","11-9-16_3.csv","XY.XorY","Children",3,5.05753424657534
+"Kinda Right","Correction","11-9-16_3.csv","X.XandY","Children",3,5.05753424657534
+"Kinda Right","None","11-9-16_3.csv","X.XorY","Children",3,5.05753424657534
+"Right","None","11-9-16_3.csv","XY.XorY","Children",3,5.05753424657534
+"Wrong","None","11-9-16_3.csv","XY.Z","Children",3,5.05753424657534
+"Kinda Right","None","11-9-16_3.csv","XY.X","Children",3,5.05753424657534
+"Kinda Right","None","11-9-16_3.csv","X.XorY","Children",3,5.05753424657534
+"Right","None","11-9-16_3.csv","XY.XandY","Children",3,5.05753424657534
+"Kinda Right","None","11-9-16_3.csv","X.XandY","Children",3,5.05753424657534
+"Wrong","None","11-9-16_3.csv","X.Z","Children",3,5.05753424657534
+"Right","None","11-9-16_3.csv","X.X","Children",3,5.05753424657534
+"Right","Description","11-9-16_4.csv","XY.X","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","X.Z","Children",3,3.14520547945205
+"Right","Judgement","11-9-16_4.csv","X.X","Children",3,3.14520547945205
+"Kinda Right","Description","11-9-16_4.csv","XY.XandY","Children",3,3.14520547945205
+"Wrong","Correction","11-9-16_4.csv","X.XandY","Children",3,3.14520547945205
+"Right","Correction","11-9-16_4.csv","X.XorY","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","XY.XorY","Children",3,3.14520547945205
+"Kinda Right","Description","11-9-16_4.csv","XY.Z","Children",3,3.14520547945205
+"Right","Description","11-9-16_4.csv","XY.XorY","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","X.Z","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","X.XandY","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","XY.Z","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","XY.X","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","XY.XandY","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","X.X","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","X.XorY","Children",3,3.14520547945205
+"Right",NA,"1","X.X","Adults",2,NA
+"Right",NA,"2","X.X","Adults",2,NA
+"Right",NA,"3","X.X","Adults",2,NA
+"Right",NA,"4","X.X","Adults",2,NA
+"Right",NA,"5","X.X","Adults",2,NA
+"Right",NA,"6","X.X","Adults",2,NA
+"Right",NA,"7","X.X","Adults",2,NA
+"Right",NA,"8","X.X","Adults",2,NA
+"Right",NA,"10","X.X","Adults",2,NA
+"Right",NA,"14","X.X","Adults",2,NA
+"Right",NA,"16","X.X","Adults",2,NA
+"Right",NA,"20","X.X","Adults",2,NA
+"Right",NA,"22","X.X","Adults",2,NA
+"Right",NA,"24","X.X","Adults",2,NA
+"Right",NA,"26","X.X","Adults",2,NA
+"Right",NA,"29","X.X","Adults",2,NA
+"Right",NA,"30","X.X","Adults",2,NA
+"Right",NA,"34","X.X","Adults",2,NA
+"Right",NA,"39","X.X","Adults",2,NA
+"Right",NA,"40","X.X","Adults",2,NA
+"Right",NA,"41","X.X","Adults",2,NA
+"Right",NA,"42","X.X","Adults",2,NA
+"Right",NA,"43","X.X","Adults",2,NA
+"Right",NA,"44","X.X","Adults",2,NA
+"Right",NA,"45","X.X","Adults",2,NA
+"Right",NA,"47","X.X","Adults",2,NA
+"Right",NA,"48","X.X","Adults",2,NA
+"Right",NA,"50","X.X","Adults",2,NA
+"Right",NA,"51","X.X","Adults",2,NA
+"Right",NA,"52","X.X","Adults",2,NA
+"Right",NA,"56","X.X","Adults",2,NA
+"Right",NA,"57","X.X","Adults",2,NA
+"Right",NA,"59","X.X","Adults",2,NA
+"Right",NA,"61","X.X","Adults",2,NA
+"Right",NA,"64","X.X","Adults",2,NA
+"Right",NA,"65","X.X","Adults",2,NA
+"Right",NA,"68","X.X","Adults",2,NA
+"Right",NA,"72","X.X","Adults",2,NA
+"Right",NA,"73","X.X","Adults",2,NA
+"Right",NA,"76","X.X","Adults",2,NA
+"Right",NA,"78","X.X","Adults",2,NA
+"Right",NA,"79","X.X","Adults",2,NA
+"Right",NA,"81","X.X","Adults",2,NA
+"Right",NA,"83","X.X","Adults",2,NA
+"Right",NA,"85","X.X","Adults",2,NA
+"Right",NA,"87","X.X","Adults",2,NA
+"Right",NA,"88","X.X","Adults",2,NA
+"Right",NA,"91","X.X","Adults",2,NA
+"Right",NA,"92","X.X","Adults",2,NA
+"Right",NA,"94","X.X","Adults",2,NA
+"Right",NA,"97","X.X","Adults",2,NA
+"Right",NA,"99","X.X","Adults",2,NA
+"Right",NA,"101","X.X","Adults",2,NA
+"Right",NA,"103","X.X","Adults",2,NA
+"Right",NA,"105","X.X","Adults",2,NA
+"Right",NA,"106","X.X","Adults",2,NA
+"Right",NA,"108","X.X","Adults",2,NA
+"Right",NA,"1","XY.XandY","Adults",2,NA
+"Right",NA,"2","XY.XandY","Adults",2,NA
+"Right",NA,"3","XY.XandY","Adults",2,NA
+"Right",NA,"4","XY.XandY","Adults",2,NA
+"Right",NA,"5","XY.XandY","Adults",2,NA
+"Right",NA,"6","XY.XandY","Adults",2,NA
+"Right",NA,"7","XY.XandY","Adults",2,NA
+"Right",NA,"8","XY.XandY","Adults",2,NA
+"Right",NA,"10","XY.XandY","Adults",2,NA
+"Right",NA,"14","XY.XandY","Adults",2,NA
+"Right",NA,"16","XY.XandY","Adults",2,NA
+"Right",NA,"20","XY.XandY","Adults",2,NA
+"Right",NA,"22","XY.XandY","Adults",2,NA
+"Right",NA,"24","XY.XandY","Adults",2,NA
+"Right",NA,"26","XY.XandY","Adults",2,NA
+"Right",NA,"29","XY.XandY","Adults",2,NA
+"Right",NA,"30","XY.XandY","Adults",2,NA
+"Right",NA,"34","XY.XandY","Adults",2,NA
+"Right",NA,"39","XY.XandY","Adults",2,NA
+"Right",NA,"40","XY.XandY","Adults",2,NA
+"Right",NA,"41","XY.XandY","Adults",2,NA
+"Right",NA,"42","XY.XandY","Adults",2,NA
+"Right",NA,"43","XY.XandY","Adults",2,NA
+"Right",NA,"44","XY.XandY","Adults",2,NA
+"Right",NA,"45","XY.XandY","Adults",2,NA
+"Right",NA,"47","XY.XandY","Adults",2,NA
+"Right",NA,"48","XY.XandY","Adults",2,NA
+"Right",NA,"50","XY.XandY","Adults",2,NA
+"Right",NA,"51","XY.XandY","Adults",2,NA
+"Right",NA,"52","XY.XandY","Adults",2,NA
+"Right",NA,"56","XY.XandY","Adults",2,NA
+"Right",NA,"57","XY.XandY","Adults",2,NA
+"Right",NA,"59","XY.XandY","Adults",2,NA
+"Right",NA,"61","XY.XandY","Adults",2,NA
+"Right",NA,"64","XY.XandY","Adults",2,NA
+"Right",NA,"65","XY.XandY","Adults",2,NA
+"Right",NA,"68","XY.XandY","Adults",2,NA
+"Right",NA,"72","XY.XandY","Adults",2,NA
+"Right",NA,"73","XY.XandY","Adults",2,NA
+"Right",NA,"76","XY.XandY","Adults",2,NA
+"Right",NA,"78","XY.XandY","Adults",2,NA
+"Right",NA,"79","XY.XandY","Adults",2,NA
+"Right",NA,"81","XY.XandY","Adults",2,NA
+"Right",NA,"83","XY.XandY","Adults",2,NA
+"Right",NA,"85","XY.XandY","Adults",2,NA
+"Right",NA,"87","XY.XandY","Adults",2,NA
+"Right",NA,"88","XY.XandY","Adults",2,NA
+"Right",NA,"91","XY.XandY","Adults",2,NA
+"Right",NA,"92","XY.XandY","Adults",2,NA
+"Right",NA,"94","XY.XandY","Adults",2,NA
+"Right",NA,"97","XY.XandY","Adults",2,NA
+"Right",NA,"99","XY.XandY","Adults",2,NA
+"Right",NA,"101","XY.XandY","Adults",2,NA
+"Right",NA,"103","XY.XandY","Adults",2,NA
+"Right",NA,"105","XY.XandY","Adults",2,NA
+"Right",NA,"106","XY.XandY","Adults",2,NA
+"Right",NA,"108","XY.XandY","Adults",2,NA
+"Wrong",NA,"1","X.Y","Adults",2,NA
+"Right",NA,"2","X.Y","Adults",2,NA
+"Wrong",NA,"3","X.Y","Adults",2,NA
+"Wrong",NA,"4","X.Y","Adults",2,NA
+"Wrong",NA,"5","X.Y","Adults",2,NA
+"Wrong",NA,"6","X.Y","Adults",2,NA
+"Wrong",NA,"7","X.Y","Adults",2,NA
+"Wrong",NA,"8","X.Y","Adults",2,NA
+"Wrong",NA,"10","X.Y","Adults",2,NA
+"Wrong",NA,"14","X.Y","Adults",2,NA
+"Wrong",NA,"16","X.Y","Adults",2,NA
+"Wrong",NA,"20","X.Y","Adults",2,NA
+"Wrong",NA,"22","X.Y","Adults",2,NA
+"Wrong",NA,"24","X.Y","Adults",2,NA
+"Wrong",NA,"26","X.Y","Adults",2,NA
+"Wrong",NA,"29","X.Y","Adults",2,NA
+"Wrong",NA,"30","X.Y","Adults",2,NA
+"Wrong",NA,"34","X.Y","Adults",2,NA
+"Wrong",NA,"39","X.Y","Adults",2,NA
+"Wrong",NA,"40","X.Y","Adults",2,NA
+"Wrong",NA,"41","X.Y","Adults",2,NA
+"Wrong",NA,"42","X.Y","Adults",2,NA
+"Wrong",NA,"43","X.Y","Adults",2,NA
+"Wrong",NA,"44","X.Y","Adults",2,NA
+"Wrong",NA,"45","X.Y","Adults",2,NA
+"Wrong",NA,"47","X.Y","Adults",2,NA
+"Wrong",NA,"48","X.Y","Adults",2,NA
+"Wrong",NA,"50","X.Y","Adults",2,NA
+"Wrong",NA,"51","X.Y","Adults",2,NA
+"Wrong",NA,"52","X.Y","Adults",2,NA
+"Wrong",NA,"56","X.Y","Adults",2,NA
+"Wrong",NA,"57","X.Y","Adults",2,NA
+"Wrong",NA,"59","X.Y","Adults",2,NA
+"Wrong",NA,"61","X.Y","Adults",2,NA
+"Wrong",NA,"64","X.Y","Adults",2,NA
+"Wrong",NA,"65","X.Y","Adults",2,NA
+"Wrong",NA,"68","X.Y","Adults",2,NA
+"Wrong",NA,"72","X.Y","Adults",2,NA
+"Wrong",NA,"73","X.Y","Adults",2,NA
+"Wrong",NA,"76","X.Y","Adults",2,NA
+"Wrong",NA,"78","X.Y","Adults",2,NA
+"Wrong",NA,"79","X.Y","Adults",2,NA
+"Wrong",NA,"81","X.Y","Adults",2,NA
+"Wrong",NA,"83","X.Y","Adults",2,NA
+"Wrong",NA,"85","X.Y","Adults",2,NA
+"Wrong",NA,"87","X.Y","Adults",2,NA
+"Wrong",NA,"88","X.Y","Adults",2,NA
+"Wrong",NA,"91","X.Y","Adults",2,NA
+"Wrong",NA,"92","X.Y","Adults",2,NA
+"Wrong",NA,"94","X.Y","Adults",2,NA
+"Wrong",NA,"97","X.Y","Adults",2,NA
+"Wrong",NA,"99","X.Y","Adults",2,NA
+"Wrong",NA,"101","X.Y","Adults",2,NA
+"Wrong",NA,"103","X.Y","Adults",2,NA
+"Wrong",NA,"105","X.Y","Adults",2,NA
+"Wrong",NA,"106","X.Y","Adults",2,NA
+"Wrong",NA,"108","X.Y","Adults",2,NA
+"Wrong",NA,"1","X.XandY","Adults",2,NA
+"Right",NA,"2","X.XandY","Adults",2,NA
+"Wrong",NA,"3","X.XandY","Adults",2,NA
+"Wrong",NA,"4","X.XandY","Adults",2,NA
+"Wrong",NA,"5","X.XandY","Adults",2,NA
+"Wrong",NA,"6","X.XandY","Adults",2,NA
+"Wrong",NA,"7","X.XandY","Adults",2,NA
+"Wrong",NA,"8","X.XandY","Adults",2,NA
+"Wrong",NA,"10","X.XandY","Adults",2,NA
+"Wrong",NA,"14","X.XandY","Adults",2,NA
+"Wrong",NA,"16","X.XandY","Adults",2,NA
+"Wrong",NA,"20","X.XandY","Adults",2,NA
+"Wrong",NA,"22","X.XandY","Adults",2,NA
+"Wrong",NA,"24","X.XandY","Adults",2,NA
+"Wrong",NA,"26","X.XandY","Adults",2,NA
+"Wrong",NA,"29","X.XandY","Adults",2,NA
+"Wrong",NA,"30","X.XandY","Adults",2,NA
+"Wrong",NA,"34","X.XandY","Adults",2,NA
+"Wrong",NA,"39","X.XandY","Adults",2,NA
+"Wrong",NA,"40","X.XandY","Adults",2,NA
+"Wrong",NA,"41","X.XandY","Adults",2,NA
+"Wrong",NA,"42","X.XandY","Adults",2,NA
+"Wrong",NA,"43","X.XandY","Adults",2,NA
+"Wrong",NA,"44","X.XandY","Adults",2,NA
+"Wrong",NA,"45","X.XandY","Adults",2,NA
+"Right",NA,"47","X.XandY","Adults",2,NA
+"Wrong",NA,"48","X.XandY","Adults",2,NA
+"Wrong",NA,"50","X.XandY","Adults",2,NA
+"Wrong",NA,"51","X.XandY","Adults",2,NA
+"Wrong",NA,"52","X.XandY","Adults",2,NA
+"Wrong",NA,"56","X.XandY","Adults",2,NA
+"Wrong",NA,"57","X.XandY","Adults",2,NA
+"Wrong",NA,"59","X.XandY","Adults",2,NA
+"Wrong",NA,"61","X.XandY","Adults",2,NA
+"Wrong",NA,"64","X.XandY","Adults",2,NA
+"Wrong",NA,"65","X.XandY","Adults",2,NA
+"Wrong",NA,"68","X.XandY","Adults",2,NA
+"Wrong",NA,"72","X.XandY","Adults",2,NA
+"Wrong",NA,"73","X.XandY","Adults",2,NA
+"Wrong",NA,"76","X.XandY","Adults",2,NA
+"Wrong",NA,"78","X.XandY","Adults",2,NA
+"Wrong",NA,"79","X.XandY","Adults",2,NA
+"Wrong",NA,"81","X.XandY","Adults",2,NA
+"Wrong",NA,"83","X.XandY","Adults",2,NA
+"Wrong",NA,"85","X.XandY","Adults",2,NA
+"Wrong",NA,"87","X.XandY","Adults",2,NA
+"Wrong",NA,"88","X.XandY","Adults",2,NA
+"Wrong",NA,"91","X.XandY","Adults",2,NA
+"Wrong",NA,"92","X.XandY","Adults",2,NA
+"Wrong",NA,"94","X.XandY","Adults",2,NA
+"Wrong",NA,"97","X.XandY","Adults",2,NA
+"Wrong",NA,"99","X.XandY","Adults",2,NA
+"Right",NA,"101","X.XandY","Adults",2,NA
+"Wrong",NA,"103","X.XandY","Adults",2,NA
+"Wrong",NA,"105","X.XandY","Adults",2,NA
+"Right",NA,"106","X.XandY","Adults",2,NA
+"Wrong",NA,"108","X.XandY","Adults",2,NA
+"Right",NA,"1","X.XorY","Adults",2,NA
+"Right",NA,"2","X.XorY","Adults",2,NA
+"Right",NA,"3","X.XorY","Adults",2,NA
+"Right",NA,"4","X.XorY","Adults",2,NA
+"Right",NA,"5","X.XorY","Adults",2,NA
+"Right",NA,"6","X.XorY","Adults",2,NA
+"Right",NA,"7","X.XorY","Adults",2,NA
+"Right",NA,"8","X.XorY","Adults",2,NA
+"Right",NA,"10","X.XorY","Adults",2,NA
+"Right",NA,"14","X.XorY","Adults",2,NA
+"Right",NA,"16","X.XorY","Adults",2,NA
+"Wrong",NA,"20","X.XorY","Adults",2,NA
+"Right",NA,"22","X.XorY","Adults",2,NA
+"Right",NA,"24","X.XorY","Adults",2,NA
+"Right",NA,"26","X.XorY","Adults",2,NA
+"Right",NA,"29","X.XorY","Adults",2,NA
+"Right",NA,"30","X.XorY","Adults",2,NA
+"Right",NA,"34","X.XorY","Adults",2,NA
+"Right",NA,"39","X.XorY","Adults",2,NA
+"Right",NA,"40","X.XorY","Adults",2,NA
+"Right",NA,"41","X.XorY","Adults",2,NA
+"Right",NA,"42","X.XorY","Adults",2,NA
+"Right",NA,"43","X.XorY","Adults",2,NA
+"Right",NA,"44","X.XorY","Adults",2,NA
+"Right",NA,"45","X.XorY","Adults",2,NA
+"Right",NA,"47","X.XorY","Adults",2,NA
+"Right",NA,"48","X.XorY","Adults",2,NA
+"Right",NA,"50","X.XorY","Adults",2,NA
+"Right",NA,"51","X.XorY","Adults",2,NA
+"Right",NA,"52","X.XorY","Adults",2,NA
+"Right",NA,"56","X.XorY","Adults",2,NA
+"Right",NA,"57","X.XorY","Adults",2,NA
+"Right",NA,"59","X.XorY","Adults",2,NA
+"Right",NA,"61","X.XorY","Adults",2,NA
+"Right",NA,"64","X.XorY","Adults",2,NA
+"Right",NA,"65","X.XorY","Adults",2,NA
+"Right",NA,"68","X.XorY","Adults",2,NA
+"Right",NA,"72","X.XorY","Adults",2,NA
+"Right",NA,"73","X.XorY","Adults",2,NA
+"Right",NA,"76","X.XorY","Adults",2,NA
+"Right",NA,"78","X.XorY","Adults",2,NA
+"Right",NA,"79","X.XorY","Adults",2,NA
+"Right",NA,"81","X.XorY","Adults",2,NA
+"Right",NA,"83","X.XorY","Adults",2,NA
+"Right",NA,"85","X.XorY","Adults",2,NA
+"Right",NA,"87","X.XorY","Adults",2,NA
+"Right",NA,"88","X.XorY","Adults",2,NA
+"Right",NA,"91","X.XorY","Adults",2,NA
+"Right",NA,"92","X.XorY","Adults",2,NA
+"Right",NA,"94","X.XorY","Adults",2,NA
+"Right",NA,"97","X.XorY","Adults",2,NA
+"Right",NA,"99","X.XorY","Adults",2,NA
+"Right",NA,"101","X.XorY","Adults",2,NA
+"Right",NA,"103","X.XorY","Adults",2,NA
+"Right",NA,"105","X.XorY","Adults",2,NA
+"Wrong",NA,"106","X.XorY","Adults",2,NA
+"Right",NA,"108","X.XorY","Adults",2,NA
+"Wrong",NA,"1","X.YorZ","Adults",2,NA
+"Right",NA,"2","X.YorZ","Adults",2,NA
+"Wrong",NA,"3","X.YorZ","Adults",2,NA
+"Wrong",NA,"4","X.YorZ","Adults",2,NA
+"Wrong",NA,"5","X.YorZ","Adults",2,NA
+"Wrong",NA,"6","X.YorZ","Adults",2,NA
+"Wrong",NA,"7","X.YorZ","Adults",2,NA
+"Wrong",NA,"8","X.YorZ","Adults",2,NA
+"Wrong",NA,"10","X.YorZ","Adults",2,NA
+"Wrong",NA,"14","X.YorZ","Adults",2,NA
+"Wrong",NA,"16","X.YorZ","Adults",2,NA
+"Wrong",NA,"20","X.YorZ","Adults",2,NA
+"Wrong",NA,"22","X.YorZ","Adults",2,NA
+"Wrong",NA,"24","X.YorZ","Adults",2,NA
+"Wrong",NA,"26","X.YorZ","Adults",2,NA
+"Wrong",NA,"29","X.YorZ","Adults",2,NA
+"Wrong",NA,"30","X.YorZ","Adults",2,NA
+"Wrong",NA,"34","X.YorZ","Adults",2,NA
+"Wrong",NA,"39","X.YorZ","Adults",2,NA
+"Wrong",NA,"40","X.YorZ","Adults",2,NA
+"Wrong",NA,"41","X.YorZ","Adults",2,NA
+"Wrong",NA,"42","X.YorZ","Adults",2,NA
+"Wrong",NA,"43","X.YorZ","Adults",2,NA
+"Wrong",NA,"44","X.YorZ","Adults",2,NA
+"Wrong",NA,"45","X.YorZ","Adults",2,NA
+"Wrong",NA,"47","X.YorZ","Adults",2,NA
+"Wrong",NA,"48","X.YorZ","Adults",2,NA
+"Wrong",NA,"50","X.YorZ","Adults",2,NA
+"Wrong",NA,"51","X.YorZ","Adults",2,NA
+"Wrong",NA,"52","X.YorZ","Adults",2,NA
+"Wrong",NA,"56","X.YorZ","Adults",2,NA
+"Wrong",NA,"57","X.YorZ","Adults",2,NA
+"Wrong",NA,"59","X.YorZ","Adults",2,NA
+"Wrong",NA,"61","X.YorZ","Adults",2,NA
+"Wrong",NA,"64","X.YorZ","Adults",2,NA
+"Wrong",NA,"65","X.YorZ","Adults",2,NA
+"Wrong",NA,"68","X.YorZ","Adults",2,NA
+"Wrong",NA,"72","X.YorZ","Adults",2,NA
+"Wrong",NA,"73","X.YorZ","Adults",2,NA
+"Wrong",NA,"76","X.YorZ","Adults",2,NA
+"Wrong",NA,"78","X.YorZ","Adults",2,NA
+"Wrong",NA,"79","X.YorZ","Adults",2,NA
+"Wrong",NA,"81","X.YorZ","Adults",2,NA
+"Wrong",NA,"83","X.YorZ","Adults",2,NA
+"Wrong",NA,"85","X.YorZ","Adults",2,NA
+"Wrong",NA,"87","X.YorZ","Adults",2,NA
+"Wrong",NA,"88","X.YorZ","Adults",2,NA
+"Wrong",NA,"91","X.YorZ","Adults",2,NA
+"Wrong",NA,"92","X.YorZ","Adults",2,NA
+"Wrong",NA,"94","X.YorZ","Adults",2,NA
+"Wrong",NA,"97","X.YorZ","Adults",2,NA
+"Wrong",NA,"99","X.YorZ","Adults",2,NA
+"Wrong",NA,"101","X.YorZ","Adults",2,NA
+"Wrong",NA,"103","X.YorZ","Adults",2,NA
+"Wrong",NA,"105","X.YorZ","Adults",2,NA
+"Wrong",NA,"106","X.YorZ","Adults",2,NA
+"Wrong",NA,"108","X.YorZ","Adults",2,NA
+"Wrong",NA,"1","XY.YandZ","Adults",2,NA
+"Right",NA,"2","XY.YandZ","Adults",2,NA
+"Wrong",NA,"3","XY.YandZ","Adults",2,NA
+"Wrong",NA,"4","XY.YandZ","Adults",2,NA
+"Wrong",NA,"5","XY.YandZ","Adults",2,NA
+"Wrong",NA,"6","XY.YandZ","Adults",2,NA
+"Wrong",NA,"7","XY.YandZ","Adults",2,NA
+"Wrong",NA,"8","XY.YandZ","Adults",2,NA
+"Wrong",NA,"10","XY.YandZ","Adults",2,NA
+"Wrong",NA,"14","XY.YandZ","Adults",2,NA
+"Wrong",NA,"16","XY.YandZ","Adults",2,NA
+"Wrong",NA,"20","XY.YandZ","Adults",2,NA
+"Wrong",NA,"22","XY.YandZ","Adults",2,NA
+"Right",NA,"24","XY.YandZ","Adults",2,NA
+"Wrong",NA,"26","XY.YandZ","Adults",2,NA
+"Wrong",NA,"29","XY.YandZ","Adults",2,NA
+"Wrong",NA,"30","XY.YandZ","Adults",2,NA
+"Wrong",NA,"34","XY.YandZ","Adults",2,NA
+"Wrong",NA,"39","XY.YandZ","Adults",2,NA
+"Wrong",NA,"40","XY.YandZ","Adults",2,NA
+"Wrong",NA,"41","XY.YandZ","Adults",2,NA
+"Wrong",NA,"42","XY.YandZ","Adults",2,NA
+"Wrong",NA,"43","XY.YandZ","Adults",2,NA
+"Wrong",NA,"44","XY.YandZ","Adults",2,NA
+"Wrong",NA,"45","XY.YandZ","Adults",2,NA
+"Wrong",NA,"47","XY.YandZ","Adults",2,NA
+"Wrong",NA,"48","XY.YandZ","Adults",2,NA
+"Wrong",NA,"50","XY.YandZ","Adults",2,NA
+"Wrong",NA,"51","XY.YandZ","Adults",2,NA
+"Wrong",NA,"52","XY.YandZ","Adults",2,NA
+"Wrong",NA,"56","XY.YandZ","Adults",2,NA
+"Wrong",NA,"57","XY.YandZ","Adults",2,NA
+"Right",NA,"59","XY.YandZ","Adults",2,NA
+"Wrong",NA,"61","XY.YandZ","Adults",2,NA
+"Wrong",NA,"64","XY.YandZ","Adults",2,NA
+"Wrong",NA,"65","XY.YandZ","Adults",2,NA
+"Wrong",NA,"68","XY.YandZ","Adults",2,NA
+"Wrong",NA,"72","XY.YandZ","Adults",2,NA
+"Wrong",NA,"73","XY.YandZ","Adults",2,NA
+"Wrong",NA,"76","XY.YandZ","Adults",2,NA
+"Wrong",NA,"78","XY.YandZ","Adults",2,NA
+"Wrong",NA,"79","XY.YandZ","Adults",2,NA
+"Wrong",NA,"81","XY.YandZ","Adults",2,NA
+"Wrong",NA,"83","XY.YandZ","Adults",2,NA
+"Wrong",NA,"85","XY.YandZ","Adults",2,NA
+"Wrong",NA,"87","XY.YandZ","Adults",2,NA
+"Wrong",NA,"88","XY.YandZ","Adults",2,NA
+"Wrong",NA,"91","XY.YandZ","Adults",2,NA
+"Wrong",NA,"92","XY.YandZ","Adults",2,NA
+"Wrong",NA,"94","XY.YandZ","Adults",2,NA
+"Wrong",NA,"97","XY.YandZ","Adults",2,NA
+"Wrong",NA,"99","XY.YandZ","Adults",2,NA
+"Right",NA,"101","XY.YandZ","Adults",2,NA
+"Wrong",NA,"103","XY.YandZ","Adults",2,NA
+"Wrong",NA,"105","XY.YandZ","Adults",2,NA
+"Wrong",NA,"106","XY.YandZ","Adults",2,NA
+"Wrong",NA,"108","XY.YandZ","Adults",2,NA
+"Right",NA,"1","XY.XorY","Adults",2,NA
+"Right",NA,"2","XY.XorY","Adults",2,NA
+"Wrong",NA,"3","XY.XorY","Adults",2,NA
+"Wrong",NA,"4","XY.XorY","Adults",2,NA
+"Right",NA,"5","XY.XorY","Adults",2,NA
+"Right",NA,"6","XY.XorY","Adults",2,NA
+"Right",NA,"7","XY.XorY","Adults",2,NA
+"Right",NA,"8","XY.XorY","Adults",2,NA
+"Right",NA,"10","XY.XorY","Adults",2,NA
+"Right",NA,"14","XY.XorY","Adults",2,NA
+"Wrong",NA,"16","XY.XorY","Adults",2,NA
+"Wrong",NA,"20","XY.XorY","Adults",2,NA
+"Wrong",NA,"22","XY.XorY","Adults",2,NA
+"Right",NA,"24","XY.XorY","Adults",2,NA
+"Right",NA,"26","XY.XorY","Adults",2,NA
+"Right",NA,"29","XY.XorY","Adults",2,NA
+"Right",NA,"30","XY.XorY","Adults",2,NA
+"Right",NA,"34","XY.XorY","Adults",2,NA
+"Right",NA,"39","XY.XorY","Adults",2,NA
+"Right",NA,"40","XY.XorY","Adults",2,NA
+"Right",NA,"41","XY.XorY","Adults",2,NA
+"Right",NA,"42","XY.XorY","Adults",2,NA
+"Right",NA,"43","XY.XorY","Adults",2,NA
+"Right",NA,"44","XY.XorY","Adults",2,NA
+"Right",NA,"45","XY.XorY","Adults",2,NA
+"Right",NA,"47","XY.XorY","Adults",2,NA
+"Right",NA,"48","XY.XorY","Adults",2,NA
+"Wrong",NA,"50","XY.XorY","Adults",2,NA
+"Right",NA,"51","XY.XorY","Adults",2,NA
+"Right",NA,"52","XY.XorY","Adults",2,NA
+"Right",NA,"56","XY.XorY","Adults",2,NA
+"Right",NA,"57","XY.XorY","Adults",2,NA
+"Right",NA,"59","XY.XorY","Adults",2,NA
+"Right",NA,"61","XY.XorY","Adults",2,NA
+"Right",NA,"64","XY.XorY","Adults",2,NA
+"Right",NA,"65","XY.XorY","Adults",2,NA
+"Right",NA,"68","XY.XorY","Adults",2,NA
+"Right",NA,"72","XY.XorY","Adults",2,NA
+"Right",NA,"73","XY.XorY","Adults",2,NA
+"Right",NA,"76","XY.XorY","Adults",2,NA
+"Right",NA,"78","XY.XorY","Adults",2,NA
+"Right",NA,"79","XY.XorY","Adults",2,NA
+"Right",NA,"81","XY.XorY","Adults",2,NA
+"Right",NA,"83","XY.XorY","Adults",2,NA
+"Wrong",NA,"85","XY.XorY","Adults",2,NA
+"Right",NA,"87","XY.XorY","Adults",2,NA
+"Right",NA,"88","XY.XorY","Adults",2,NA
+"Right",NA,"91","XY.XorY","Adults",2,NA
+"Right",NA,"92","XY.XorY","Adults",2,NA
+"Wrong",NA,"94","XY.XorY","Adults",2,NA
+"Wrong",NA,"97","XY.XorY","Adults",2,NA
+"Wrong",NA,"99","XY.XorY","Adults",2,NA
+"Right",NA,"101","XY.XorY","Adults",2,NA
+"Right",NA,"103","XY.XorY","Adults",2,NA
+"Right",NA,"105","XY.XorY","Adults",2,NA
+"Right",NA,"106","XY.XorY","Adults",2,NA
+"Right",NA,"108","XY.XorY","Adults",2,NA
+"Right",NA,"1","XY.YorZ","Adults",2,NA
+"Right",NA,"2","XY.YorZ","Adults",2,NA
+"Right",NA,"3","XY.YorZ","Adults",2,NA
+"Right",NA,"4","XY.YorZ","Adults",2,NA
+"Right",NA,"5","XY.YorZ","Adults",2,NA
+"Right",NA,"6","XY.YorZ","Adults",2,NA
+"Right",NA,"7","XY.YorZ","Adults",2,NA
+"Right",NA,"8","XY.YorZ","Adults",2,NA
+"Right",NA,"10","XY.YorZ","Adults",2,NA
+"Right",NA,"14","XY.YorZ","Adults",2,NA
+"Right",NA,"16","XY.YorZ","Adults",2,NA
+"Wrong",NA,"20","XY.YorZ","Adults",2,NA
+"Right",NA,"22","XY.YorZ","Adults",2,NA
+"Right",NA,"24","XY.YorZ","Adults",2,NA
+"Right",NA,"26","XY.YorZ","Adults",2,NA
+"Right",NA,"29","XY.YorZ","Adults",2,NA
+"Right",NA,"30","XY.YorZ","Adults",2,NA
+"Right",NA,"34","XY.YorZ","Adults",2,NA
+"Right",NA,"39","XY.YorZ","Adults",2,NA
+"Right",NA,"40","XY.YorZ","Adults",2,NA
+"Right",NA,"41","XY.YorZ","Adults",2,NA
+"Right",NA,"42","XY.YorZ","Adults",2,NA
+"Right",NA,"43","XY.YorZ","Adults",2,NA
+"Right",NA,"44","XY.YorZ","Adults",2,NA
+"Right",NA,"45","XY.YorZ","Adults",2,NA
+"Right",NA,"47","XY.YorZ","Adults",2,NA
+"Right",NA,"48","XY.YorZ","Adults",2,NA
+"Wrong",NA,"50","XY.YorZ","Adults",2,NA
+"Right",NA,"51","XY.YorZ","Adults",2,NA
+"Right",NA,"52","XY.YorZ","Adults",2,NA
+"Right",NA,"56","XY.YorZ","Adults",2,NA
+"Right",NA,"57","XY.YorZ","Adults",2,NA
+"Right",NA,"59","XY.YorZ","Adults",2,NA
+"Right",NA,"61","XY.YorZ","Adults",2,NA
+"Right",NA,"64","XY.YorZ","Adults",2,NA
+"Right",NA,"65","XY.YorZ","Adults",2,NA
+"Right",NA,"68","XY.YorZ","Adults",2,NA
+"Right",NA,"72","XY.YorZ","Adults",2,NA
+"Wrong",NA,"73","XY.YorZ","Adults",2,NA
+"Right",NA,"76","XY.YorZ","Adults",2,NA
+"Wrong",NA,"78","XY.YorZ","Adults",2,NA
+"Right",NA,"79","XY.YorZ","Adults",2,NA
+"Right",NA,"81","XY.YorZ","Adults",2,NA
+"Right",NA,"83","XY.YorZ","Adults",2,NA
+"Right",NA,"85","XY.YorZ","Adults",2,NA
+"Wrong",NA,"87","XY.YorZ","Adults",2,NA
+"Right",NA,"88","XY.YorZ","Adults",2,NA
+"Right",NA,"91","XY.YorZ","Adults",2,NA
+"Right",NA,"92","XY.YorZ","Adults",2,NA
+"Right",NA,"94","XY.YorZ","Adults",2,NA
+"Right",NA,"97","XY.YorZ","Adults",2,NA
+"Wrong",NA,"99","XY.YorZ","Adults",2,NA
+"Right",NA,"101","XY.YorZ","Adults",2,NA
+"Right",NA,"103","XY.YorZ","Adults",2,NA
+"Wrong",NA,"105","XY.YorZ","Adults",2,NA
+"Right",NA,"106","XY.YorZ","Adults",2,NA
+"Right",NA,"108","XY.YorZ","Adults",2,NA
+"Wrong",NA,"1","XY.Z","Adults",2,NA
+"Wrong",NA,"2","XY.Z","Adults",2,NA
+"Wrong",NA,"3","XY.Z","Adults",2,NA
+"Wrong",NA,"4","XY.Z","Adults",2,NA
+"Wrong",NA,"5","XY.Z","Adults",2,NA
+"Wrong",NA,"6","XY.Z","Adults",2,NA
+"Wrong",NA,"7","XY.Z","Adults",2,NA
+"Wrong",NA,"8","XY.Z","Adults",2,NA
+"Wrong",NA,"10","XY.Z","Adults",2,NA
+"Wrong",NA,"14","XY.Z","Adults",2,NA
+"Wrong",NA,"16","XY.Z","Adults",2,NA
+"Wrong",NA,"20","XY.Z","Adults",2,NA
+"Wrong",NA,"22","XY.Z","Adults",2,NA
+"Wrong",NA,"24","XY.Z","Adults",2,NA
+"Wrong",NA,"26","XY.Z","Adults",2,NA
+"Wrong",NA,"29","XY.Z","Adults",2,NA
+"Wrong",NA,"30","XY.Z","Adults",2,NA
+"Wrong",NA,"34","XY.Z","Adults",2,NA
+"Wrong",NA,"39","XY.Z","Adults",2,NA
+"Wrong",NA,"40","XY.Z","Adults",2,NA
+"Wrong",NA,"41","XY.Z","Adults",2,NA
+"Wrong",NA,"42","XY.Z","Adults",2,NA
+"Wrong",NA,"43","XY.Z","Adults",2,NA
+"Wrong",NA,"44","XY.Z","Adults",2,NA
+"Wrong",NA,"45","XY.Z","Adults",2,NA
+"Wrong",NA,"47","XY.Z","Adults",2,NA
+"Wrong",NA,"48","XY.Z","Adults",2,NA
+"Wrong",NA,"50","XY.Z","Adults",2,NA
+"Wrong",NA,"51","XY.Z","Adults",2,NA
+"Wrong",NA,"52","XY.Z","Adults",2,NA
+"Wrong",NA,"56","XY.Z","Adults",2,NA
+"Wrong",NA,"57","XY.Z","Adults",2,NA
+"Wrong",NA,"59","XY.Z","Adults",2,NA
+"Wrong",NA,"61","XY.Z","Adults",2,NA
+"Wrong",NA,"64","XY.Z","Adults",2,NA
+"Wrong",NA,"65","XY.Z","Adults",2,NA
+"Wrong",NA,"68","XY.Z","Adults",2,NA
+"Wrong",NA,"72","XY.Z","Adults",2,NA
+"Wrong",NA,"73","XY.Z","Adults",2,NA
+"Wrong",NA,"76","XY.Z","Adults",2,NA
+"Wrong",NA,"78","XY.Z","Adults",2,NA
+"Wrong",NA,"79","XY.Z","Adults",2,NA
+"Wrong",NA,"81","XY.Z","Adults",2,NA
+"Wrong",NA,"83","XY.Z","Adults",2,NA
+"Wrong",NA,"85","XY.Z","Adults",2,NA
+"Wrong",NA,"87","XY.Z","Adults",2,NA
+"Wrong",NA,"88","XY.Z","Adults",2,NA
+"Wrong",NA,"91","XY.Z","Adults",2,NA
+"Wrong",NA,"92","XY.Z","Adults",2,NA
+"Wrong",NA,"94","XY.Z","Adults",2,NA
+"Wrong",NA,"97","XY.Z","Adults",2,NA
+"Wrong",NA,"99","XY.Z","Adults",2,NA
+"Wrong",NA,"101","XY.Z","Adults",2,NA
+"Wrong",NA,"103","XY.Z","Adults",2,NA
+"Wrong",NA,"105","XY.Z","Adults",2,NA
+"Wrong",NA,"106","XY.Z","Adults",2,NA
+"Wrong",NA,"108","XY.Z","Adults",2,NA
+"Right",NA,"1","XY.X","Adults",2,NA
+"Right",NA,"2","XY.X","Adults",2,NA
+"Right",NA,"3","XY.X","Adults",2,NA
+"Right",NA,"4","XY.X","Adults",2,NA
+"Right",NA,"5","XY.X","Adults",2,NA
+"Right",NA,"6","XY.X","Adults",2,NA
+"Right",NA,"7","XY.X","Adults",2,NA
+"Right",NA,"8","XY.X","Adults",2,NA
+"Right",NA,"10","XY.X","Adults",2,NA
+"Right",NA,"14","XY.X","Adults",2,NA
+"Right",NA,"16","XY.X","Adults",2,NA
+"Wrong",NA,"20","XY.X","Adults",2,NA
+"Right",NA,"22","XY.X","Adults",2,NA
+"Right",NA,"24","XY.X","Adults",2,NA
+"Right",NA,"26","XY.X","Adults",2,NA
+"Right",NA,"29","XY.X","Adults",2,NA
+"Right",NA,"30","XY.X","Adults",2,NA
+"Right",NA,"34","XY.X","Adults",2,NA
+"Right",NA,"39","XY.X","Adults",2,NA
+"Right",NA,"40","XY.X","Adults",2,NA
+"Wrong",NA,"41","XY.X","Adults",2,NA
+"Right",NA,"42","XY.X","Adults",2,NA
+"Right",NA,"43","XY.X","Adults",2,NA
+"Right",NA,"44","XY.X","Adults",2,NA
+"Right",NA,"45","XY.X","Adults",2,NA
+"Right",NA,"47","XY.X","Adults",2,NA
+"Right",NA,"48","XY.X","Adults",2,NA
+"Wrong",NA,"50","XY.X","Adults",2,NA
+"Right",NA,"51","XY.X","Adults",2,NA
+"Right",NA,"52","XY.X","Adults",2,NA
+"Right",NA,"56","XY.X","Adults",2,NA
+"Right",NA,"57","XY.X","Adults",2,NA
+"Right",NA,"59","XY.X","Adults",2,NA
+"Right",NA,"61","XY.X","Adults",2,NA
+"Right",NA,"64","XY.X","Adults",2,NA
+"Right",NA,"65","XY.X","Adults",2,NA
+"Right",NA,"68","XY.X","Adults",2,NA
+"Right",NA,"72","XY.X","Adults",2,NA
+"Right",NA,"73","XY.X","Adults",2,NA
+"Wrong",NA,"76","XY.X","Adults",2,NA
+"Right",NA,"78","XY.X","Adults",2,NA
+"Right",NA,"79","XY.X","Adults",2,NA
+"Right",NA,"81","XY.X","Adults",2,NA
+"Right",NA,"83","XY.X","Adults",2,NA
+"Right",NA,"85","XY.X","Adults",2,NA
+"Right",NA,"87","XY.X","Adults",2,NA
+"Right",NA,"88","XY.X","Adults",2,NA
+"Right",NA,"91","XY.X","Adults",2,NA
+"Right",NA,"92","XY.X","Adults",2,NA
+"Right",NA,"94","XY.X","Adults",2,NA
+"Right",NA,"97","XY.X","Adults",2,NA
+"Wrong",NA,"99","XY.X","Adults",2,NA
+"Right",NA,"101","XY.X","Adults",2,NA
+"Right",NA,"103","XY.X","Adults",2,NA
+"Right",NA,"105","XY.X","Adults",2,NA
+"Right",NA,"106","XY.X","Adults",2,NA
+"Right",NA,"108","XY.X","Adults",2,NA
+"Right",NA,"9","X.X","Adults",3,NA
+"Right",NA,"11","X.X","Adults",3,NA
+"Right",NA,"12","X.X","Adults",3,NA
+"Right",NA,"13","X.X","Adults",3,NA
+"Right",NA,"15","X.X","Adults",3,NA
+"Right",NA,"17","X.X","Adults",3,NA
+"Right",NA,"18","X.X","Adults",3,NA
+"Right",NA,"19","X.X","Adults",3,NA
+"Right",NA,"21","X.X","Adults",3,NA
+"Right",NA,"23","X.X","Adults",3,NA
+"Right",NA,"25","X.X","Adults",3,NA
+"Right",NA,"27","X.X","Adults",3,NA
+"Right",NA,"28","X.X","Adults",3,NA
+"Right",NA,"31","X.X","Adults",3,NA
+"Right",NA,"32","X.X","Adults",3,NA
+"Right",NA,"33","X.X","Adults",3,NA
+"Right",NA,"35","X.X","Adults",3,NA
+"Right",NA,"36","X.X","Adults",3,NA
+"Right",NA,"37","X.X","Adults",3,NA
+"Right",NA,"38","X.X","Adults",3,NA
+"Right",NA,"46","X.X","Adults",3,NA
+"Right",NA,"49","X.X","Adults",3,NA
+"Right",NA,"53","X.X","Adults",3,NA
+"Right",NA,"54","X.X","Adults",3,NA
+"Right",NA,"55","X.X","Adults",3,NA
+"Right",NA,"58","X.X","Adults",3,NA
+"Right",NA,"60","X.X","Adults",3,NA
+"Right",NA,"62","X.X","Adults",3,NA
+"Right",NA,"63","X.X","Adults",3,NA
+"Right",NA,"66","X.X","Adults",3,NA
+"Right",NA,"67","X.X","Adults",3,NA
+"Right",NA,"69","X.X","Adults",3,NA
+"Right",NA,"70","X.X","Adults",3,NA
+"Right",NA,"71","X.X","Adults",3,NA
+"Right",NA,"74","X.X","Adults",3,NA
+"Right",NA,"75","X.X","Adults",3,NA
+"Right",NA,"77","X.X","Adults",3,NA
+"Right",NA,"80","X.X","Adults",3,NA
+"Right",NA,"82","X.X","Adults",3,NA
+"Right",NA,"84","X.X","Adults",3,NA
+"Right",NA,"86","X.X","Adults",3,NA
+"Right",NA,"89","X.X","Adults",3,NA
+"Right",NA,"90","X.X","Adults",3,NA
+"Right",NA,"93","X.X","Adults",3,NA
+"Right",NA,"95","X.X","Adults",3,NA
+"Right",NA,"96","X.X","Adults",3,NA
+"Right",NA,"98","X.X","Adults",3,NA
+"Right",NA,"100","X.X","Adults",3,NA
+"Right",NA,"102","X.X","Adults",3,NA
+"Right",NA,"104","X.X","Adults",3,NA
+"Right",NA,"107","X.X","Adults",3,NA
+"Right",NA,"109","X.X","Adults",3,NA
+"Right",NA,"9","XY.XandY","Adults",3,NA
+"Right",NA,"11","XY.XandY","Adults",3,NA
+"Right",NA,"12","XY.XandY","Adults",3,NA
+"Right",NA,"13","XY.XandY","Adults",3,NA
+"Right",NA,"15","XY.XandY","Adults",3,NA
+"Right",NA,"17","XY.XandY","Adults",3,NA
+"Right",NA,"18","XY.XandY","Adults",3,NA
+"Right",NA,"19","XY.XandY","Adults",3,NA
+"Right",NA,"21","XY.XandY","Adults",3,NA
+"Right",NA,"23","XY.XandY","Adults",3,NA
+"Right",NA,"25","XY.XandY","Adults",3,NA
+"Right",NA,"27","XY.XandY","Adults",3,NA
+"Right",NA,"28","XY.XandY","Adults",3,NA
+"Right",NA,"31","XY.XandY","Adults",3,NA
+"Right",NA,"32","XY.XandY","Adults",3,NA
+"Right",NA,"33","XY.XandY","Adults",3,NA
+"Right",NA,"35","XY.XandY","Adults",3,NA
+"Right",NA,"36","XY.XandY","Adults",3,NA
+"Right",NA,"37","XY.XandY","Adults",3,NA
+"Right",NA,"38","XY.XandY","Adults",3,NA
+"Right",NA,"46","XY.XandY","Adults",3,NA
+"Right",NA,"49","XY.XandY","Adults",3,NA
+"Right",NA,"53","XY.XandY","Adults",3,NA
+"Right",NA,"54","XY.XandY","Adults",3,NA
+"Right",NA,"55","XY.XandY","Adults",3,NA
+"Right",NA,"58","XY.XandY","Adults",3,NA
+"Right",NA,"60","XY.XandY","Adults",3,NA
+"Right",NA,"62","XY.XandY","Adults",3,NA
+"Right",NA,"63","XY.XandY","Adults",3,NA
+"Right",NA,"66","XY.XandY","Adults",3,NA
+"Right",NA,"67","XY.XandY","Adults",3,NA
+"Right",NA,"69","XY.XandY","Adults",3,NA
+"Right",NA,"70","XY.XandY","Adults",3,NA
+"Right",NA,"71","XY.XandY","Adults",3,NA
+"Right",NA,"74","XY.XandY","Adults",3,NA
+"Right",NA,"75","XY.XandY","Adults",3,NA
+"Right",NA,"77","XY.XandY","Adults",3,NA
+"Right",NA,"80","XY.XandY","Adults",3,NA
+"Right",NA,"82","XY.XandY","Adults",3,NA
+"Right",NA,"84","XY.XandY","Adults",3,NA
+"Right",NA,"86","XY.XandY","Adults",3,NA
+"Right",NA,"89","XY.XandY","Adults",3,NA
+"Right",NA,"90","XY.XandY","Adults",3,NA
+"Right",NA,"93","XY.XandY","Adults",3,NA
+"Right",NA,"95","XY.XandY","Adults",3,NA
+"Right",NA,"96","XY.XandY","Adults",3,NA
+"Right",NA,"98","XY.XandY","Adults",3,NA
+"Right",NA,"100","XY.XandY","Adults",3,NA
+"Right",NA,"102","XY.XandY","Adults",3,NA
+"Right",NA,"104","XY.XandY","Adults",3,NA
+"Right",NA,"107","XY.XandY","Adults",3,NA
+"Right",NA,"109","XY.XandY","Adults",3,NA
+"Wrong",NA,"9","X.Y","Adults",3,NA
+"Wrong",NA,"11","X.Y","Adults",3,NA
+"Wrong",NA,"12","X.Y","Adults",3,NA
+"Wrong",NA,"13","X.Y","Adults",3,NA
+"Wrong",NA,"15","X.Y","Adults",3,NA
+"Wrong",NA,"17","X.Y","Adults",3,NA
+"Wrong",NA,"18","X.Y","Adults",3,NA
+"Wrong",NA,"19","X.Y","Adults",3,NA
+"Wrong",NA,"21","X.Y","Adults",3,NA
+"Wrong",NA,"23","X.Y","Adults",3,NA
+"Wrong",NA,"25","X.Y","Adults",3,NA
+"Wrong",NA,"27","X.Y","Adults",3,NA
+"Wrong",NA,"28","X.Y","Adults",3,NA
+"Right",NA,"31","X.Y","Adults",3,NA
+"Wrong",NA,"32","X.Y","Adults",3,NA
+"Wrong",NA,"33","X.Y","Adults",3,NA
+"Wrong",NA,"35","X.Y","Adults",3,NA
+"Wrong",NA,"36","X.Y","Adults",3,NA
+"Wrong",NA,"37","X.Y","Adults",3,NA
+"Wrong",NA,"38","X.Y","Adults",3,NA
+"Wrong",NA,"46","X.Y","Adults",3,NA
+"Wrong",NA,"49","X.Y","Adults",3,NA
+"Wrong",NA,"53","X.Y","Adults",3,NA
+"Wrong",NA,"54","X.Y","Adults",3,NA
+"Wrong",NA,"55","X.Y","Adults",3,NA
+"Wrong",NA,"58","X.Y","Adults",3,NA
+"Wrong",NA,"60","X.Y","Adults",3,NA
+"Wrong",NA,"62","X.Y","Adults",3,NA
+"Wrong",NA,"63","X.Y","Adults",3,NA
+"Wrong",NA,"66","X.Y","Adults",3,NA
+"Wrong",NA,"67","X.Y","Adults",3,NA
+"Wrong",NA,"69","X.Y","Adults",3,NA
+"Wrong",NA,"70","X.Y","Adults",3,NA
+"Wrong",NA,"71","X.Y","Adults",3,NA
+"Wrong",NA,"74","X.Y","Adults",3,NA
+"Wrong",NA,"75","X.Y","Adults",3,NA
+"Wrong",NA,"77","X.Y","Adults",3,NA
+"Wrong",NA,"80","X.Y","Adults",3,NA
+"Wrong",NA,"82","X.Y","Adults",3,NA
+"Wrong",NA,"84","X.Y","Adults",3,NA
+"Wrong",NA,"86","X.Y","Adults",3,NA
+"Wrong",NA,"89","X.Y","Adults",3,NA
+"Wrong",NA,"90","X.Y","Adults",3,NA
+"Wrong",NA,"93","X.Y","Adults",3,NA
+"Wrong",NA,"95","X.Y","Adults",3,NA
+"Wrong",NA,"96","X.Y","Adults",3,NA
+"Wrong",NA,"98","X.Y","Adults",3,NA
+"Wrong",NA,"100","X.Y","Adults",3,NA
+"Wrong",NA,"102","X.Y","Adults",3,NA
+"Wrong",NA,"104","X.Y","Adults",3,NA
+"Wrong",NA,"107","X.Y","Adults",3,NA
+"Wrong",NA,"109","X.Y","Adults",3,NA
+"Wrong",NA,"9","X.XandY","Adults",3,NA
+"Kinda Right",NA,"11","X.XandY","Adults",3,NA
+"Wrong",NA,"12","X.XandY","Adults",3,NA
+"Wrong",NA,"13","X.XandY","Adults",3,NA
+"Kinda Right",NA,"15","X.XandY","Adults",3,NA
+"Kinda Right",NA,"17","X.XandY","Adults",3,NA
+"Wrong",NA,"18","X.XandY","Adults",3,NA
+"Wrong",NA,"19","X.XandY","Adults",3,NA
+"Wrong",NA,"21","X.XandY","Adults",3,NA
+"Wrong",NA,"23","X.XandY","Adults",3,NA
+"Wrong",NA,"25","X.XandY","Adults",3,NA
+"Kinda Right",NA,"27","X.XandY","Adults",3,NA
+"Wrong",NA,"28","X.XandY","Adults",3,NA
+"Kinda Right",NA,"31","X.XandY","Adults",3,NA
+"Wrong",NA,"32","X.XandY","Adults",3,NA
+"Wrong",NA,"33","X.XandY","Adults",3,NA
+"Kinda Right",NA,"35","X.XandY","Adults",3,NA
+"Kinda Right",NA,"36","X.XandY","Adults",3,NA
+"Wrong",NA,"37","X.XandY","Adults",3,NA
+"Kinda Right",NA,"38","X.XandY","Adults",3,NA
+"Wrong",NA,"46","X.XandY","Adults",3,NA
+"Kinda Right",NA,"49","X.XandY","Adults",3,NA
+"Wrong",NA,"53","X.XandY","Adults",3,NA
+"Wrong",NA,"54","X.XandY","Adults",3,NA
+"Wrong",NA,"55","X.XandY","Adults",3,NA
+"Wrong",NA,"58","X.XandY","Adults",3,NA
+"Wrong",NA,"60","X.XandY","Adults",3,NA
+"Kinda Right",NA,"62","X.XandY","Adults",3,NA
+"Wrong",NA,"63","X.XandY","Adults",3,NA
+"Wrong",NA,"66","X.XandY","Adults",3,NA
+"Kinda Right",NA,"67","X.XandY","Adults",3,NA
+"Wrong",NA,"69","X.XandY","Adults",3,NA
+"Wrong",NA,"70","X.XandY","Adults",3,NA
+"Wrong",NA,"71","X.XandY","Adults",3,NA
+"Wrong",NA,"74","X.XandY","Adults",3,NA
+"Wrong",NA,"75","X.XandY","Adults",3,NA
+"Wrong",NA,"77","X.XandY","Adults",3,NA
+"Kinda Right",NA,"80","X.XandY","Adults",3,NA
+"Wrong",NA,"82","X.XandY","Adults",3,NA
+"Kinda Right",NA,"84","X.XandY","Adults",3,NA
+"Wrong",NA,"86","X.XandY","Adults",3,NA
+"Kinda Right",NA,"89","X.XandY","Adults",3,NA
+"Wrong",NA,"90","X.XandY","Adults",3,NA
+"Wrong",NA,"93","X.XandY","Adults",3,NA
+"Wrong",NA,"95","X.XandY","Adults",3,NA
+"Wrong",NA,"96","X.XandY","Adults",3,NA
+"Kinda Right",NA,"98","X.XandY","Adults",3,NA
+"Wrong",NA,"100","X.XandY","Adults",3,NA
+"Wrong",NA,"102","X.XandY","Adults",3,NA
+"Wrong",NA,"104","X.XandY","Adults",3,NA
+"Kinda Right",NA,"107","X.XandY","Adults",3,NA
+"Wrong",NA,"109","X.XandY","Adults",3,NA
+"Right",NA,"9","X.XorY","Adults",3,NA
+"Right",NA,"11","X.XorY","Adults",3,NA
+"Right",NA,"12","X.XorY","Adults",3,NA
+"Kinda Right",NA,"13","X.XorY","Adults",3,NA
+"Right",NA,"15","X.XorY","Adults",3,NA
+"Kinda Right",NA,"17","X.XorY","Adults",3,NA
+"Right",NA,"18","X.XorY","Adults",3,NA
+"Right",NA,"19","X.XorY","Adults",3,NA
+"Right",NA,"21","X.XorY","Adults",3,NA
+"Right",NA,"23","X.XorY","Adults",3,NA
+"Kinda Right",NA,"25","X.XorY","Adults",3,NA
+"Kinda Right",NA,"27","X.XorY","Adults",3,NA
+"Right",NA,"28","X.XorY","Adults",3,NA
+"Kinda Right",NA,"31","X.XorY","Adults",3,NA
+"Right",NA,"32","X.XorY","Adults",3,NA
+"Right",NA,"33","X.XorY","Adults",3,NA
+"Kinda Right",NA,"35","X.XorY","Adults",3,NA
+"Kinda Right",NA,"36","X.XorY","Adults",3,NA
+"Right",NA,"37","X.XorY","Adults",3,NA
+"Right",NA,"38","X.XorY","Adults",3,NA
+"Right",NA,"46","X.XorY","Adults",3,NA
+"Kinda Right",NA,"49","X.XorY","Adults",3,NA
+"Right",NA,"53","X.XorY","Adults",3,NA
+"Right",NA,"54","X.XorY","Adults",3,NA
+"Right",NA,"55","X.XorY","Adults",3,NA
+"Right",NA,"58","X.XorY","Adults",3,NA
+"Kinda Right",NA,"60","X.XorY","Adults",3,NA
+"Kinda Right",NA,"62","X.XorY","Adults",3,NA
+"Kinda Right",NA,"63","X.XorY","Adults",3,NA
+"Kinda Right",NA,"66","X.XorY","Adults",3,NA
+"Right",NA,"67","X.XorY","Adults",3,NA
+"Right",NA,"69","X.XorY","Adults",3,NA
+"Kinda Right",NA,"70","X.XorY","Adults",3,NA
+"Kinda Right",NA,"71","X.XorY","Adults",3,NA
+"Right",NA,"74","X.XorY","Adults",3,NA
+"Right",NA,"75","X.XorY","Adults",3,NA
+"Right",NA,"77","X.XorY","Adults",3,NA
+"Right",NA,"80","X.XorY","Adults",3,NA
+"Kinda Right",NA,"82","X.XorY","Adults",3,NA
+"Right",NA,"84","X.XorY","Adults",3,NA
+"Right",NA,"86","X.XorY","Adults",3,NA
+"Right",NA,"89","X.XorY","Adults",3,NA
+"Right",NA,"90","X.XorY","Adults",3,NA
+"Kinda Right",NA,"93","X.XorY","Adults",3,NA
+"Right",NA,"95","X.XorY","Adults",3,NA
+"Right",NA,"96","X.XorY","Adults",3,NA
+"Kinda Right",NA,"98","X.XorY","Adults",3,NA
+"Kinda Right",NA,"100","X.XorY","Adults",3,NA
+"Right",NA,"102","X.XorY","Adults",3,NA
+"Right",NA,"104","X.XorY","Adults",3,NA
+"Kinda Right",NA,"107","X.XorY","Adults",3,NA
+"Right",NA,"109","X.XorY","Adults",3,NA
+"Wrong",NA,"9","X.YorZ","Adults",3,NA
+"Wrong",NA,"11","X.YorZ","Adults",3,NA
+"Wrong",NA,"12","X.YorZ","Adults",3,NA
+"Wrong",NA,"13","X.YorZ","Adults",3,NA
+"Wrong",NA,"15","X.YorZ","Adults",3,NA
+"Wrong",NA,"17","X.YorZ","Adults",3,NA
+"Wrong",NA,"18","X.YorZ","Adults",3,NA
+"Wrong",NA,"19","X.YorZ","Adults",3,NA
+"Wrong",NA,"21","X.YorZ","Adults",3,NA
+"Wrong",NA,"23","X.YorZ","Adults",3,NA
+"Wrong",NA,"25","X.YorZ","Adults",3,NA
+"Wrong",NA,"27","X.YorZ","Adults",3,NA
+"Wrong",NA,"28","X.YorZ","Adults",3,NA
+"Wrong",NA,"31","X.YorZ","Adults",3,NA
+"Wrong",NA,"32","X.YorZ","Adults",3,NA
+"Wrong",NA,"33","X.YorZ","Adults",3,NA
+"Wrong",NA,"35","X.YorZ","Adults",3,NA
+"Wrong",NA,"36","X.YorZ","Adults",3,NA
+"Wrong",NA,"37","X.YorZ","Adults",3,NA
+"Wrong",NA,"38","X.YorZ","Adults",3,NA
+"Wrong",NA,"46","X.YorZ","Adults",3,NA
+"Wrong",NA,"49","X.YorZ","Adults",3,NA
+"Wrong",NA,"53","X.YorZ","Adults",3,NA
+"Wrong",NA,"54","X.YorZ","Adults",3,NA
+"Wrong",NA,"55","X.YorZ","Adults",3,NA
+"Wrong",NA,"58","X.YorZ","Adults",3,NA
+"Wrong",NA,"60","X.YorZ","Adults",3,NA
+"Wrong",NA,"62","X.YorZ","Adults",3,NA
+"Wrong",NA,"63","X.YorZ","Adults",3,NA
+"Wrong",NA,"66","X.YorZ","Adults",3,NA
+"Wrong",NA,"67","X.YorZ","Adults",3,NA
+"Wrong",NA,"69","X.YorZ","Adults",3,NA
+"Wrong",NA,"70","X.YorZ","Adults",3,NA
+"Wrong",NA,"71","X.YorZ","Adults",3,NA
+"Wrong",NA,"74","X.YorZ","Adults",3,NA
+"Wrong",NA,"75","X.YorZ","Adults",3,NA
+"Wrong",NA,"77","X.YorZ","Adults",3,NA
+"Wrong",NA,"80","X.YorZ","Adults",3,NA
+"Wrong",NA,"82","X.YorZ","Adults",3,NA
+"Wrong",NA,"84","X.YorZ","Adults",3,NA
+"Wrong",NA,"86","X.YorZ","Adults",3,NA
+"Wrong",NA,"89","X.YorZ","Adults",3,NA
+"Wrong",NA,"90","X.YorZ","Adults",3,NA
+"Wrong",NA,"93","X.YorZ","Adults",3,NA
+"Wrong",NA,"95","X.YorZ","Adults",3,NA
+"Wrong",NA,"96","X.YorZ","Adults",3,NA
+"Wrong",NA,"98","X.YorZ","Adults",3,NA
+"Wrong",NA,"100","X.YorZ","Adults",3,NA
+"Wrong",NA,"102","X.YorZ","Adults",3,NA
+"Wrong",NA,"104","X.YorZ","Adults",3,NA
+"Wrong",NA,"107","X.YorZ","Adults",3,NA
+"Wrong",NA,"109","X.YorZ","Adults",3,NA
+"Kinda Right",NA,"9","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"11","XY.YandZ","Adults",3,NA
+"Wrong",NA,"12","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"13","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"15","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"17","XY.YandZ","Adults",3,NA
+"Wrong",NA,"18","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"19","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"21","XY.YandZ","Adults",3,NA
+"Wrong",NA,"23","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"25","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"27","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"28","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"31","XY.YandZ","Adults",3,NA
+"Wrong",NA,"32","XY.YandZ","Adults",3,NA
+"Wrong",NA,"33","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"35","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"36","XY.YandZ","Adults",3,NA
+"Wrong",NA,"37","XY.YandZ","Adults",3,NA
+"Wrong",NA,"38","XY.YandZ","Adults",3,NA
+"Wrong",NA,"46","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"49","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"53","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"54","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"55","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"58","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"60","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"62","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"63","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"66","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"67","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"69","XY.YandZ","Adults",3,NA
+"Wrong",NA,"70","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"71","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"74","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"75","XY.YandZ","Adults",3,NA
+"Wrong",NA,"77","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"80","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"82","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"84","XY.YandZ","Adults",3,NA
+"Wrong",NA,"86","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"89","XY.YandZ","Adults",3,NA
+"Wrong",NA,"90","XY.YandZ","Adults",3,NA
+"Wrong",NA,"93","XY.YandZ","Adults",3,NA
+"Wrong",NA,"95","XY.YandZ","Adults",3,NA
+"Wrong",NA,"96","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"98","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"100","XY.YandZ","Adults",3,NA
+"Wrong",NA,"102","XY.YandZ","Adults",3,NA
+"Wrong",NA,"104","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"107","XY.YandZ","Adults",3,NA
+"Wrong",NA,"109","XY.YandZ","Adults",3,NA
+"Kinda Right",NA,"9","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"11","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"12","XY.XorY","Adults",3,NA
+"Right",NA,"13","XY.XorY","Adults",3,NA
+"Right",NA,"15","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"17","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"18","XY.XorY","Adults",3,NA
+"Right",NA,"19","XY.XorY","Adults",3,NA
+"Right",NA,"21","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"23","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"25","XY.XorY","Adults",3,NA
+"Right",NA,"27","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"28","XY.XorY","Adults",3,NA
+"Right",NA,"31","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"32","XY.XorY","Adults",3,NA
+"Right",NA,"33","XY.XorY","Adults",3,NA
+"Right",NA,"35","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"36","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"37","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"38","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"46","XY.XorY","Adults",3,NA
+"Right",NA,"49","XY.XorY","Adults",3,NA
+"Right",NA,"53","XY.XorY","Adults",3,NA
+"Right",NA,"54","XY.XorY","Adults",3,NA
+"Right",NA,"55","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"58","XY.XorY","Adults",3,NA
+"Right",NA,"60","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"62","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"63","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"66","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"67","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"69","XY.XorY","Adults",3,NA
+"Right",NA,"70","XY.XorY","Adults",3,NA
+"Right",NA,"71","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"74","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"75","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"77","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"80","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"82","XY.XorY","Adults",3,NA
+"Right",NA,"84","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"86","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"89","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"90","XY.XorY","Adults",3,NA
+"Right",NA,"93","XY.XorY","Adults",3,NA
+"Right",NA,"95","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"96","XY.XorY","Adults",3,NA
+"Right",NA,"98","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"100","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"102","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"104","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"107","XY.XorY","Adults",3,NA
+"Right",NA,"109","XY.XorY","Adults",3,NA
+"Kinda Right",NA,"9","XY.YorZ","Adults",3,NA
+"Right",NA,"11","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"12","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"13","XY.YorZ","Adults",3,NA
+"Right",NA,"15","XY.YorZ","Adults",3,NA
+"Wrong",NA,"17","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"18","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"19","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"21","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"23","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"25","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"27","XY.YorZ","Adults",3,NA
+"Right",NA,"28","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"31","XY.YorZ","Adults",3,NA
+"Right",NA,"32","XY.YorZ","Adults",3,NA
+"Right",NA,"33","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"35","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"36","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"37","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"38","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"46","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"49","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"53","XY.YorZ","Adults",3,NA
+"Right",NA,"54","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"55","XY.YorZ","Adults",3,NA
+"Right",NA,"58","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"60","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"62","XY.YorZ","Adults",3,NA
+"Right",NA,"63","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"66","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"67","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"69","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"70","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"71","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"74","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"75","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"77","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"80","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"82","XY.YorZ","Adults",3,NA
+"Right",NA,"84","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"86","XY.YorZ","Adults",3,NA
+"Right",NA,"89","XY.YorZ","Adults",3,NA
+"Right",NA,"90","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"93","XY.YorZ","Adults",3,NA
+"Right",NA,"95","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"96","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"98","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"100","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"102","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"104","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"107","XY.YorZ","Adults",3,NA
+"Kinda Right",NA,"109","XY.YorZ","Adults",3,NA
+"Wrong",NA,"9","XY.Z","Adults",3,NA
+"Wrong",NA,"11","XY.Z","Adults",3,NA
+"Wrong",NA,"12","XY.Z","Adults",3,NA
+"Wrong",NA,"13","XY.Z","Adults",3,NA
+"Wrong",NA,"15","XY.Z","Adults",3,NA
+"Wrong",NA,"17","XY.Z","Adults",3,NA
+"Wrong",NA,"18","XY.Z","Adults",3,NA
+"Wrong",NA,"19","XY.Z","Adults",3,NA
+"Wrong",NA,"21","XY.Z","Adults",3,NA
+"Wrong",NA,"23","XY.Z","Adults",3,NA
+"Wrong",NA,"25","XY.Z","Adults",3,NA
+"Wrong",NA,"27","XY.Z","Adults",3,NA
+"Wrong",NA,"28","XY.Z","Adults",3,NA
+"Wrong",NA,"31","XY.Z","Adults",3,NA
+"Wrong",NA,"32","XY.Z","Adults",3,NA
+"Wrong",NA,"33","XY.Z","Adults",3,NA
+"Wrong",NA,"35","XY.Z","Adults",3,NA
+"Wrong",NA,"36","XY.Z","Adults",3,NA
+"Wrong",NA,"37","XY.Z","Adults",3,NA
+"Wrong",NA,"38","XY.Z","Adults",3,NA
+"Wrong",NA,"46","XY.Z","Adults",3,NA
+"Wrong",NA,"49","XY.Z","Adults",3,NA
+"Wrong",NA,"53","XY.Z","Adults",3,NA
+"Wrong",NA,"54","XY.Z","Adults",3,NA
+"Wrong",NA,"55","XY.Z","Adults",3,NA
+"Wrong",NA,"58","XY.Z","Adults",3,NA
+"Wrong",NA,"60","XY.Z","Adults",3,NA
+"Wrong",NA,"62","XY.Z","Adults",3,NA
+"Wrong",NA,"63","XY.Z","Adults",3,NA
+"Wrong",NA,"66","XY.Z","Adults",3,NA
+"Wrong",NA,"67","XY.Z","Adults",3,NA
+"Wrong",NA,"69","XY.Z","Adults",3,NA
+"Wrong",NA,"70","XY.Z","Adults",3,NA
+"Wrong",NA,"71","XY.Z","Adults",3,NA
+"Wrong",NA,"74","XY.Z","Adults",3,NA
+"Wrong",NA,"75","XY.Z","Adults",3,NA
+"Wrong",NA,"77","XY.Z","Adults",3,NA
+"Wrong",NA,"80","XY.Z","Adults",3,NA
+"Wrong",NA,"82","XY.Z","Adults",3,NA
+"Wrong",NA,"84","XY.Z","Adults",3,NA
+"Wrong",NA,"86","XY.Z","Adults",3,NA
+"Wrong",NA,"89","XY.Z","Adults",3,NA
+"Wrong",NA,"90","XY.Z","Adults",3,NA
+"Wrong",NA,"93","XY.Z","Adults",3,NA
+"Wrong",NA,"95","XY.Z","Adults",3,NA
+"Wrong",NA,"96","XY.Z","Adults",3,NA
+"Wrong",NA,"98","XY.Z","Adults",3,NA
+"Wrong",NA,"100","XY.Z","Adults",3,NA
+"Wrong",NA,"102","XY.Z","Adults",3,NA
+"Wrong",NA,"104","XY.Z","Adults",3,NA
+"Right",NA,"107","XY.Z","Adults",3,NA
+"Wrong",NA,"109","XY.Z","Adults",3,NA
+"Kinda Right",NA,"9","XY.X","Adults",3,NA
+"Kinda Right",NA,"11","XY.X","Adults",3,NA
+"Kinda Right",NA,"12","XY.X","Adults",3,NA
+"Kinda Right",NA,"13","XY.X","Adults",3,NA
+"Right",NA,"15","XY.X","Adults",3,NA
+"Kinda Right",NA,"17","XY.X","Adults",3,NA
+"Kinda Right",NA,"18","XY.X","Adults",3,NA
+"Kinda Right",NA,"19","XY.X","Adults",3,NA
+"Right",NA,"21","XY.X","Adults",3,NA
+"Right",NA,"23","XY.X","Adults",3,NA
+"Kinda Right",NA,"25","XY.X","Adults",3,NA
+"Kinda Right",NA,"27","XY.X","Adults",3,NA
+"Right",NA,"28","XY.X","Adults",3,NA
+"Kinda Right",NA,"31","XY.X","Adults",3,NA
+"Right",NA,"32","XY.X","Adults",3,NA
+"Right",NA,"33","XY.X","Adults",3,NA
+"Kinda Right",NA,"35","XY.X","Adults",3,NA
+"Kinda Right",NA,"36","XY.X","Adults",3,NA
+"Right",NA,"37","XY.X","Adults",3,NA
+"Right",NA,"38","XY.X","Adults",3,NA
+"Right",NA,"46","XY.X","Adults",3,NA
+"Kinda Right",NA,"49","XY.X","Adults",3,NA
+"Right",NA,"53","XY.X","Adults",3,NA
+"Right",NA,"54","XY.X","Adults",3,NA
+"Kinda Right",NA,"55","XY.X","Adults",3,NA
+"Right",NA,"58","XY.X","Adults",3,NA
+"Kinda Right",NA,"60","XY.X","Adults",3,NA
+"Kinda Right",NA,"62","XY.X","Adults",3,NA
+"Kinda Right",NA,"63","XY.X","Adults",3,NA
+"Kinda Right",NA,"66","XY.X","Adults",3,NA
+"Kinda Right",NA,"67","XY.X","Adults",3,NA
+"Kinda Right",NA,"69","XY.X","Adults",3,NA
+"Right",NA,"70","XY.X","Adults",3,NA
+"Kinda Right",NA,"71","XY.X","Adults",3,NA
+"Kinda Right",NA,"74","XY.X","Adults",3,NA
+"Kinda Right",NA,"75","XY.X","Adults",3,NA
+"Kinda Right",NA,"77","XY.X","Adults",3,NA
+"Right",NA,"80","XY.X","Adults",3,NA
+"Kinda Right",NA,"82","XY.X","Adults",3,NA
+"Right",NA,"84","XY.X","Adults",3,NA
+"Kinda Right",NA,"86","XY.X","Adults",3,NA
+"Kinda Right",NA,"89","XY.X","Adults",3,NA
+"Right",NA,"90","XY.X","Adults",3,NA
+"Right",NA,"93","XY.X","Adults",3,NA
+"Right",NA,"95","XY.X","Adults",3,NA
+"Kinda Right",NA,"96","XY.X","Adults",3,NA
+"Kinda Right",NA,"98","XY.X","Adults",3,NA
+"Kinda Right",NA,"100","XY.X","Adults",3,NA
+"Right",NA,"102","XY.X","Adults",3,NA
+"Kinda Right",NA,"104","XY.X","Adults",3,NA
+"Right",NA,"107","XY.X","Adults",3,NA
+"Kinda Right",NA,"109","XY.X","Adults",3,NA

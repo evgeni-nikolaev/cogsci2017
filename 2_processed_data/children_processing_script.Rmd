@@ -1,0 +1,88 @@
+---
+title: " Children's Connective Card Game Data Wrangling Code"
+author: "Masoud Jasbi"
+date: "November 25, 2016"
+output: html_document
+---
+
+```{r, include=FALSE}
+#load the required packages
+require(tidyverse)
+require(ggplot2)
+require(scales)
+require(boot)
+library(lubridate)
+```
+
+```{r}
+file_names <- list.files("../1_raw_data/children/", pattern=".csv") #where you have your files
+
+child_data <- data.frame()
+
+subjs <- read_csv("../1_raw_data/child_subj_info.csv")
+
+for (file_name in file_names){
+  file <- read.csv(paste("../1_raw_data/children/", file_name, sep=""))
+  sid <-rep (file_name, nrow(file))
+  id <- strsplit(file_name, ".csv")
+  subj_info <- select(filter(subjs, Idnumber==id), Birthday, Date)
+  file <- cbind(file, sid, subj_info)
+  child_data <- rbind(child_data, file)
+}
+```
+
+```{r}
+child_data$trial_type <- NA
+
+condition_function <- function (card, guess) {
+  if (card=="CAT" & guess=="cat" | card=="DOG" & guess=="dog" | card=="ELE" & guess=="elephant") {condition = "X.X"}
+  
+  if (card=="CAT" & guess=="dog" | card=="CAT" & guess=="elephant" | card=="ELE" & guess=="cat" | card=="ELE" & guess=="dog" | card=="DOG" & guess=="cat" | card=="DOG" & guess=="elephant") {condition = "X.Z"}
+
+  if (card=="CAT" & guess=="cat or dog" | card=="CAT" & guess=="cat or elephant" | card=="ELE" & guess=="cat or elephant" | card=="ELE" & guess=="dog or elephant" | card=="DOG" & guess=="dog or elephant" | card=="DOG" & guess=="cat or dog") {condition = "X.XorY"}
+  
+  if (card=="CAT" & guess=="cat and dog" | card=="CAT" & guess=="cat and elephant" | card=="ELE" & guess=="cat and elephant" | card=="ELE" & guess=="dog and elephant" | card=="DOG" & guess=="dog and elephant" | card=="DOG" & guess=="cat and dog") {condition = "X.XandY"}
+
+  if (card=="CAT-DOG" & guess=="cat or dog" | card=="CAT-ELE" & guess=="cat or elephant" | card=="DOG-ELE" & guess=="dog or elephant") {condition = "XY.XorY"}
+  
+  if (card=="CAT-DOG" & guess=="cat and dog" | card=="CAT-ELE" & guess=="cat and elephant" | card=="DOG-ELE" & guess=="dog and elephant") {condition = "XY.XandY"}
+
+  if (card=="CAT-DOG" & guess=="cat" | card=="CAT-DOG" & guess=="dog" | card=="CAT-ELE" & guess=="cat" | card=="CAT-ELE" & guess=="elephant" | card=="DOG-ELE" & guess=="dog" | card=="DOG-ELE" & guess=="elephant") {condition = "XY.X"}
+
+  if (card=="CAT-DOG" & guess=="elephant" | card=="CAT-ELE" & guess=="dog" | card=="DOG-ELE" & guess=="cat") {condition = "XY.Z"}
+  
+  return(condition)
+}
+```
+
+```{r}
+for (i in 1:nrow(child_data)){
+  child_data$trial_type[i] = condition_function(child_data$Card[i],child_data$Guess[i])
+}
+
+child_data <- dplyr::rename(child_data, feedback=Correction, response=Reward)
+
+child_data$response <- factor(child_data$response)
+child_data$response <- plyr::revalue(child_data$response, c("0"="Wrong", "1"="Kinda Right", "2"="Right"))
+
+child_data[,"age_category"] <- "Children"
+
+child_data[, "dv_type"] <- 3
+
+child_data[, "age_year"] <- interval(mdy(child_data$Birthday),mdy(child_data$Date)) / dyears(1)
+
+child_data_final <- select(child_data, -Card, -Guess, -Reaction, -Birthday, -Date)
+
+child_data_final$response <- plyr::revalue(as.factor(child_data_final$response), c("0"="Wrong", "1"="Kinda Right", "2"="Right"))
+
+child_data_final$feedback <- plyr::revalue(as.factor(child_data_final$feedback), c("0"="None", "1"="Judgement", "2"="Description", "3"="Correction"))
+
+write.csv(child_data_final, file = "cardgame_children_data_processed.csv", row.names=FALSE)
+
+child_merge <- read.csv("cardgame_children_data_processed.csv", stringsAsFactors=FALSE)
+adult_merge <- read.csv("cardgame_adults_data_processed.csv", stringsAsFactors=FALSE)
+
+merged_data <- rbind(child_merge, adult_merge)
+     
+write.csv(merged_data, file = "cardgame_data_processed.csv", row.names=FALSE)
+```

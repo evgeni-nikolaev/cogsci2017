@@ -1,0 +1,678 @@
+"response","feedback","sid","trial_type","age_category","dv_type","age_year"
+"Wrong","Judgement","11-10-16_1.csv","X.Z","Children",3,4.55068493150685
+"Kinda Right","None","11-10-16_1.csv","XY.X","Children",3,4.55068493150685
+"Right","Judgement","11-10-16_1.csv","X.X","Children",3,4.55068493150685
+"Right","Description","11-10-16_1.csv","X.XorY","Children",3,4.55068493150685
+"Right","None","11-10-16_1.csv","XY.XandY","Children",3,4.55068493150685
+"Wrong","Judgement","11-10-16_1.csv","XY.Z","Children",3,4.55068493150685
+"Right","Description","11-10-16_1.csv","XY.XorY","Children",3,4.55068493150685
+"Kinda Right","None","11-10-16_1.csv","X.XandY","Children",3,4.55068493150685
+"Wrong","Judgement","11-10-16_1.csv","X.Z","Children",3,4.55068493150685
+"Right","None","11-10-16_1.csv","X.X","Children",3,4.55068493150685
+"Wrong","Judgement","11-10-16_1.csv","XY.Z","Children",3,4.55068493150685
+"Right","Judgement","11-10-16_1.csv","XY.XandY","Children",3,4.55068493150685
+"Kinda Right","Judgement","11-10-16_1.csv","XY.X","Children",3,4.55068493150685
+"Right","Description","11-10-16_1.csv","X.XorY","Children",3,4.55068493150685
+"Kinda Right","None","11-10-16_1.csv","X.XandY","Children",3,4.55068493150685
+"Kinda Right","Correction","11-10-16_1.csv","XY.XorY","Children",3,4.55068493150685
+"Kinda Right","Correction","11-10-16_2.csv","XY.X","Children",3,4.37260273972603
+"Right","Judgement","11-10-16_2.csv","X.X","Children",3,4.37260273972603
+"Wrong","Description","11-10-16_2.csv","X.Z","Children",3,4.37260273972603
+"Wrong","Description","11-10-16_2.csv","XY.Z","Children",3,4.37260273972603
+"Right","Judgement","11-10-16_2.csv","XY.XandY","Children",3,4.37260273972603
+"Wrong","Correction","11-10-16_2.csv","X.XandY","Children",3,4.37260273972603
+"Right","None","11-10-16_2.csv","XY.XorY","Children",3,4.37260273972603
+"Wrong","Correction","11-10-16_2.csv","X.XorY","Children",3,4.37260273972603
+"Right","Judgement","11-10-16_2.csv","X.X","Children",3,4.37260273972603
+"Wrong","None","11-10-16_2.csv","X.XandY","Children",3,4.37260273972603
+"Kinda Right","Judgement","11-10-16_2.csv","XY.X","Children",3,4.37260273972603
+"Wrong","Judgement","11-10-16_2.csv","XY.Z","Children",3,4.37260273972603
+"Right","Correction","11-10-16_2.csv","XY.XorY","Children",3,4.37260273972603
+"Wrong","Description","11-10-16_2.csv","X.Z","Children",3,4.37260273972603
+"Right","Correction","11-10-16_2.csv","XY.XandY","Children",3,4.37260273972603
+"Kinda Right","Description","11-10-16_2.csv","X.XorY","Children",3,4.37260273972603
+"Kinda Right","Description","11-10-16_3.csv","XY.X","Children",3,5.04383561643836
+"Right","Judgement","11-10-16_3.csv","X.X","Children",3,5.04383561643836
+"Wrong","Description","11-10-16_3.csv","X.Z","Children",3,5.04383561643836
+"Right","Description","11-10-16_3.csv","XY.XandY","Children",3,5.04383561643836
+"Wrong","Description","11-10-16_3.csv","XY.Z","Children",3,5.04383561643836
+"Right","Correction","11-10-16_3.csv","XY.XorY","Children",3,5.04383561643836
+"Kinda Right","Description","11-10-16_3.csv","X.XandY","Children",3,5.04383561643836
+"Right","Description","11-10-16_3.csv","X.XorY","Children",3,5.04383561643836
+"Kinda Right","Description","11-10-16_3.csv","X.Z","Children",3,5.04383561643836
+"Wrong","None","11-10-16_3.csv","XY.Z","Children",3,5.04383561643836
+"Right","Description","11-10-16_3.csv","XY.XandY","Children",3,5.04383561643836
+"Kinda Right","Description","11-10-16_3.csv","X.XandY","Children",3,5.04383561643836
+"Right","Judgement","11-10-16_3.csv","X.X","Children",3,5.04383561643836
+"Kinda Right","Description","11-10-16_3.csv","X.XorY","Children",3,5.04383561643836
+"Right","Correction","11-10-16_3.csv","XY.XorY","Children",3,5.04383561643836
+"Kinda Right","Judgement","11-10-16_3.csv","XY.X","Children",3,5.04383561643836
+"Wrong","None","11-10-16_4.csv","XY.X","Children",3,3.93972602739726
+"Kinda Right","None","11-10-16_4.csv","X.X","Children",3,3.93972602739726
+"Wrong","None","11-10-16_4.csv","X.Z","Children",3,3.93972602739726
+"Wrong","Description","11-10-16_4.csv","XY.Z","Children",3,3.93972602739726
+"Wrong","Judgement","11-10-16_4.csv","X.XandY","Children",3,3.93972602739726
+"Kinda Right","None","11-10-16_4.csv","XY.XandY","Children",3,3.93972602739726
+"Wrong","None","11-10-16_4.csv","XY.XorY","Children",3,3.93972602739726
+"Wrong","None","11-10-16_4.csv","X.XorY","Children",3,3.93972602739726
+"Wrong","None","11-10-16_4.csv","XY.XorY","Children",3,3.93972602739726
+"Kinda Right","Judgement","11-10-16_4.csv","X.X","Children",3,3.93972602739726
+"Wrong","None","11-10-16_4.csv","X.XorY","Children",3,3.93972602739726
+"Kinda Right","None","11-10-16_4.csv","XY.XandY","Children",3,3.93972602739726
+"Wrong","Judgement","11-10-16_4.csv","XY.Z","Children",3,3.93972602739726
+"Wrong","Judgement","11-10-16_4.csv","X.XandY","Children",3,3.93972602739726
+NA,NA,"11-10-16_4.csv","X.Z","Children",3,3.93972602739726
+"Wrong","Judgement","11-10-16_4.csv","XY.X","Children",3,3.93972602739726
+"Kinda Right","None","11-10-16_5.csv","XY.X","Children",3,3.4
+"Wrong","None","11-10-16_5.csv","X.Z","Children",3,3.4
+"Right","None","11-10-16_5.csv","X.X","Children",3,3.4
+"Right","Description","11-10-16_5.csv","XY.XorY","Children",3,3.4
+"Wrong","None","11-10-16_5.csv","XY.Z","Children",3,3.4
+"Right","Description","11-10-16_5.csv","X.XandY","Children",3,3.4
+"Right","Description","11-10-16_5.csv","X.XorY","Children",3,3.4
+"Right","Description","11-10-16_5.csv","XY.XandY","Children",3,3.4
+"Right","Correction","11-10-16_5.csv","XY.XorY","Children",3,3.4
+"Wrong","None","11-10-16_5.csv","XY.Z","Children",3,3.4
+"Right","Judgement","11-10-16_5.csv","XY.XandY","Children",3,3.4
+"Right","None","11-10-16_5.csv","X.XandY","Children",3,3.4
+"Right","Description","11-10-16_5.csv","X.XorY","Children",3,3.4
+"Right","Description","11-10-16_5.csv","XY.X","Children",3,3.4
+"Wrong","None","11-10-16_5.csv","X.Z","Children",3,3.4
+"Right","Judgement","11-10-16_5.csv","X.X","Children",3,3.4
+"Right","Description","11-10-16_6.csv","X.X","Children",3,4.27397260273973
+"Wrong","Description","11-10-16_6.csv","X.Z","Children",3,4.27397260273973
+"Kinda Right","Correction","11-10-16_6.csv","XY.X","Children",3,4.27397260273973
+"Right","Description","11-10-16_6.csv","X.XorY","Children",3,4.27397260273973
+"Right","Description","11-10-16_6.csv","XY.XandY","Children",3,4.27397260273973
+"Right","Description","11-10-16_6.csv","XY.XorY","Children",3,4.27397260273973
+"Wrong","Description","11-10-16_6.csv","XY.Z","Children",3,4.27397260273973
+"Kinda Right","Description","11-10-16_6.csv","X.XandY","Children",3,4.27397260273973
+"Kinda Right","Description","11-10-16_6.csv","XY.X","Children",3,4.27397260273973
+"Kinda Right","Description","11-10-16_6.csv","X.XorY","Children",3,4.27397260273973
+"Wrong","Description","11-10-16_6.csv","X.Z","Children",3,4.27397260273973
+"Kinda Right","Correction","11-10-16_6.csv","X.XandY","Children",3,4.27397260273973
+"Wrong","Description","11-10-16_6.csv","XY.Z","Children",3,4.27397260273973
+"Right","Description","11-10-16_6.csv","X.X","Children",3,4.27397260273973
+"Right","Description","11-10-16_6.csv","XY.XandY","Children",3,4.27397260273973
+"Kinda Right","Correction","11-10-16_6.csv","XY.XorY","Children",3,4.27397260273973
+"Kinda Right","None","11-16-16_1.csv","XY.X","Children",3,4.27671232876712
+"Right","Judgement","11-16-16_1.csv","X.X","Children",3,4.27671232876712
+"Wrong","Judgement","11-16-16_1.csv","X.Z","Children",3,4.27671232876712
+"Right","Judgement","11-16-16_1.csv","XY.XandY","Children",3,4.27671232876712
+"Right","Description","11-16-16_1.csv","X.XorY","Children",3,4.27671232876712
+"Wrong","Description","11-16-16_1.csv","XY.Z","Children",3,4.27671232876712
+"Wrong","Judgement","11-16-16_1.csv","X.XandY","Children",3,4.27671232876712
+"Right","Correction","11-16-16_1.csv","XY.XorY","Children",3,4.27671232876712
+"Right","Correction","11-16-16_1.csv","XY.XorY","Children",3,4.27671232876712
+"Right","Description","11-16-16_1.csv","X.XorY","Children",3,4.27671232876712
+"Wrong","Judgement","11-16-16_1.csv","X.Z","Children",3,4.27671232876712
+"Right","Judgement","11-16-16_1.csv","X.X","Children",3,4.27671232876712
+"Wrong","Judgement","11-16-16_1.csv","XY.Z","Children",3,4.27671232876712
+"Right","Judgement","11-16-16_1.csv","XY.XandY","Children",3,4.27671232876712
+"Wrong","Judgement","11-16-16_1.csv","XY.X","Children",3,4.27671232876712
+"Wrong","Judgement","11-16-16_1.csv","X.XandY","Children",3,4.27671232876712
+"Right","Description","11-16-16_2.csv","XY.X","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","X.X","Children",3,3.35616438356164
+"Wrong","Description","11-16-16_2.csv","X.Z","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","XY.XorY","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","X.XorY","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","XY.XandY","Children",3,3.35616438356164
+"Wrong","Description","11-16-16_2.csv","XY.Z","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","X.XandY","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","XY.X","Children",3,3.35616438356164
+"Wrong","Description","11-16-16_2.csv","XY.Z","Children",3,3.35616438356164
+"Wrong","Description","11-16-16_2.csv","X.XandY","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","XY.XorY","Children",3,3.35616438356164
+"Wrong","Correction","11-16-16_2.csv","X.XorY","Children",3,3.35616438356164
+"Wrong","Description","11-16-16_2.csv","X.Z","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","XY.XandY","Children",3,3.35616438356164
+"Right","Description","11-16-16_2.csv","X.X","Children",3,3.35616438356164
+"Right","Judgement","11-16-16_3.csv","X.X","Children",3,4.7972602739726
+"Kinda Right","Description","11-16-16_3.csv","XY.X","Children",3,4.7972602739726
+"Wrong","Description","11-16-16_3.csv","X.Z","Children",3,4.7972602739726
+"Right","Description","11-16-16_3.csv","X.XorY","Children",3,4.7972602739726
+"Kinda Right","Description","11-16-16_3.csv","XY.XorY","Children",3,4.7972602739726
+"Right","Description","11-16-16_3.csv","XY.XandY","Children",3,4.7972602739726
+"Kinda Right","Judgement","11-16-16_3.csv","X.XandY","Children",3,4.7972602739726
+"Wrong","None","11-16-16_3.csv","XY.Z","Children",3,4.7972602739726
+"Kinda Right","Description","11-16-16_3.csv","XY.X","Children",3,4.7972602739726
+"Kinda Right","Judgement","11-16-16_3.csv","XY.XorY","Children",3,4.7972602739726
+"Right","Judgement","11-16-16_3.csv","X.X","Children",3,4.7972602739726
+"Wrong","None","11-16-16_3.csv","XY.Z","Children",3,4.7972602739726
+"Right","None","11-16-16_3.csv","X.XorY","Children",3,4.7972602739726
+"Wrong","None","11-16-16_3.csv","X.XandY","Children",3,4.7972602739726
+"Right","Description","11-16-16_3.csv","XY.XandY","Children",3,4.7972602739726
+"Wrong","Description","11-16-16_3.csv","X.Z","Children",3,4.7972602739726
+"Right","Description","11-16-16_4.csv","XY.X","Children",3,4.51780821917808
+"Kinda Right","Description","11-16-16_4.csv","X.Z","Children",3,4.51780821917808
+"Right","Judgement","11-16-16_4.csv","X.X","Children",3,4.51780821917808
+"Right","Judgement","11-16-16_4.csv","XY.XandY","Children",3,4.51780821917808
+"Right","Description","11-16-16_4.csv","XY.XorY","Children",3,4.51780821917808
+"Right","Description","11-16-16_4.csv","X.XorY","Children",3,4.51780821917808
+"Right","Description","11-16-16_4.csv","X.XandY","Children",3,4.51780821917808
+"Kinda Right","Description","11-16-16_4.csv","XY.Z","Children",3,4.51780821917808
+"Right","Description","11-16-16_4.csv","XY.X","Children",3,4.51780821917808
+"Kinda Right","Description","11-16-16_4.csv","X.Z","Children",3,4.51780821917808
+"Right","Correction","11-16-16_4.csv","XY.XorY","Children",3,4.51780821917808
+"Kinda Right","Correction","11-16-16_4.csv","X.XandY","Children",3,4.51780821917808
+"Right","Description","11-16-16_4.csv","X.XorY","Children",3,4.51780821917808
+"Right","Judgement","11-16-16_4.csv","XY.XandY","Children",3,4.51780821917808
+"Kinda Right","Judgement","11-16-16_4.csv","XY.Z","Children",3,4.51780821917808
+"Right","Judgement","11-16-16_4.csv","X.X","Children",3,4.51780821917808
+"Kinda Right","None","11-16-16_5.csv","XY.X","Children",3,3.8958904109589
+"Wrong","Judgement","11-16-16_5.csv","X.Z","Children",3,3.8958904109589
+"Right","Judgement","11-16-16_5.csv","X.X","Children",3,3.8958904109589
+"Right","Judgement","11-16-16_5.csv","X.XorY","Children",3,3.8958904109589
+"Right","None","11-16-16_5.csv","XY.XandY","Children",3,3.8958904109589
+"Right","None","11-16-16_5.csv","XY.XorY","Children",3,3.8958904109589
+"Kinda Right","Correction","11-16-16_5.csv","X.XandY","Children",3,3.8958904109589
+"Wrong","Judgement","11-16-16_5.csv","XY.Z","Children",3,3.8958904109589
+"Kinda Right","Correction","11-16-16_5.csv","X.XandY","Children",3,3.8958904109589
+"Right","Description","11-16-16_5.csv","XY.XorY","Children",3,3.8958904109589
+"Right","Judgement","11-16-16_5.csv","X.X","Children",3,3.8958904109589
+"Kinda Right","Description","11-16-16_5.csv","XY.X","Children",3,3.8958904109589
+"Kinda Right","Description","11-16-16_5.csv","XY.Z","Children",3,3.8958904109589
+"Kinda Right","Correction","11-16-16_5.csv","X.XorY","Children",3,3.8958904109589
+"Right","Judgement","11-16-16_5.csv","XY.XandY","Children",3,3.8958904109589
+"Wrong","None","11-16-16_5.csv","X.Z","Children",3,3.8958904109589
+"Wrong","Description","11-16-16_6.csv","X.Z","Children",3,5.01917808219178
+"Right","Description","11-16-16_6.csv","X.X","Children",3,5.01917808219178
+"Kinda Right","Description","11-16-16_6.csv","XY.X","Children",3,5.01917808219178
+"Wrong","None","11-16-16_6.csv","X.XandY","Children",3,5.01917808219178
+"Right","Judgement","11-16-16_6.csv","XY.XandY","Children",3,5.01917808219178
+"Right","Description","11-16-16_6.csv","X.XorY","Children",3,5.01917808219178
+"Wrong","Description","11-16-16_6.csv","XY.Z","Children",3,5.01917808219178
+"Right","Description","11-16-16_6.csv","XY.XorY","Children",3,5.01917808219178
+"Kinda Right","Description","11-16-16_6.csv","XY.X","Children",3,5.01917808219178
+"Right","Description","11-16-16_6.csv","XY.XorY","Children",3,5.01917808219178
+"Right","None","11-16-16_6.csv","X.X","Children",3,5.01917808219178
+"Wrong","Description","11-16-16_6.csv","XY.Z","Children",3,5.01917808219178
+"Wrong","Description","11-16-16_6.csv","X.Z","Children",3,5.01917808219178
+"Kinda Right","Description","11-16-16_6.csv","X.XandY","Children",3,5.01917808219178
+"Right","None","11-16-16_6.csv","XY.XandY","Children",3,5.01917808219178
+"Right","Description","11-16-16_6.csv","X.XorY","Children",3,5.01917808219178
+"Right","None","11-18-16_1.csv","X.X","Children",3,4.70958904109589
+"Kinda Right","None","11-18-16_1.csv","XY.X","Children",3,4.70958904109589
+"Wrong","None","11-18-16_1.csv","X.Z","Children",3,4.70958904109589
+"Right","None","11-18-16_1.csv","X.XorY","Children",3,4.70958904109589
+"Kinda Right","None","11-18-16_1.csv","XY.Z","Children",3,4.70958904109589
+"Kinda Right","None","11-18-16_1.csv","XY.XorY","Children",3,4.70958904109589
+"Right","Description","11-18-16_1.csv","X.XandY","Children",3,4.70958904109589
+"Right","Judgement","11-18-16_1.csv","XY.XandY","Children",3,4.70958904109589
+"Right","Description","11-18-16_1.csv","X.XandY","Children",3,4.70958904109589
+"Right","None","11-18-16_1.csv","X.X","Children",3,4.70958904109589
+"Right","Correction","11-18-16_1.csv","XY.XorY","Children",3,4.70958904109589
+"Wrong","Judgement","11-18-16_1.csv","XY.Z","Children",3,4.70958904109589
+"Right","Judgement","11-18-16_1.csv","XY.XandY","Children",3,4.70958904109589
+"Right","Description","11-18-16_1.csv","X.XorY","Children",3,4.70958904109589
+"Wrong","Judgement","11-18-16_1.csv","X.Z","Children",3,4.70958904109589
+"Kinda Right","Description","11-18-16_1.csv","XY.X","Children",3,4.70958904109589
+"Right","Description","11-18-16_2.csv","XY.X","Children",3,3.89315068493151
+"Wrong","Description","11-18-16_2.csv","X.Z","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","X.X","Children",3,3.89315068493151
+"Kinda Right","Description","11-18-16_2.csv","X.XandY","Children",3,3.89315068493151
+"Wrong","Description","11-18-16_2.csv","XY.Z","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","X.XorY","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","XY.XorY","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","XY.XandY","Children",3,3.89315068493151
+"Wrong","Description","11-18-16_2.csv","XY.Z","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","XY.XandY","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","XY.XorY","Children",3,3.89315068493151
+"Wrong","Description","11-18-16_2.csv","X.Z","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","X.XandY","Children",3,3.89315068493151
+"Wrong","Judgement","11-18-16_2.csv","XY.X","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","X.XorY","Children",3,3.89315068493151
+"Right","Description","11-18-16_2.csv","X.X","Children",3,3.89315068493151
+"Right","Judgement","11-18-16_3.csv","X.X","Children",3,4.08767123287671
+"Right","Judgement","11-18-16_3.csv","XY.X","Children",3,4.08767123287671
+"Wrong","Judgement","11-18-16_3.csv","X.Z","Children",3,4.08767123287671
+"Wrong","Judgement","11-18-16_3.csv","X.XandY","Children",3,4.08767123287671
+"Right","Judgement","11-18-16_3.csv","XY.XandY","Children",3,4.08767123287671
+"Right","Description","11-18-16_3.csv","X.XorY","Children",3,4.08767123287671
+"Wrong","Judgement","11-18-16_3.csv","XY.XorY","Children",3,4.08767123287671
+"Wrong","Judgement","11-18-16_3.csv","XY.Z","Children",3,4.08767123287671
+"Right","Judgement","11-18-16_3.csv","XY.XandY","Children",3,4.08767123287671
+"Wrong","Description","11-18-16_3.csv","XY.Z","Children",3,4.08767123287671
+"Right","Description","11-18-16_3.csv","X.XorY","Children",3,4.08767123287671
+"Wrong","Description","11-18-16_3.csv","X.Z","Children",3,4.08767123287671
+"Right","Description","11-18-16_3.csv","XY.XorY","Children",3,4.08767123287671
+"Wrong","None","11-18-16_3.csv","XY.X","Children",3,4.08767123287671
+"Right","Judgement","11-18-16_3.csv","X.X","Children",3,4.08767123287671
+"Wrong","None","11-18-16_3.csv","X.XandY","Children",3,4.08767123287671
+"Kinda Right","Description","11-18-16_4.csv","XY.X","Children",3,4.7041095890411
+"Right","Judgement","11-18-16_4.csv","X.X","Children",3,4.7041095890411
+"Wrong","Description","11-18-16_4.csv","X.Z","Children",3,4.7041095890411
+"Kinda Right","Correction","11-18-16_4.csv","X.XorY","Children",3,4.7041095890411
+"Right","Description","11-18-16_4.csv","XY.XandY","Children",3,4.7041095890411
+"Right","Correction","11-18-16_4.csv","XY.XorY","Children",3,4.7041095890411
+"Wrong","Description","11-18-16_4.csv","XY.Z","Children",3,4.7041095890411
+"Kinda Right","Correction","11-18-16_4.csv","X.XandY","Children",3,4.7041095890411
+"Right","Description","11-18-16_4.csv","XY.XorY","Children",3,4.7041095890411
+"Right","Judgement","11-18-16_4.csv","XY.XandY","Children",3,4.7041095890411
+"Wrong","Description","11-18-16_4.csv","X.Z","Children",3,4.7041095890411
+"Kinda Right","Correction","11-18-16_4.csv","X.XorY","Children",3,4.7041095890411
+"Kinda Right","Description","11-18-16_4.csv","XY.X","Children",3,4.7041095890411
+"Right","Judgement","11-18-16_4.csv","X.X","Children",3,4.7041095890411
+"Kinda Right","Correction","11-18-16_4.csv","X.XandY","Children",3,4.7041095890411
+"Wrong","Description","11-18-16_4.csv","XY.Z","Children",3,4.7041095890411
+"Kinda Right","Description","11-18-16_5.csv","XY.X","Children",3,3.10958904109589
+"Right","Description","11-18-16_5.csv","X.X","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","X.Z","Children",3,3.10958904109589
+"Kinda Right","Correction","11-18-16_5.csv","X.XandY","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","XY.Z","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","X.XorY","Children",3,3.10958904109589
+"Right","Description","11-18-16_5.csv","XY.XorY","Children",3,3.10958904109589
+"Right","Description","11-18-16_5.csv","XY.XandY","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","X.Z","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","X.Z","Children",3,3.10958904109589
+NA,NA,"11-18-16_5.csv","X.X","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","XY.XorY","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","XY.XandY","Children",3,3.10958904109589
+"Kinda Right","Judgement","11-18-16_5.csv","XY.Z","Children",3,3.10958904109589
+"Kinda Right","Correction","11-18-16_5.csv","X.XorY","Children",3,3.10958904109589
+"Kinda Right","Description","11-18-16_5.csv","XY.X","Children",3,3.10958904109589
+"Kinda Right","Correction","11-18-16_5.csv","X.XandY","Children",3,3.10958904109589
+"Wrong","Description","11-2-16_1.csv","X.Z","Children",3,4.34794520547945
+"Kinda Right","Description","11-2-16_1.csv","XY.X","Children",3,4.34794520547945
+"Right","Description","11-2-16_1.csv","X.X","Children",3,4.34794520547945
+"Wrong","Description","11-2-16_1.csv","XY.Z","Children",3,4.34794520547945
+"Wrong","Description","11-2-16_1.csv","XY.XorY","Children",3,4.34794520547945
+"Right","Description","11-2-16_1.csv","XY.XorY","Children",3,4.34794520547945
+"Right","Judgement","11-2-16_1.csv","XY.XandY","Children",3,4.34794520547945
+"Wrong","Description","11-2-16_1.csv","X.Z","Children",3,4.34794520547945
+"Right","Judgement","11-2-16_1.csv","X.X","Children",3,4.34794520547945
+"Kinda Right","Correction","11-2-16_1.csv","X.XandY","Children",3,4.34794520547945
+"Wrong","Description","11-2-16_1.csv","XY.X","Children",3,4.34794520547945
+"Right","Description","11-2-16_1.csv","XY.XandY","Children",3,4.34794520547945
+"Kinda Right","Description","11-2-16_1.csv","XY.Z","Children",3,4.34794520547945
+"Right","Description","11-2-16_1.csv","X.XorY","Children",3,4.34794520547945
+"Wrong","Correction","11-2-16_1.csv","X.XandY","Children",3,4.34794520547945
+"Wrong","Description","11-2-16_1.csv","X.XorY","Children",3,4.34794520547945
+"Kinda Right","Description","11-21-16_1.csv","XY.X","Children",3,4.25479452054795
+"Right","Description","11-21-16_1.csv","X.X","Children",3,4.25479452054795
+"Wrong","Description","11-21-16_1.csv","X.Z","Children",3,4.25479452054795
+"Right","Description","11-21-16_1.csv","XY.XorY","Children",3,4.25479452054795
+"Kinda Right","Description","11-21-16_1.csv","X.XandY","Children",3,4.25479452054795
+"Wrong","None","11-21-16_1.csv","XY.Z","Children",3,4.25479452054795
+"Right","Judgement","11-21-16_1.csv","XY.XandY","Children",3,4.25479452054795
+"Kinda Right","Description","11-21-16_1.csv","X.XorY","Children",3,4.25479452054795
+"Right","None","11-21-16_1.csv","X.X","Children",3,4.25479452054795
+"Right","None","11-21-16_1.csv","XY.XandY","Children",3,4.25479452054795
+"Right","None","11-21-16_1.csv","XY.XorY","Children",3,4.25479452054795
+"Wrong","Judgement","11-21-16_1.csv","XY.Z","Children",3,4.25479452054795
+"Kinda Right","None","11-21-16_1.csv","XY.X","Children",3,4.25479452054795
+"Right","None","11-21-16_1.csv","X.XorY","Children",3,4.25479452054795
+"Right","None","11-21-16_1.csv","X.XandY","Children",3,4.25479452054795
+"Wrong","None","11-21-16_1.csv","X.Z","Children",3,4.25479452054795
+"Kinda Right","None","11-22-16_1.csv","XY.X","Children",3,3.7972602739726
+"Wrong","None","11-22-16_1.csv","X.Z","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","X.X","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","XY.XorY","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","XY.XandY","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","X.XorY","Children",3,3.7972602739726
+"Wrong","None","11-22-16_1.csv","X.XandY","Children",3,3.7972602739726
+"Wrong","None","11-22-16_1.csv","XY.Z","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","XY.XorY","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","X.X","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","XY.XandY","Children",3,3.7972602739726
+"Wrong","None","11-22-16_1.csv","X.Z","Children",3,3.7972602739726
+"Wrong","None","11-22-16_1.csv","XY.Z","Children",3,3.7972602739726
+"Kinda Right","None","11-22-16_1.csv","XY.X","Children",3,3.7972602739726
+"Wrong","None","11-22-16_1.csv","X.XandY","Children",3,3.7972602739726
+"Right","None","11-22-16_1.csv","X.XorY","Children",3,3.7972602739726
+"Right","Judgement","11-22-16_2.csv","X.X","Children",3,3.7041095890411
+"Wrong","Judgement","11-22-16_2.csv","X.Z","Children",3,3.7041095890411
+"Kinda Right","Judgement","11-22-16_2.csv","XY.X","Children",3,3.7041095890411
+"Wrong","Judgement","11-22-16_2.csv","XY.Z","Children",3,3.7041095890411
+"Right","Description","11-22-16_2.csv","XY.XorY","Children",3,3.7041095890411
+"Kinda Right","Correction","11-22-16_2.csv","X.XandY","Children",3,3.7041095890411
+"Right","Description","11-22-16_2.csv","X.XorY","Children",3,3.7041095890411
+"Right","Judgement","11-22-16_2.csv","XY.XandY","Children",3,3.7041095890411
+"Kinda Right","Judgement","11-22-16_2.csv","XY.X","Children",3,3.7041095890411
+"Right","Judgement","11-22-16_2.csv","X.X","Children",3,3.7041095890411
+"Right","Description","11-22-16_2.csv","X.XorY","Children",3,3.7041095890411
+"Wrong","Judgement","11-22-16_2.csv","X.Z","Children",3,3.7041095890411
+"Kinda Right","Correction","11-22-16_2.csv","X.XandY","Children",3,3.7041095890411
+"Right","Judgement","11-22-16_2.csv","XY.XandY","Children",3,3.7041095890411
+"Wrong","Judgement","11-22-16_2.csv","XY.Z","Children",3,3.7041095890411
+"Right","Description","11-22-16_2.csv","XY.XorY","Children",3,3.7041095890411
+"Wrong","None","11-7-16_1.csv","XY.X","Children",3,3.64109589041096
+"Wrong","Judgement","11-7-16_1.csv","X.Z","Children",3,3.64109589041096
+"Right","None","11-7-16_1.csv","X.X","Children",3,3.64109589041096
+"Kinda Right","Judgement","11-7-16_1.csv","XY.XandY","Children",3,3.64109589041096
+"Right","None","11-7-16_1.csv","XY.XorY","Children",3,3.64109589041096
+"Wrong","Judgement","11-7-16_1.csv","XY.Z","Children",3,3.64109589041096
+"Right","None","11-7-16_1.csv","X.XorY","Children",3,3.64109589041096
+"Right","None","11-7-16_1.csv","X.XandY","Children",3,3.64109589041096
+"Kinda Right","Description","11-7-16_1.csv","X.XorY","Children",3,3.64109589041096
+"Wrong","Judgement","11-7-16_1.csv","XY.Z","Children",3,3.64109589041096
+"Right","Judgement","11-7-16_1.csv","X.X","Children",3,3.64109589041096
+"Kinda Right","Judgement","11-7-16_1.csv","XY.XandY","Children",3,3.64109589041096
+"Right","Correction","11-7-16_1.csv","XY.XorY","Children",3,3.64109589041096
+"Wrong","None","11-7-16_1.csv","XY.X","Children",3,3.64109589041096
+"Wrong","Judgement","11-7-16_1.csv","X.Z","Children",3,3.64109589041096
+"Wrong","None","11-7-16_1.csv","X.XandY","Children",3,3.64109589041096
+"Wrong","Judgement","11-7-16_2.csv","X.Z","Children",3,4.53424657534247
+NA,NA,"11-7-16_2.csv","X.X","Children",3,4.53424657534247
+NA,NA,"11-7-16_2.csv","XY.X","Children",3,4.53424657534247
+"Right","Correction","11-7-16_2.csv","XY.XorY","Children",3,4.53424657534247
+"Right","Judgement","11-7-16_2.csv","XY.XandY","Children",3,4.53424657534247
+NA,NA,"11-7-16_2.csv","X.XorY","Children",3,4.53424657534247
+"Kinda Right","Correction","11-7-16_2.csv","X.XorY","Children",3,4.53424657534247
+"Kinda Right","Correction","11-7-16_2.csv","X.XandY","Children",3,4.53424657534247
+"Kinda Right","Judgement","11-7-16_2.csv","XY.X","Children",3,4.53424657534247
+"Wrong","Description","11-7-16_2.csv","XY.X","Children",3,4.53424657534247
+NA,NA,"11-7-16_2.csv","XY.XorY","Children",3,4.53424657534247
+NA,NA,"11-7-16_2.csv","XY.Z","Children",3,4.53424657534247
+"Wrong","Judgement","11-7-16_2.csv","X.Z","Children",3,4.53424657534247
+"Right","Judgement","11-7-16_2.csv","X.X","Children",3,4.53424657534247
+"Right","Correction","11-7-16_2.csv","XY.XorY","Children",3,4.53424657534247
+"Wrong",NA,"11-7-16_2.csv","XY.X","Children",3,4.53424657534247
+"Wrong","Description","11-7-16_2.csv","X.XandY","Children",3,4.53424657534247
+"Right","Judgement","11-7-16_2.csv","XY.XandY","Children",3,4.53424657534247
+"Wrong","Judgement","11-7-16_2.csv","XY.Z","Children",3,4.53424657534247
+"Right","Description","11-7-16_2.csv","X.XorY","Children",3,4.53424657534247
+"Kinda Right","Correction","11-7-16_3.csv","XY.X","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","X.Z","Children",3,3.42739726027397
+"Right","Judgement","11-7-16_3.csv","X.X","Children",3,3.42739726027397
+"Kinda Right","Judgement","11-7-16_3.csv","XY.XorY","Children",3,3.42739726027397
+"Wrong","Correction","11-7-16_3.csv","X.XandY","Children",3,3.42739726027397
+"Right","Judgement","11-7-16_3.csv","XY.XandY","Children",3,3.42739726027397
+"Wrong","None","11-7-16_3.csv","X.XorY","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","XY.Z","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","XY.X","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","XY.Z","Children",3,3.42739726027397
+"Right","Correction","11-7-16_3.csv","XY.XorY","Children",3,3.42739726027397
+"Right","Correction","11-7-16_3.csv","XY.XandY","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","X.XorY","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","X.Z","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","X.XandY","Children",3,3.42739726027397
+"Wrong","Description","11-7-16_3.csv","X.X","Children",3,3.42739726027397
+"Kinda Right","None","11-7-16_4.csv","XY.X","Children",3,4.6986301369863
+"Right","None","11-7-16_4.csv","X.X","Children",3,4.6986301369863
+"Wrong","Description","11-7-16_4.csv","X.Z","Children",3,4.6986301369863
+"Right","Description","11-7-16_4.csv","X.XorY","Children",3,4.6986301369863
+"Right","None","11-7-16_4.csv","XY.XorY","Children",3,4.6986301369863
+"Wrong","Judgement","11-7-16_4.csv","XY.Z","Children",3,4.6986301369863
+"Kinda Right","Correction","11-7-16_4.csv","X.XandY","Children",3,4.6986301369863
+"Right","Description","11-7-16_4.csv","XY.XandY","Children",3,4.6986301369863
+"Right","None","11-7-16_4.csv","XY.XorY","Children",3,4.6986301369863
+"Wrong","Judgement","11-7-16_4.csv","XY.Z","Children",3,4.6986301369863
+"Right","Judgement","11-7-16_4.csv","X.XandY","Children",3,4.6986301369863
+"Kinda Right","Correction","11-7-16_4.csv","XY.X","Children",3,4.6986301369863
+"Right","Description","11-7-16_4.csv","X.X","Children",3,4.6986301369863
+"Wrong","Description","11-7-16_4.csv","X.Z","Children",3,4.6986301369863
+"Kinda Right","Description","11-7-16_4.csv","X.XorY","Children",3,4.6986301369863
+"Right","None","11-7-16_4.csv","XY.XandY","Children",3,4.6986301369863
+"Kinda Right","Judgement","11-7-16_5.csv","XY.X","Children",3,4.56712328767123
+"Right","Judgement","11-7-16_5.csv","X.X","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","X.Z","Children",3,4.56712328767123
+"Right","Description","11-7-16_5.csv","XY.XorY","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","XY.Z","Children",3,4.56712328767123
+"Right","Judgement","11-7-16_5.csv","XY.XandY","Children",3,4.56712328767123
+"Right","Description","11-7-16_5.csv","X.XorY","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","X.XandY","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","X.Z","Children",3,4.56712328767123
+"Right","Judgement","11-7-16_5.csv","X.XorY","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","XY.Z","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","XY.Z","Children",3,4.56712328767123
+"Wrong","Judgement","11-7-16_5.csv","XY.XorY","Children",3,4.56712328767123
+"Right","Judgement","11-7-16_5.csv","X.X","Children",3,4.56712328767123
+"Right","Judgement","11-7-16_5.csv","XY.XandY","Children",3,4.56712328767123
+"Kinda Right","Correction","11-7-16_5.csv","X.XandY","Children",3,4.56712328767123
+"Kinda Right","None","11-7-16_6.csv","XY.X","Children",3,4.05753424657534
+"Wrong","None","11-7-16_6.csv","X.Z","Children",3,4.05753424657534
+"Right","Judgement","11-7-16_6.csv","X.X","Children",3,4.05753424657534
+"Right","Description","11-7-16_6.csv","X.XorY","Children",3,4.05753424657534
+"Right","None","11-7-16_6.csv","XY.XandY","Children",3,4.05753424657534
+"Kinda Right","None","11-7-16_6.csv","X.XandY","Children",3,4.05753424657534
+"Right","None","11-7-16_6.csv","XY.XorY","Children",3,4.05753424657534
+"Wrong","None","11-7-16_6.csv","XY.Z","Children",3,4.05753424657534
+"Right","None","11-7-16_6.csv","X.X","Children",3,4.05753424657534
+"Right","None","11-7-16_6.csv","XY.XorY","Children",3,4.05753424657534
+"Right","None","11-7-16_6.csv","XY.XandY","Children",3,4.05753424657534
+"Wrong","None","11-7-16_6.csv","X.Z","Children",3,4.05753424657534
+"Right","Description","11-7-16_6.csv","X.XorY","Children",3,4.05753424657534
+"Right","None","11-7-16_6.csv","XY.Z","Children",3,4.05753424657534
+"Kinda Right","None","11-7-16_6.csv","X.XandY","Children",3,4.05753424657534
+"Kinda Right","Description","11-7-16_6.csv","XY.X","Children",3,4.05753424657534
+"Right","None","11-7-16_7.csv","X.X","Children",3,4.58356164383562
+"Kinda Right","None","11-7-16_7.csv","XY.X","Children",3,4.58356164383562
+"Wrong","None","11-7-16_7.csv","X.Z","Children",3,4.58356164383562
+"Right","None","11-7-16_7.csv","XY.XandY","Children",3,4.58356164383562
+"Right","None","11-7-16_7.csv","XY.XorY","Children",3,4.58356164383562
+NA,NA,"11-7-16_7.csv","X.XorY","Children",3,4.58356164383562
+"Wrong","None","11-7-16_7.csv","XY.Z","Children",3,4.58356164383562
+"Wrong","None","11-7-16_7.csv","X.XandY","Children",3,4.58356164383562
+"Wrong","None","11-7-16_7.csv","X.XandY","Children",3,4.58356164383562
+"Right","None","11-7-16_7.csv","XY.XandY","Children",3,4.58356164383562
+"Kinda Right","None","11-7-16_7.csv","XY.XorY","Children",3,4.58356164383562
+"Wrong","Description","11-7-16_7.csv","X.XorY","Children",3,4.58356164383562
+"Wrong","Description","11-7-16_7.csv","XY.Z","Children",3,4.58356164383562
+"Right","None","11-7-16_7.csv","X.X","Children",3,4.58356164383562
+"Wrong","Correction","11-7-16_7.csv","XY.X","Children",3,4.58356164383562
+"Wrong","None","11-7-16_7.csv","X.Z","Children",3,4.58356164383562
+"Right","Judgement","11-8-16_1.csv","X.X","Children",3,3.66575342465753
+"Wrong","None","11-8-16_1.csv","X.Z","Children",3,3.66575342465753
+"Kinda Right","None","11-8-16_1.csv","XY.X","Children",3,3.66575342465753
+"Right","None","11-8-16_1.csv","X.XorY","Children",3,3.66575342465753
+"Kinda Right","None","11-8-16_1.csv","XY.XorY","Children",3,3.66575342465753
+"Wrong","Judgement","11-8-16_1.csv","XY.Z","Children",3,3.66575342465753
+"Right","None","11-8-16_1.csv","XY.XandY","Children",3,3.66575342465753
+"Wrong","Description","11-8-16_1.csv","X.XandY","Children",3,3.66575342465753
+"Right","Judgement","11-8-16_1.csv","XY.XandY","Children",3,3.66575342465753
+"Right","Correction","11-8-16_1.csv","XY.XorY","Children",3,3.66575342465753
+"Wrong","Description","11-8-16_1.csv","X.Z","Children",3,3.66575342465753
+"Right","Description","11-8-16_1.csv","X.X","Children",3,3.66575342465753
+"Right","Description","11-8-16_1.csv","X.XorY","Children",3,3.66575342465753
+"Wrong","Description","11-8-16_1.csv","X.XandY","Children",3,3.66575342465753
+"Wrong","Description","11-8-16_1.csv","XY.Z","Children",3,3.66575342465753
+"Wrong","Description","11-8-16_1.csv","XY.X","Children",3,3.66575342465753
+"Kinda Right","None","11-8-16_10.csv","XY.X","Children",3,4.07671232876712
+"Right","Judgement","11-8-16_10.csv","X.X","Children",3,4.07671232876712
+"Wrong","Judgement","11-8-16_10.csv","X.Z","Children",3,4.07671232876712
+"Right","Judgement","11-8-16_10.csv","X.XorY","Children",3,4.07671232876712
+"Wrong","None","11-8-16_10.csv","XY.Z","Children",3,4.07671232876712
+"Right","None","11-8-16_10.csv","X.XandY","Children",3,4.07671232876712
+"Right","Judgement","11-8-16_10.csv","XY.XandY","Children",3,4.07671232876712
+"Right","None","11-8-16_10.csv","XY.XorY","Children",3,4.07671232876712
+"Kinda Right","Judgement","11-8-16_10.csv","XY.X","Children",3,4.07671232876712
+"Right","Judgement","11-8-16_10.csv","X.XandY","Children",3,4.07671232876712
+"Right","Judgement","11-8-16_10.csv","XY.XorY","Children",3,4.07671232876712
+"Wrong","Judgement","11-8-16_10.csv","X.Z","Children",3,4.07671232876712
+"Right","None","11-8-16_10.csv","X.XorY","Children",3,4.07671232876712
+"Right","None","11-8-16_10.csv","X.X","Children",3,4.07671232876712
+"Right","Judgement","11-8-16_10.csv","XY.XandY","Children",3,4.07671232876712
+"Wrong","Judgement","11-8-16_10.csv","XY.Z","Children",3,4.07671232876712
+"Wrong","Judgement","11-8-16_2.csv","X.Z","Children",3,5.15890410958904
+"Right","Judgement","11-8-16_2.csv","X.X","Children",3,5.15890410958904
+"Kinda Right","Correction","11-8-16_2.csv","XY.X","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","X.XorY","Children",3,5.15890410958904
+"Right","Correction","11-8-16_2.csv","XY.XandY","Children",3,5.15890410958904
+"Wrong","Judgement","11-8-16_2.csv","XY.Z","Children",3,5.15890410958904
+"Right","Correction","11-8-16_2.csv","XY.XorY","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","X.XandY","Children",3,5.15890410958904
+"Right","Correction","11-8-16_2.csv","XY.XorY","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","X.XorY","Children",3,5.15890410958904
+"Right","Judgement","11-8-16_2.csv","XY.XandY","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","X.XandY","Children",3,5.15890410958904
+"Right","Judgement","11-8-16_2.csv","X.X","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","XY.X","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","X.Z","Children",3,5.15890410958904
+"Kinda Right","Description","11-8-16_2.csv","XY.Z","Children",3,5.15890410958904
+"Right","Judgement","11-8-16_3.csv","X.X","Children",3,4.48219178082192
+"Kinda Right","Description","11-8-16_3.csv","XY.X","Children",3,4.48219178082192
+"Wrong","Judgement","11-8-16_3.csv","X.Z","Children",3,4.48219178082192
+"Kinda Right","Judgement","11-8-16_3.csv","X.XandY","Children",3,4.48219178082192
+"Right","Description","11-8-16_3.csv","XY.XorY","Children",3,4.48219178082192
+"Right","Judgement","11-8-16_3.csv","XY.XandY","Children",3,4.48219178082192
+"Kinda Right","Description","11-8-16_3.csv","X.XorY","Children",3,4.48219178082192
+"Wrong","Judgement","11-8-16_3.csv","XY.Z","Children",3,4.48219178082192
+"Kinda Right","Description","11-8-16_3.csv","X.XorY","Children",3,4.48219178082192
+"Right","Judgement","11-8-16_3.csv","X.X","Children",3,4.48219178082192
+"Kinda Right","Judgement","11-8-16_3.csv","XY.X","Children",3,4.48219178082192
+"Kinda Right","Judgement","11-8-16_3.csv","X.XandY","Children",3,4.48219178082192
+"Wrong","Judgement","11-8-16_3.csv","X.Z","Children",3,4.48219178082192
+"Right","Description","11-8-16_3.csv","XY.XorY","Children",3,4.48219178082192
+"Wrong","Judgement","11-8-16_3.csv","XY.Z","Children",3,4.48219178082192
+"Right","Judgement","11-8-16_3.csv","XY.XandY","Children",3,4.48219178082192
+"Kinda Right","Description","11-8-16_4.csv","XY.X","Children",3,3.2958904109589
+"Wrong","Judgement","11-8-16_4.csv","X.Z","Children",3,3.2958904109589
+"Right","None","11-8-16_4.csv","X.X","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","X.XandY","Children",3,3.2958904109589
+"Right","Judgement","11-8-16_4.csv","XY.XandY","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","XY.Z","Children",3,3.2958904109589
+"Right","Description","11-8-16_4.csv","XY.XorY","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","X.XorY","Children",3,3.2958904109589
+"Right","Description","11-8-16_4.csv","XY.XorY","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","X.XandY","Children",3,3.2958904109589
+"Right","Description","11-8-16_4.csv","X.X","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","X.XorY","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","XY.Z","Children",3,3.2958904109589
+"Wrong","None","11-8-16_4.csv","X.Z","Children",3,3.2958904109589
+"Right","Judgement","11-8-16_4.csv","XY.XandY","Children",3,3.2958904109589
+"Wrong","Judgement","11-8-16_4.csv","XY.X","Children",3,3.2958904109589
+"Wrong","Description","11-8-16_5.csv","X.Z","Children",3,4.63835616438356
+"Kinda Right","Correction","11-8-16_5.csv","XY.X","Children",3,4.63835616438356
+"Right","Judgement","11-8-16_5.csv","X.X","Children",3,4.63835616438356
+"Wrong","Description","11-8-16_5.csv","XY.Z","Children",3,4.63835616438356
+"Kinda Right","Correction","11-8-16_5.csv","X.XandY","Children",3,4.63835616438356
+"Right","Judgement","11-8-16_5.csv","XY.XandY","Children",3,4.63835616438356
+"Right","Description","11-8-16_5.csv","X.XorY","Children",3,4.63835616438356
+"Right","Correction","11-8-16_5.csv","XY.XorY","Children",3,4.63835616438356
+"Right","Description","11-8-16_5.csv","X.XorY","Children",3,4.63835616438356
+"Right","Correction","11-8-16_5.csv","XY.XorY","Children",3,4.63835616438356
+"Kinda Right","Correction","11-8-16_5.csv","XY.X","Children",3,4.63835616438356
+"Wrong","Judgement","11-8-16_5.csv","XY.Z","Children",3,4.63835616438356
+"Right","Judgement","11-8-16_5.csv","X.X","Children",3,4.63835616438356
+"Kinda Right","Correction","11-8-16_5.csv","X.XandY","Children",3,4.63835616438356
+"Right","Judgement","11-8-16_5.csv","XY.XandY","Children",3,4.63835616438356
+"Wrong","Description","11-8-16_5.csv","X.Z","Children",3,4.63835616438356
+"Right","Judgement","11-8-16_6.csv","X.X","Children",3,4.53150684931507
+"Wrong","Description","11-8-16_6.csv","X.Z","Children",3,4.53150684931507
+"Kinda Right","Description","11-8-16_6.csv","XY.X","Children",3,4.53150684931507
+"Wrong","Description","11-8-16_6.csv","XY.Z","Children",3,4.53150684931507
+"Right","Judgement","11-8-16_6.csv","XY.XandY","Children",3,4.53150684931507
+"Kinda Right","Correction","11-8-16_6.csv","X.XandY","Children",3,4.53150684931507
+"Kinda Right","Correction","11-8-16_6.csv","X.XorY","Children",3,4.53150684931507
+"Right","Judgement","11-8-16_6.csv","XY.XorY","Children",3,4.53150684931507
+"Kinda Right","Correction","11-8-16_6.csv","X.XorY","Children",3,4.53150684931507
+"Kinda Right","Correction","11-8-16_6.csv","XY.X","Children",3,4.53150684931507
+"Right","Judgement","11-8-16_6.csv","X.X","Children",3,4.53150684931507
+"Kinda Right","Correction","11-8-16_6.csv","X.XandY","Children",3,4.53150684931507
+"Wrong","Description","11-8-16_6.csv","XY.Z","Children",3,4.53150684931507
+"Wrong","Description","11-8-16_6.csv","X.Z","Children",3,4.53150684931507
+"Right","Judgement","11-8-16_6.csv","XY.XandY","Children",3,4.53150684931507
+"Right","Judgement","11-8-16_6.csv","XY.XorY","Children",3,4.53150684931507
+"Wrong","Description","11-8-16_7.csv","XY.X","Children",3,4.52876712328767
+"Kinda Right","None","11-8-16_7.csv","X.X","Children",3,4.52876712328767
+"Kinda Right","None","11-8-16_7.csv","X.Z","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","X.XorY","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","XY.XorY","Children",3,4.52876712328767
+"Wrong","None","11-8-16_7.csv","X.XandY","Children",3,4.52876712328767
+"Right","None","11-8-16_7.csv","XY.XandY","Children",3,4.52876712328767
+"Wrong","Description","11-8-16_7.csv","XY.Z","Children",3,4.52876712328767
+"Kinda Right","Description","11-8-16_7.csv","XY.X","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","XY.Z","Children",3,4.52876712328767
+"Kinda Right","Description","11-8-16_7.csv","XY.XorY","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","X.XorY","Children",3,4.52876712328767
+"Wrong","Description","11-8-16_7.csv","X.Z","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","XY.XandY","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","X.XandY","Children",3,4.52876712328767
+"Right","Description","11-8-16_7.csv","X.X","Children",3,4.52876712328767
+"Wrong","Judgement","11-8-16_8.csv","X.Z","Children",3,4.38356164383562
+"Right","None","11-8-16_8.csv","X.X","Children",3,4.38356164383562
+"Kinda Right","Description","11-8-16_8.csv","XY.X","Children",3,4.38356164383562
+"Kinda Right","Correction","11-8-16_8.csv","X.XandY","Children",3,4.38356164383562
+"Right","Correction","11-8-16_8.csv","XY.XorY","Children",3,4.38356164383562
+"Kinda Right","Description","11-8-16_8.csv","X.XorY","Children",3,4.38356164383562
+"Wrong","Judgement","11-8-16_8.csv","XY.Z","Children",3,4.38356164383562
+"Right","Judgement","11-8-16_8.csv","XY.XandY","Children",3,4.38356164383562
+"Right","Judgement","11-8-16_8.csv","XY.XandY","Children",3,4.38356164383562
+"Wrong","Judgement","11-8-16_8.csv","XY.Z","Children",3,4.38356164383562
+"Right","None","11-8-16_8.csv","XY.XorY","Children",3,4.38356164383562
+"Right","Judgement","11-8-16_8.csv","X.X","Children",3,4.38356164383562
+"Kinda Right","Description","11-8-16_8.csv","X.XorY","Children",3,4.38356164383562
+"Kinda Right","Description","11-8-16_8.csv","XY.X","Children",3,4.38356164383562
+"Wrong","Description","11-8-16_8.csv","X.Z","Children",3,4.38356164383562
+"Kinda Right","Correction","11-8-16_8.csv","X.XandY","Children",3,4.38356164383562
+"Right","None","11-8-16_9.csv","X.X","Children",3,4.58904109589041
+"Wrong","Judgement","11-8-16_9.csv","X.Z","Children",3,4.58904109589041
+"Kinda Right","None","11-8-16_9.csv","XY.X","Children",3,4.58904109589041
+"Right","Description","11-8-16_9.csv","X.XorY","Children",3,4.58904109589041
+"Kinda Right","Correction","11-8-16_9.csv","X.XandY","Children",3,4.58904109589041
+"Wrong","Description","11-8-16_9.csv","XY.Z","Children",3,4.58904109589041
+"Right","None","11-8-16_9.csv","XY.XandY","Children",3,4.58904109589041
+"Right","Description","11-8-16_9.csv","XY.XorY","Children",3,4.58904109589041
+"Kinda Right","Correction","11-8-16_9.csv","X.XorY","Children",3,4.58904109589041
+NA,NA,"11-8-16_9.csv","X.XandY","Children",3,4.58904109589041
+"Kinda Right","Correction","11-8-16_9.csv","XY.XorY","Children",3,4.58904109589041
+"Wrong","Judgement","11-8-16_9.csv","X.Z","Children",3,4.58904109589041
+"Right","None","11-8-16_9.csv","X.X","Children",3,4.58904109589041
+"Kinda Right","None","11-8-16_9.csv","XY.X","Children",3,4.58904109589041
+"Wrong","None","11-8-16_9.csv","XY.Z","Children",3,4.58904109589041
+"Right","None","11-8-16_9.csv","XY.XandY","Children",3,4.58904109589041
+"Wrong","None","11-9-16_1.csv","X.Z","Children",3,4.55342465753425
+"Kinda Right","None","11-9-16_1.csv","XY.X","Children",3,4.55342465753425
+"Right","None","11-9-16_1.csv","X.X","Children",3,4.55342465753425
+"Kinda Right","None","11-9-16_1.csv","X.XandY","Children",3,4.55342465753425
+"Right","None","11-9-16_1.csv","XY.XandY","Children",3,4.55342465753425
+"Wrong","Judgement","11-9-16_1.csv","XY.Z","Children",3,4.55342465753425
+"Kinda Right","Correction","11-9-16_1.csv","XY.XorY","Children",3,4.55342465753425
+"Right","None","11-9-16_1.csv","X.XorY","Children",3,4.55342465753425
+"Right","None","11-9-16_1.csv","X.X","Children",3,4.55342465753425
+"Kinda Right","None","11-9-16_1.csv","X.XorY","Children",3,4.55342465753425
+"Wrong","Judgement","11-9-16_1.csv","XY.Z","Children",3,4.55342465753425
+"Right","None","11-9-16_1.csv","XY.XandY","Children",3,4.55342465753425
+"Kinda Right","None","11-9-16_1.csv","XY.X","Children",3,4.55342465753425
+"Wrong","None","11-9-16_1.csv","X.Z","Children",3,4.55342465753425
+"Right","None","11-9-16_1.csv","XY.XorY","Children",3,4.55342465753425
+"Wrong","None","11-9-16_1.csv","X.XandY","Children",3,4.55342465753425
+"Wrong","Judgement","11-9-16_2.csv","X.Z","Children",3,4.46027397260274
+"Kinda Right","None","11-9-16_2.csv","XY.X","Children",3,4.46027397260274
+"Right","Judgement","11-9-16_2.csv","X.X","Children",3,4.46027397260274
+"Right","Judgement","11-9-16_2.csv","XY.XandY","Children",3,4.46027397260274
+"Right","None","11-9-16_2.csv","XY.XorY","Children",3,4.46027397260274
+"Wrong","None","11-9-16_2.csv","XY.Z","Children",3,4.46027397260274
+"Wrong","None","11-9-16_2.csv","X.XandY","Children",3,4.46027397260274
+"Right","Description","11-9-16_2.csv","X.XorY","Children",3,4.46027397260274
+"Wrong","None","11-9-16_2.csv","X.XandY","Children",3,4.46027397260274
+"Right","None","11-9-16_2.csv","X.XorY","Children",3,4.46027397260274
+"Wrong","None","11-9-16_2.csv","X.Z","Children",3,4.46027397260274
+"Right","None","11-9-16_2.csv","X.X","Children",3,4.46027397260274
+"Wrong","None","11-9-16_2.csv","XY.X","Children",3,4.46027397260274
+NA,NA,"11-9-16_2.csv","XY.XorY","Children",3,4.46027397260274
+"Wrong","Judgement","11-9-16_2.csv","XY.Z","Children",3,4.46027397260274
+"Right","Judgement","11-9-16_2.csv","XY.XandY","Children",3,4.46027397260274
+"Right","Judgement","11-9-16_3.csv","X.X","Children",3,5.05753424657534
+"Wrong","Judgement","11-9-16_3.csv","X.Z","Children",3,5.05753424657534
+"Kinda Right","None","11-9-16_3.csv","XY.X","Children",3,5.05753424657534
+"Wrong","Judgement","11-9-16_3.csv","XY.Z","Children",3,5.05753424657534
+"Right","None","11-9-16_3.csv","XY.XandY","Children",3,5.05753424657534
+"Right","None","11-9-16_3.csv","XY.XorY","Children",3,5.05753424657534
+"Kinda Right","Correction","11-9-16_3.csv","X.XandY","Children",3,5.05753424657534
+"Kinda Right","None","11-9-16_3.csv","X.XorY","Children",3,5.05753424657534
+"Right","None","11-9-16_3.csv","XY.XorY","Children",3,5.05753424657534
+"Wrong","None","11-9-16_3.csv","XY.Z","Children",3,5.05753424657534
+"Kinda Right","None","11-9-16_3.csv","XY.X","Children",3,5.05753424657534
+"Kinda Right","None","11-9-16_3.csv","X.XorY","Children",3,5.05753424657534
+"Right","None","11-9-16_3.csv","XY.XandY","Children",3,5.05753424657534
+"Kinda Right","None","11-9-16_3.csv","X.XandY","Children",3,5.05753424657534
+"Wrong","None","11-9-16_3.csv","X.Z","Children",3,5.05753424657534
+"Right","None","11-9-16_3.csv","X.X","Children",3,5.05753424657534
+"Right","Description","11-9-16_4.csv","XY.X","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","X.Z","Children",3,3.14520547945205
+"Right","Judgement","11-9-16_4.csv","X.X","Children",3,3.14520547945205
+"Kinda Right","Description","11-9-16_4.csv","XY.XandY","Children",3,3.14520547945205
+"Wrong","Correction","11-9-16_4.csv","X.XandY","Children",3,3.14520547945205
+"Right","Correction","11-9-16_4.csv","X.XorY","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","XY.XorY","Children",3,3.14520547945205
+"Kinda Right","Description","11-9-16_4.csv","XY.Z","Children",3,3.14520547945205
+"Right","Description","11-9-16_4.csv","XY.XorY","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","X.Z","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","X.XandY","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","XY.Z","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","XY.X","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","XY.XandY","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","X.X","Children",3,3.14520547945205
+"Wrong","Description","11-9-16_4.csv","X.XorY","Children",3,3.14520547945205

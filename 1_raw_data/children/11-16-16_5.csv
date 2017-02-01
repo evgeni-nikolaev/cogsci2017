@@ -1,0 +1,17 @@
+Card,Guess,Reward,Correction,Reaction
+CAT-ELE,cat,1,0,Little star!
+CAT,dog,0,1,No!
+DOG,dog,2,1,Yeah!
+CAT,cat or elephant,2,1,Yes!
+DOG-ELE,dog and elephant,2,0,NA
+CAT-DOG,cat or dog,2,0,NA
+ELE,cat and elephant,1,3,No! Just an elephant!
+DOG-ELE,cat,0,1,No!
+CAT,cat and dog,1,3,No just cat!
+CAT-ELE,cat or elephant,2,2,Cat and elephant! Yes!
+CAT,cat,2,1,[nod]
+CAT-ELE,elephant,1,2,and a cat!
+CAT-ELE,dog,1,2,No there is a cat and an elephant!
+ELE,dog or elephant,1,3,No just an elephant!
+CAT-DOG,cat and dog,2,1,Yeah!
+ELE,cat,0,0,NA

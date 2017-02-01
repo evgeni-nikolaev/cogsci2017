@@ -1,0 +1,17 @@
+Card,Guess,Reward,Correction,Reaction
+CAT-DOG,dog,1,0,NA
+CAT,cat,2,1,[nod]
+DOG,elephant,0,1,[headshake]
+CAT,cat or elephant,2,1,[nod]
+CAT-ELE,dog,0,0,[headshake]
+DOG,dog and elephant,2,0,NA
+DOG-ELE,dog and elephant,2,1,[nod]
+CAT-ELE,cat or elephant,2,0,NA
+DOG-ELE,elephant,1,1,cos he's a little bit right.
+ELE,cat and elephant,2,1,[nod]
+DOG-ELE,dog or elephant,2,1,[nod]
+DOG,cat,0,1,[headshake]
+ELE,dog or elephant,2,0,NA
+CAT,cat,2,0,NA
+CAT-ELE,cat and elephant,2,1,[nod]
+CAT-DOG,elephant,0,1,[headshake]

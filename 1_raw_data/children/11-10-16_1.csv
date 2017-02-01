@@ -1,0 +1,17 @@
+Card,Guess,Reward,Correction,Reaction
+CAT,elephant,0,1,Nope you are not right Jazzy!
+DOG-ELE,dog,1,0,[shows]
+DOG,dog,2,1,she is right!
+DOG,dog or elephant,2,2,dog!
+CAT-DOG,cat and dog,2,0,[shows]
+CAT-DOG,elephant,0,1,Nope! Not right!
+DOG-ELE,dog or elephant,2,2,dog and elephant!
+CAT,cat and elephant,1,0,[shows]
+ELE,cat,0,1,[headshake]
+CAT,cat,2,0,[smiles]
+DOG-ELE,cat,0,1,not right!
+CAT-ELE,cat and elephant,2,1,yup you are right!
+CAT-DOG,dog,1,1,yup! He's a little bit right!
+DOG,cat or dog,2,2,dog!
+ELE,dog and elephant,1,0,[shows]
+CAT-ELE,cat or elephant,1,3,cat AND elephant!

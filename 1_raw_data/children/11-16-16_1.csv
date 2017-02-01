@@ -1,0 +1,17 @@
+Card,Guess,Reward,Correction,Reaction
+CAT-DOG,cat,1,0,NA
+DOG,dog,2,1,Yes!
+CAT,elephant,0,1,No!
+CAT-ELE,cat and elephant,2,1,Yes!
+DOG,cat or dog,2,2,A dog!
+CAT-ELE,dog,0,2,No there was an elephant and a cat!
+ELE,dog and elephant,0,1,Nope! You're not right!
+CAT-ELE,cat or elephant,2,3,cat AND elephant!
+DOG-ELE,dog or elephant,2,3,dog AND an elephant!
+DOG,dog or elephant,2,2,It's a dog!
+ELE,dog,0,1,Wrong!
+ELE,elephant,2,1,You're right!
+CAT-DOG,elephant,0,1,You're wrong!
+DOG-ELE,dog and elephant,2,1,You're right!
+CAT-ELE,elephant,0,1,No you're wrong!
+ELE,cat and elephant,0,1,You're wrong!

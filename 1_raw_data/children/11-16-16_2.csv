@@ -1,0 +1,17 @@
+Card,Guess,Reward,Correction,Reaction
+DOG-ELE,elephant,2,2,An elephant and a DOG!
+CAT,cat,2,2,A CAT!
+DOG,cat,0,2,No a dog!
+CAT-ELE,cat or elephant,2,2,A cat and an ELEPHANT!
+ELE,cat or elephant,2,2,one elephant!
+CAT-ELE,cat and elephant,2,2,A cat and an ELEPHANT!
+DOG-ELE,cat,0,2,a dog and an elephant!
+CAT,cat and elephant,2,2,A cat!
+CAT-DOG,dog,2,2,A kitty cat and a dog!
+CAT-ELE,dog,0,2,Not a dog! A cat and an elephant!
+DOG,dog and elephant,0,2,A dog!
+CAT-DOG,cat or dog,2,2,A cat and a DOG!
+ELE,dog or elephant,0,3,Just an elephant!
+CAT,dog,0,2,A cat!
+CAT-DOG,cat and dog,2,2,a cat and a dog!
+DOG,dog,2,2,A dog!

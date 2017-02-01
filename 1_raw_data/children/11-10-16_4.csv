@@ -1,0 +1,17 @@
+Card,Guess,Reward,Correction,Reaction
+CAT-DOG,dog,0,0,[shows]
+CAT,cat,1,0,[shows]
+ELE,cat,0,0,[shows]
+CAT-ELE,dog,0,2,No! elephant is here and kitty cat is here!
+ELE,cat and elephant,0,1,No!
+DOG-ELE,dog and elephant,1,0,NA
+CAT-ELE,cat or elephant,0,0,NA
+ELE,cat or elephant,0,0,Not right!
+CAT-ELE,cat or elephant,0,0,NA
+DOG,dog,1,1,Yeah! É a lot right!
+CAT,cat or dog,0,0,NA
+CAT-ELE,cat and elephant,1,0,[shows] É  a lot right!
+DOG-ELE,cat,0,1,No!
+DOG,dog and elephant,0,1,He was not right!
+DOG,cat,NA,NA,[shows]
+CAT-ELE,elephant,0,1,No!

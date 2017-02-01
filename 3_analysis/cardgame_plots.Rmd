@@ -1,0 +1,203 @@
+---
+title: "Connective_Game_Analysis"
+author: "Masoud Jasbi"
+date: "August 18, 2016"
+output: html_document
+---
+
+```{r packages, include=FALSE}
+require(tidyverse)
+require(ggplot2)
+require(extrafont)
+library(bootstrap)
+library(forcats)
+library(rstan)
+library(ggmcmc)
+detach("package:plyr", unload=TRUE)
+```
+
+```{r}
+## for bootstrapping 95% confidence intervals
+theta <- function(x,xdata) {mean(xdata[x])}
+ci.low <- function(x) {
+  quantile(bootstrap(1:length(x),1000,theta,x)$thetastar,.025)}
+ci.high <- function(x) {
+  quantile(bootstrap(1:length(x),1000,theta,x)$thetastar,.975)}
+```
+
+```{r}
+## reading the processed data
+data_main <- read.csv("../2_processed_data/cardgame_data_processed.csv")
+
+## isolating the trials with 3 values as DV
+data_main %>%
+  filter(dv_type==3) -> data_main_dv3 
+data_main_dv3
+data_main_dv3 %>% 
+  group_by(sid, trial_type, age_category, response) %>%
+  summarise(counts= n()) %>%
+  spread(response, counts) %>%
+  replace(is.na(.), 0) %>%
+  mutate(total = Wrong + Right + `Kinda Right`) %>%
+  gather(response, counts, `Kinda Right`:Wrong) %>%
+  mutate(prop = counts / total) %>%
+  group_by(trial_type, age_category, response) %>%
+  summarize(cih = ci.high(prop),
+            cil = ci.low(prop),
+            prop = mean(prop)) -> graph_data
+
+graph_data$response <- factor(graph_data$response, levels = c("Wrong", "Kinda Right", "Right"))
+```
+
+```{r adult_plot}
+graph_data %>%
+  filter(age_category=="Adults") %>%
+  filter(trial_type=="XY.XorY" | trial_type=="XY.XandY" | trial_type=="X.XorY" | trial_type=="X.XandY") %>%
+  separate(trial_type, into = c("animal", "connective"), sep="\\.") %>%
+  ggplot(aes(x=response, y=prop,fill=connective)) + 
+  geom_bar(stat="identity", width = 0.6, position="dodge") + 
+  geom_errorbar(aes(ymax = cih, ymin= cil), position = position_dodge(.6), width=0.2) + facet_grid(animal~connective)
+```
+
+```{r child_plot}
+graph_data %>%
+  filter(age_category=="Children") %>%
+  filter(trial_type=="XY.XorY" | trial_type=="XY.XandY" | trial_type=="X.XorY" | trial_type=="X.XandY") %>%
+  separate(trial_type, into = c("animal", "connective"), sep="\\.") %>%
+  ggplot(aes(x=response, y=prop,fill=connective)) + 
+  geom_bar(stat="identity", width = 0.6, position="dodge") + 
+  geom_errorbar(aes(ymax = cih, ymin= cil), position = position_dodge(.6), width=0.2) + facet_grid(animal~connective)
+```
+
+```{r child_adult_plot}
+graph_data %>%
+  filter(trial_type=="XY.XorY" | trial_type=="XY.XandY" | trial_type=="X.XorY" | trial_type=="X.XandY") %>%
+  ggplot(aes(x=response, y=prop,fill=age_category)) + 
+  geom_bar(stat="identity", width = 0.6, position="dodge") + 
+  geom_errorbar(aes(ymax = cih, ymin= cil), position = position_dodge(.6), width=0.2) +
+  scale_x_discrete(drop = FALSE) + facet_wrap(~trial_type)
+```
+
+```{r}
+
+data_main_dv3 %>%
+  filter(age_category=="Children") %>%
+  group_by(sid, trial_type, feedback) %>%
+  summarise(counts= n()) %>%
+  spread(feedback, counts) %>%
+  replace(is.na(.), 0) %>%
+  mutate(total = None + Judgement + Description + Correction) %>%
+  gather(feedback, counts, Correction:None) %>%
+  mutate(prop = counts / total) %>%
+  group_by(trial_type, feedback) %>%
+  summarize(cih = ci.high(prop),
+            cil = ci.low(prop),
+            prop = mean(prop)) -> graph_data_2
+
+critical_2 <- filter(graph_data_2, trial_type=="XY.XorY" | trial_type=="XY.XandY" | trial_type=="X.XorY" | trial_type=="X.XandY")
+critical_2$trial_type <- factor(critical_2$trial_type, levels = c("X.XorY", "XY.XorY", "X.XandY", "XY.XandY"))
+
+  ggplot(critical_2, aes(x=trial_type, y=prop,fill=trial_type)) + 
+  geom_bar(stat="identity", width = 0.6, position="dodge") + 
+  geom_errorbar(aes(ymax = cih, ymin= cil), position = position_dodge(.6), width=0.2) + facet_wrap(~feedback)
+
+  ggplot(critical_2, aes(x=feedback, y=prop,fill=feedback)) + 
+  geom_bar(stat="identity", width = 0.6, position="dodge") + 
+  geom_errorbar(aes(ymax = cih, ymin= cil), position = position_dodge(.6), width=0.2) + facet_wrap(~trial_type)
+  
+```
+
+```{r}
+data_main_dv3 %>%
+  filter(age_category=="Children") %>%
+  group_by(trial_type, sid) %>%
+  mutate(trial_number = 1:n()) %>%
+  unite(trials, trial_type, trial_number, sep=".") %>%
+  select(sid, trials, response) %>%
+  spread(trials, response) %>%
+  select(XY.XandY.1, XY.XandY.2, X.XandY.1, X.XandY.2, XY.XorY.1, XY.XorY.2, X.XorY.1, X.XorY.2) %>%
+  group_by(XY.XorY.1, XY.XorY.2, X.XorY.1, X.XorY.2) %>% 
+  mutate(index = 1:n()) %>%
+  summarise(mixim = max(index))
+
+data_main_dv3 %>%
+  filter(age_category=="Adults") %>%
+  select(sid, trial_type, response) %>%
+  spread(trial_type, response) %>%
+  select(XY.XandY, X.XandY,XY.XorY, X.XorY) %>%
+  group_by(XY.XandY, X.XandY,XY.XorY, X.XorY) %>% 
+  mutate(index = 1:n()) %>%
+  summarise(mixim = max(index)) %>% View()
+```
+
+
+```{r data_cleanup}
+df_stan <- as_tibble(data_main_dv3) %>%
+  filter(age_category == "Children") %>%
+  select(-age_category, -dv_type) %>%
+  mutate(response = fct_relevel(response, "Wrong","Kinda Right"), 
+         age_centered_years = as.numeric(scale(age_year, scale=FALSE))) %>%
+  filter(!is.na(response)) 
+  
+df_stan_small <- df_stan %>%
+  filter(sid %in% unique(data_main_dv3$sid)[1:5]) %>%
+  mutate(sid = factor(sid))
+  
+```
+
+```{r stats}
+rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+
+cardgame_model <- "
+data {
+  int K; // number of responses
+	int<lower=1> N; // number of trials
+	int<lower=1> J; // number of subs
+	real<lower=0> age_year[N];
+	int<lower=1, upper=3> response[N];
+	int<lower=1, upper=12> trial_type[N];
+	int<lower=1, upper=J> subj[N];
+}
+
+parameters {
+	// vector[3] beta; // fixed intercept and slopes
+	// vector[J] u; //subject intercepts
+	// real<lower=0> sigma_e; //error sd
+	// real<lower=0> sigma_u; //subj sd
+  real alpha;
+  real beta_age;
+  ordered[K-1] c; // cutpoints
+}
+
+model {
+  alpha ~ normal(0, 5);
+  beta_age ~ normal(0, 5);
+  c ~ normal(0, 5);
+
+  for (n in 1:N)
+    response[n] ~ ordered_logistic(alpha + beta_age * age_year[n], c);
+}
+"
+
+stan_data <- list(subj = as.integer(df_stan_small$sid),
+                  response = as.integer(df_stan_small$response),
+                  trial_type = as.integer(df_stan_small$trial_type),
+                  age_year = df_stan_small$age_centered_years,
+                  N = nrow(df_stan_small),
+                  J = length(unique(df_stan_small$sid)),
+                  K = 3)
+
+cardgame_model <- stan(model_code = cardgame_model,
+                       data = stan_data, 
+                       warmup = 500,
+                       iter = 1000, chains = 4)
+```
+
+Explore chains
+
+```{r}
+cardgame_samples <- ggs(cardgame_model)
+
+ggmcmc(cardgame_samples)
+```
