@@ -1,0 +1,215 @@
+---
+title: "Connective_Game_Analysis"
+author: "Masoud Jasbi"
+date: "August 18, 2016"
+output: html_document
+---
+  
+```{r packages, include=FALSE}
+require(tidyverse)
+require(ggplot2)
+library(forcats)
+library(rstan)
+library(ggmcmc)
+library(ggthemes)
+## reading the processed data
+data_main <- read.csv("../2_processed_data/cardgame_data_processed.csv")
+
+## isolating the trials with 3 values as DV
+data_main_dv3 <- data_main %>%
+  filter(dv_type==3)
+```
+
+```{r rstan-data}
+df_stan_adult <- as_tibble(data_main_dv3) %>%
+  filter(age_category == "Adults", dv_type== 3) %>%
+  select(-age_category, -dv_type, -age_year, -feedback) %>%
+  mutate(response = fct_relevel(response, "Wrong","Kinda Right")) %>%
+  filter(!is.na(response), 
+         trial_type %in% c("X.XorY","X.XandY","XY.XorY","XY.XandY")) %>%
+  mutate(sid = factor(sid), 
+         trial_type = fct_relevel(factor(trial_type), "XY.XandY"))
+```
+
+```{r rstan-model}
+rstan_options(auto_write = TRUE)
+options(mc.cores = parallel::detectCores())
+
+cardgame_model <- "
+data {
+  int K; // number of responses
+  int<lower=1> N; // number of trials
+  int<lower=1> J; // number of subs
+  int<lower=1, upper=3> response[N];
+  int<lower=1, upper=J> subj[N];
+  int x_and[N]; // one-animal conjunction. two-animals-conjunction is the intercept
+  int x_or[N]; // one-animal disjunction
+  int xy_or[N]; // two-animals disjunction
+}
+
+parameters {
+  vector[J] sub_intercept; //subject intercepts
+  real alpha; // 
+  real beta_x_and; // one-animal 
+  real beta_x_or; // 
+  real beta_xy_or; // 
+  ordered[K-1] c; // cutpoints
+}
+
+model {
+  alpha ~ normal(0, 10);
+  beta_x_and ~ normal(0, 10);
+  beta_x_or ~ normal(0, 10);
+  beta_xy_or ~ normal(0, 10);
+
+  c ~ normal(0, 1);
+
+  for (j in 1:J)
+    sub_intercept[j] ~ normal(0, 10);
+
+  for (n in 1:N)
+    response[n] ~ ordered_logistic(alpha + 
+        beta_x_and * x_and[n] + beta_x_or * x_or[n] + beta_xy_or * xy_or[n] + sub_intercept[subj[n]], c);
+}
+"
+
+stan_data <- list(subj = as.integer(df_stan_adult$sid),
+                  response = as.integer(df_stan_adult$response),
+                  x_and = as.integer(df_stan_adult$trial_type == "X.XandY"),
+                  x_or = as.integer(df_stan_adult$trial_type == "X.XorY"),
+                  xy_or = as.integer(df_stan_adult$trial_type == "XY.XorY"),
+                  N = nrow(df_stan_adult),
+                  J = length(unique(df_stan_adult$sid)),
+                  K = 3)
+
+cardgame_stan <- stan(model_code = cardgame_model,
+                       data = stan_data, 
+                       warmup = 1000,
+                       iter = 2000, chains = 4)
+```
+
+Extract the betas:
+
+```{r betas}
+stanadult_samples <- ggs(cardgame_stan) 
+
+adult_model <- filter(stanadult_samples, 
+                 Parameter %in% c("alpha","beta_x_or",
+                                  "beta_x_and","beta_xy_or"))
+
+adult_model %>%  
+  group_by(Parameter) %>%
+  summarise(mean = mean(value), 
+            hdp_lower = quantile(value, .01),
+            hdp_upper = quantile(value, .99)) %>%
+  knitr::kable(digits = 2)
+
+adultmodel_plot <- adult_model %>%
+  spread(Parameter, value) %>%
+  mutate(and_mean = alpha - beta_x_and,
+         x_mean = beta_x_and - beta_x_or, 
+         or_mean = beta_x_or - beta_xy_or) %>%
+  select(-alpha, -beta_x_and, -beta_x_or) %>%
+  gather(Parameter, value, and_mean, x_mean, or_mean, beta_xy_or) %>%
+  group_by(Parameter) %>%
+  summarise(mean = mean(value), 
+            hdp_lower = quantile(value, .01),
+            hdp_upper = quantile(value, .99)) %>%
+  knitr::kable(digits = 2)
+
+  ggplot(adultmodel_plot, aes(x=Parameter,y=mean)) + geom_point() + geom_errorbar(aes(ymin=hdp_lower,ymax=hdp_upper), position = position_dodge(.6), width=0.2)
+
+adultmodel_plot_2 <- 
+  adult_model %>%
+  spread(Parameter, value) %>%
+  gather(Parameter, value, alpha, beta_x_and, beta_x_or, beta_xy_or) %>%
+  group_by(Parameter) %>%
+  summarise(mean = mean(value), 
+            hdp_lower = quantile(value, .01),
+            hdp_upper = quantile(value, .99))
+
+  ggplot(adultmodel_plot_2, aes(x=Parameter,y=mean)) + geom_point() + geom_errorbar(aes(ymin=hdp_lower,ymax=hdp_upper), position = position_dodge(.6), width=0.2) + theme_few()
+
+
+```
+
+Does intercept trade off with cutpoints?
+
+```{r}
+ggmcmc:ggs_pairs(cardgame_samples)
+
+```
+
+```{r}
+df_stan_adult %>%
+  group_by(trial_type, response) %>%
+  summarise(n = n()) %>%
+  mutate(prop = n / sum(n))
+```
+
+Explore chains
+
+```{r}
+
+ggmcmc(filter(cardgame_samples, !str_detect(as.character(Parameter), "sub_intercept")))
+```
+
+Old age model. 
+
+```{r}
+cardgame_model <- "
+data {
+  int K; // number of responses
+  int<lower=1> N; // number of trials
+  int<lower=1> J; // number of subs
+  real age_year[N];
+  int<lower=1, upper=3> response[N];
+  int<lower=1, upper=J> subj[N];
+  int x_and[N]; // xy and is the intercept
+  int x_or[N];
+  int xy_or[N];
+}
+
+parameters {
+  // vector[3] beta; // fixed intercept and slopes
+  // vector[J] u; //subject intercepts
+  // real<lower=0> sigma_e; //error sd
+  // real<lower=0> sigma_u; //subj sd
+  real alpha;
+  real beta_age;
+  real beta_x_and;
+  real beta_x_or;
+  real beta_xy_or;
+  real beta_age_x_and;
+  real beta_age_x_or;
+  real beta_age_xy_or;
+  ordered[K-1] c; // cutpoints
+}
+
+model {
+  alpha ~ normal(0, 10);
+  beta_age ~ normal(0, 10);
+  beta_x_and ~ normal(0, 10);
+  beta_x_or ~ normal(0, 10);
+  beta_xy_or ~ normal(0, 10);
+  beta_age_x_and ~ normal(0, 10);
+  beta_age_x_or ~ normal(0, 10);
+  beta_age_xy_or ~ normal(0, 10);
+
+  c ~ normal(0, 10);
+
+  for (n in 1:N)
+    response[n] ~ ordered_logistic(alpha + beta_age * age_year[n] + 
+        beta_x_and * x_and[n] + beta_x_or * x_or[n] + beta_xy_or * xy_or[n] + 
+        beta_age_x_and * age_year[n] * x_and[n] + 
+        beta_age_x_or * age_year[n] * x_or[n] + 
+        beta_age_xy_or * age_year[n] * xy_or[n], c);
+}
+"
+```
+
+To test this we look at the difference in paramter estimate iteration by iteration, the 95% confidence intervals for each iteration. 95% confidence interval on the difference between the two.
+Report the means for the three betas with the confidence intervals and then a table for the differences with their confidence intervals
+'
+
+

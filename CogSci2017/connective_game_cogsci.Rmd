@@ -1,5 +1,5 @@
 ---
-title: "The Semantics and Pragmatics of Logical Connectives: Adults' and Children's Interpretations of *and* and *or* in a Guessing Game"
+title: "The Semantics and Pragmatics of Logical Connectives: Adults' and Children's Interpretations of *And* and *Or* in a Guessing Game"
 bibliography: library.bib
 csl: apa6.csl
 document-params: "10pt, letterpaper"
@@ -9,7 +9,7 @@ author-information: >
     \And {\large \bf Michael C. Frank} \\ \texttt{mcfrank@stanford.edu} \\ Department of Psychology \\ Stanford University}
 
 abstract: 
-    "Logical connectives *and* and *or* have been a source of insight into the roles of semantics and pragmatics in children's linguistic development. Previous research has suggested that adults and children may differ in their interpretation of *or* in two ways. First, unlike adults, children may interpret *or* as *and* [@tieu2016]. Second, children interpret *or* as inclusive disjunction while adults interpret it as exclusive disjunction [@chierchia2001acquisition; @crain2012emergence, among others]. We report the results of two experimental studies with truth value judgement tasks that agree with the latter but not the former claim. The results suggest that children do not interpret *or* as *and* but they do interpret it as inclusive disjunction more often than adults. We discuss our analysis of children's linguistic feedback in the experiment that suggests the difference in inclusive interpreation may be caused by truth value judgement tasks rather than differences between children and adults in pragmatic competence."
+    "Logical connectives *and* and *or* have been a source of insight into the roles of semantics and pragmatics in children's linguistic development. Previous research has suggested that adults and children may differ in their interpretation of *or* in two ways. First, unlike adults, children may interpret *or* as *and*. Second, children interpret *or* as inclusive disjunction while adults interpret it as exclusive disjunction. We report the results of two experimental studies with truth value judgement tasks that agree with the latter but not the former claim. The results suggest that children do not interpret *or* as *and* but they do interpret it as inclusive disjunction more often than adults. We discuss our analysis of children's linguistic feedback in the experiment that suggests the difference in inclusive interpreation may be caused by truth value judgement tasks rather than differences between children and adults in pragmatic competence."
     
 keywords:
     "semantics; pragmatics; disjunction; conjunction; language development."
@@ -30,6 +30,7 @@ library(ggplot2)
 library(xtable)
 library(tidyverse)
 library(bootstrap)
+library(ggthemes)
 ```
 
 ```{r bootstrapping}
@@ -44,6 +45,9 @@ ci.high <- function(x) {
 ```{r wrangling}
 ## reading the processed data
 data_main <- read.csv("../2_processed_data/cardgame_data_processed.csv")
+
+data_main_dv3 <- data_main %>%
+  filter(dv_type==3)
 
 ## isolating the trials with 3 values as DV
 data_main %>%
@@ -76,7 +80,7 @@ Despite their simple appearance, *and* and *or* have been a major source of insi
 
 Grice [-@grice1975logicconvo] argued against this ambiguity account. He maintained that the core meaning of *or* is inclusive disjunction. The exclusive interpretation of it is derived from the inclusive meaning via pragmatic reasoning. For example, "*there is a cat or a dog in the picture*" implies that not both animals are in the picture. This is called the *exclusivity implicature*. Grice argued that this implicature is derived via reasoning on what the speaker of the sentence could have said. If the speaker meant to communicate that both animals are in the picture, s/he could have used the connective *and*. He chose *or* instead, so he did not mean to communicate that both animals are in the picture. In the Gricean account, the exclusivity implicature is not part of *or*'s meaning, but rather the result of our reasoning on why the speaker chose *or* instead of *and*. 
 
-Before the emergence of this Gricean account, research on children's interpretation of *and* and *or* adopted the ambiguity account within a Piagetian framework. It was assumed that the concept of choice between two options - in other words the exclusive meaning - is more primitive than the so called logical inclusive meaning. It was predicted that children start by interpreting *or* as exclusive and later learn to interpret it as inclusive disjunction. This developmental hypothesis found initial empirical support from some experimental studies such as Johansson \& Sjolin [-@johansson1975preschool] and Braine \& Rumain [-@braine1981development].
+<!-- Before the emergence of this Gricean account, research on children's interpretation of *and* and *or* adopted the ambiguity account within a Piagetian framework. It was assumed that the concept of choice between two options - in other words the exclusive meaning - is more primitive than the so called logical inclusive meaning. It was predicted that children start by interpreting *or* as exclusive and later learn to interpret it as inclusive disjunction. This developmental hypothesis found initial empirical support from some experimental studies such as Johansson \& Sjolin [-@johansson1975preschool] and Braine \& Rumain [-@braine1981development]. -->
 
 The advent of Gricean pragmatics changed the landscape of research on children's development of *and* and *or* interpretations. The focus shifted to the differences between adults and children in semantic vs. pragmatic aspects of interpretation. In a series of influential studies, Stephen Crain and his colleagues argued that unlike adults who have an implicature-rich exclusive interpretation of *or*, children as young as three years old, interpret the meaning of *or* in its logical and inclusive sense. [@chierchia2001acquisition; @crain2008interpretation; @crain2012emergence; @notley2012children] They argued that children develop the semantics of *or* before its pragmatics: they interpret *or* as inclusive disjunction but fail to enrich it with the exclusivity implicature the way adults do. Therefore, the main difference between children and adults is that children interpret *or* as inclusive, but adults interpret it as exclusive. 
 
@@ -121,8 +125,8 @@ Participants read the consent form on Mturk and clicked on the study link to par
 
 In the test phase, participants saw one trial per trial type for the total of 12 trials. Within each trial type, the specific card-guess scenario was chosen at random. The order of tryial types was also randomized for each participant. At the end of the study, participants received a 4 digit code to enter into Mturk and recieve $0.4 as compensation for their participation.
 
-### Measurement
-In each trial, participants were asked to judge whether Bob's guess was *wrong*, *kinda right*, or *right*. Participants had to click on the radio buttons next to these options and click Next to go to the next trial.
+<!-- ### Measurement -->
+<!-- In each trial, participants were asked to judge whether Bob's guess was *wrong*, *kinda right*, or *right*. Participants had to click on the radio buttons next to these options and click Next to go to the next trial. -->
 
 ```{r critical, fig.env = "figure", fig.pos = "t", fig.align='center', fig.width=3.6, fig.height=2.6, set.cap.width=T, num.cols.cap=1, fig.cap = "Critical trials with example cards."}
 img <- png::readPNG("figs/critical_trials.png")
@@ -135,8 +139,8 @@ Here we focus on the results of the critical trial types. You can see the exampl
 
 The adult responses differ in both dimensions. First, the response patterns in the conjunctive and disjunctive trials are different. For conjunction, the responses are on the extremes of *right* and *wrong*  while for disjunction, they distribute on *kinda right* and *right*. This pattern suggests that adults interpret *and* and *or* differently. Second, the responses are different between the trials where one disjunct/conjuct is true (1T) - and those that both disjuncts/conjuncts are true (2T). This difference is greater for conjunction than disjuction. Adults showed a small preference for the use of disjunction when only one disjunct is true rather than when both are true. This pattern suggests a small preference for an exclusive interpretation in the context of this experiment. 
 
-```{r plot, fig.env="figure", fig.pos = "h", fig.align = "center", fig.width=3.5, fig.height=3.5, fig.cap = "Results for Adults' Conjunction and Disjunction Trials. Error bars represent 95\\% confidence intervals." }
-theme_set(theme_light())
+```{r plot, fig.env="figure", fig.pos = "t", fig.align = "center", fig.width=3.5, fig.height=3.5, fig.cap = "Results for Adults' Conjunction and Disjunction Trials. Error bars represent 95\\% confidence intervals." }
+theme_set(theme_few())
 
 graph_data %>%
   filter(age_category=="Adults") %>%
@@ -144,7 +148,19 @@ graph_data %>%
   ggplot(aes(x=response, y=prop,fill=connective)) + 
   geom_bar(stat="identity", width = 0.6, position="dodge") + 
   geom_errorbar(aes(ymax = cih, ymin= cil), position = position_dodge(.6), width=0.2) + facet_grid(connective~animal) + 
-  guides(fill=FALSE) + labs(title = "", x = "", y = "") + theme(text = element_text(size=8.5))
+  guides(fill=FALSE) + labs(title = "", x = "", y = "")
+```
+
+```{r child_data, fig.env="figure", fig.pos = "t", fig.align = "center", fig.width=3.5, fig.height=3.5, fig.cap = "Results for Children's Conjunction and Disjunction Trials. Error bars represent 95\\% confidence intervals."}
+theme_set(theme_light())
+
+graph_data %>%
+  filter(age_category=="Children") %>%
+  separate(trial_type, into = c("animal", "connective"), sep="\\.") %>%
+  ggplot(aes(x=response, y=prop,fill=connective)) + 
+  geom_bar(stat="identity", width = 0.6, position="dodge") + 
+  geom_errorbar(aes(ymax = cih, ymin= cil), position = position_dodge(.6), width=0.2) + facet_grid(connective~animal) + 
+  guides(fill=FALSE) + labs(title = "", x = "", y = "") + theme_few() + theme(text = element_text(size=9), axis.text.x = element_text(angle=25))
 ```
 
 ### Individual Responses
@@ -171,7 +187,7 @@ critical_trials %>%
 adult_table <- xtable::xtable(adult_summary_table, 
                       caption = "This table prints across one column.")
 
-print(adult_table, type="latex", comment = F, table.placement = "t", floating.environment = "table")
+#print(adult_table, type="latex", comment = F, table.placement = "t", floating.environment = "table")
 ```
 
 ## Discussion
@@ -179,6 +195,7 @@ print(adult_table, type="latex", comment = F, table.placement = "t", floating.en
 In this study, we tested adult interpretations of the connective words *and* and *or* in the context of a guessing game. Adult participants interpreted these words differently and depending on how many disjuncts/conjuncts were satisfied. Overall, a guess with *and* was considered right if both conjuncts were true and wrong if only one was true. A guess with *or* was not wrong in either case, yet adults were more likely to consider it as right when only one of the disjuncts was true. Grouping inviduals based on their responses, we also found that some participants dispreferred disjunctive guesses whether one or both disjuncts were true, some considered them better when both disjucts where true, and some others considered them right in either case.
 
 The results are consistent with the dominent view on the division of labor between semantics and pragmatics in the interpretation of connective words. The semantics of *and* is captured by logical conjunction and *or* by inclusive disjunction. *And* is true when both conjuncts are true and false when only one is true. *Or* is true in both cases but not the best option as a connective when both disjuncts are true. In Experiment 2 we examine preschool children's interpretation of these connectives in the conext of the same guessing game.
+
 
 # Experiment 2
 
@@ -203,16 +220,13 @@ In the test phase, the experimenter removed the three instruction cards and plac
 ### Measurement
 In each trial, children were asked to give the puppet a circle if he is *wrong*, a small star if he is *a little right*, and a big star if he is *right*. During the analysis of the videos, children's linguistic feedback to the puppet after each guess were categorized into four types: 1. None, 2. Judgements, 3. Descriptions, and 4. Corrections. The first category referred to cases where children did not provide any linguistic feedback. Judgements referred to linguistic feedback such as *you are right!*, *yes*, *nope*, *you winned*. Such feedback only expressed judgements and mirrored the rewards. Descriptions were cases that the child simply mentioned what was on the card: *cat!*, *dog and elephant!*, *There is a cat and a dog!* etc. Finally, corrections referred to feedback that provided corrections to what the puppet had said. Examples include: *Just a cat!*, *Both!*, *The two are!*, *Only cat*, *cat AND dog* (with emphasis placed on *and*).
 
-```{r child_data, fig.env="figure", fig.pos = "h", fig.align = "center", fig.width=3.5, fig.height=3.5, fig.cap = "Results for Children's Conjunction and Disjunction Trials. Error bars represent 95\\% confidence intervals."}
-theme_set(theme_light())
-
-graph_data %>%
-  filter(age_category=="Children") %>%
-  separate(trial_type, into = c("animal", "connective"), sep="\\.") %>%
-  ggplot(aes(x=response, y=prop,fill=connective)) + 
-  geom_bar(stat="identity", width = 0.6, position="dodge") + 
-  geom_errorbar(aes(ymax = cih, ymin= cil), position = position_dodge(.6), width=0.2) + facet_grid(connective~animal) + 
-  guides(fill=FALSE) + labs(title = "", x = "", y = "") + theme(text = element_text(size=8.5))
+```{r child_adult_data, fig.env="figure", fig.pos = "t", fig.align = "center", fig.width=3.5, fig.height=3.5, fig.cap = "Results for Adults' and Children's Conjunction and Disjunction Trials. Error bars represent 95\\% confidence intervals." }
+# graph_data %>%
+#   separate(trial_type, into = c("animal", "connective"), sep="\\.") %>%
+#   ggplot(aes(x=response, y=prop,fill=age_category)) + 
+# geom_bar(stat="identity", width = 0.6, position="dodge") + 
+# geom_errorbar(aes(ymax = cih, ymin= cil), position = position_dodge(.6), width=0.2) + facet_grid(connective~animal) + 
+#  guides(fill=FALSE) + labs(title = "", x = "", y = "") + theme_few()
 ```
 
 ## Results 
@@ -223,13 +237,62 @@ In the one-animal and two-animal trials (figure columns), children show differen
 
 Figure 4 shows a side-by-side comparision of adults and children's responses to the guessing game. We see that adults and children mostly differ in their interpretation of disjunction when both disjuncts are true. We also see a difference in one-animal conjunctions trials (top left) where children show more *kinda right* judgments and fewer *wrong* ones than adults. We believe that this is due to children's general reluctance to judge the puppet's guess as *wrong*. 
 
-```{r child_adult_data, fig.env="figure", fig.pos = "h", fig.align = "center", fig.width=3.5, fig.height=3.5, fig.cap = "Results for Adults' and Children's Conjunction and Disjunction Trials. Error bars represent 95\\% confidence intervals." }
-graph_data %>%
-  separate(trial_type, into = c("animal", "connective"), sep="\\.") %>%
-  ggplot(aes(x=response, y=prop,fill=age_category)) + 
-  geom_bar(stat="identity", width = 0.6, position="dodge") + 
-  geom_errorbar(aes(ymax = cih, ymin= cil), position = position_dodge(.6), width=0.2) + facet_grid(connective~animal) + 
-  guides(fill=FALSE) + labs(title = "", x = "", y = "") + theme(text = element_text(size=8.5))
+### Statistical Modeling
+
+We used the R package *{rstan}* for Bayesian statistical modeling. We fitted an ordinal mixed-effects logistic model on children and adults' judgments. The response variable had three ordered levels: *wrong*, *kinda right*, and *right*. The trial types *One-Animals-OR*, *Two-Animals-OR*, *One-Animal-AND* constituted the fixed effects of the model with *Two-Animal-AND* set as the intercept. The model also included by-subject random intercepts. The priors over trial types and the random intercepts were set to $\mathcal{N}(0,10)$. We also included a paramter C of a set of cutpoints on probit of the resonses with the prior $\mathcal{N}(0,1)$. All four chains converged after a burn-in of 1500 and 3000 iterations.
+
+Figure 4 shows the difference of coefficients for the trial types of Expiriments 1 and 2. OR.2-1 shows the comparison between the disjunctive trials: both disjuncts are true vs. only one disjunct is true (Figures 2 and 3, bottom left and right). On average, children are more likely to judge a disjunction as *right* if both disjuncts are true rather than one of them while adults tend towards *kinda right*. AND.2-1 shows the difference between the conjunctive trials: when both conjuncts are true vs. when only on eis true. Both children and adult 
+
+```{r stats}
+adult_samples <- read_csv("../3_analysis/adult_samples")
+child_samples <- read_csv("../3_analysis/child_samples")
+
+adult_comps <- filter(adult_samples, 
+                 Parameter %in% c("alpha","beta_x_or",
+                                  "beta_x_and","beta_xy_or"))
+
+child_comps <- filter(child_samples, 
+                 Parameter %in% c("alpha","beta_x_or",
+                                  "beta_x_and","beta_xy_or"))
+
+acomp_tab <- adult_comps %>%
+  spread(Parameter, value) %>%
+  mutate(and_mean = alpha - beta_x_and,
+         x_mean = beta_x_and - beta_x_or, 
+         or_mean = beta_xy_or - beta_x_or) %>%
+  select(-alpha, -beta_x_and, -beta_x_or) %>%
+  rename(`AND.2-1` = and_mean, `OR.2-1`=or_mean, `1.AND-OR`=x_mean, `2.AND-OR`=beta_xy_or) %>%
+  gather(Parameter, value, `AND.2-1`, `OR.2-1`, `1.AND-OR`, `2.AND-OR`) %>%
+  group_by(Parameter) %>%
+  summarise(mean = mean(value), 
+            hdp_lower = quantile(value, .01),
+            hdp_upper = quantile(value, .99)) 
+
+ccomp_tab <- child_comps %>%
+  spread(Parameter, value) %>%
+  mutate(and_mean = alpha - beta_x_and,
+         x_mean = beta_x_and - beta_x_or, 
+         or_mean = beta_xy_or - beta_x_or) %>%
+  select(-alpha, -beta_x_and, -beta_x_or) %>%
+  rename(`AND.2-1` = and_mean, `OR.2-1`=or_mean, `1.AND-OR`=x_mean, `2.AND-OR`=beta_xy_or) %>%
+  gather(Parameter, value, `AND.2-1`, `OR.2-1`, `1.AND-OR`, `2.AND-OR`) %>%
+  group_by(Parameter) %>%
+  summarise(mean = mean(value), 
+            hdp_lower = quantile(value, .01),
+            hdp_upper = quantile(value, .99)) 
+
+ccomp_tab[,"Age"] <- "child"
+acomp_tab[,"Age"] <- "adult"
+comp_tabs <- rbind(ccomp_tab, acomp_tab)
+comp_tabs$Age <- factor(comp_tabs$Age)
+```
+
+```{r model-plot, fig.env="figure", fig.pos = "t", fig.align = "center", fig.width=3.5, fig.height=3.5, fig.cap = "Comparison of estimated coefficients for trial types. Error bars represent 99\\% confidence intervals."}
+# ggplot(comp_tabs, aes(x=Parameter,y=mean, color=Age)) + geom_point() + geom_errorbar(aes(ymin=hdp_lower,ymax=hdp_upper), width=0.2) + labs(x="", y="Parameter Means") + geom_hline(yintercept=0) + scale_colour_solarized() + theme_few() + theme(text = element_text(size=10),axis.text.x = element_text(angle = 20, hjust = 1), legend.position = "bottom")
+
+ggplot(comp_tabs, aes(y=Parameter,x=mean, color=Age)) + geom_point() + geom_vline(xintercept=0, linetype="dashed") + geom_errorbarh(aes(xmin=hdp_lower,xmax=hdp_upper), width=0.2) + labs(y="", x="Parameter Means") + scale_colour_solarized() + theme_few() + theme(text = element_text(size=9), legend.position = "top")
+
+# ggplot(comp_tabs, aes(x=Age,y=mean)) + geom_point() + geom_errorbar(aes(ymin=hdp_lower,ymax=hdp_upper), width=0.2) + facet_wrap(~Parameter) + geom_hline(yintercept=0, linetype = "dotdash") + scale_colour_solarized() + theme_few() + theme(text = element_text(size=15)) + labs(x="", y="Parameter Means")
 ```
 
 ### Individual Responses
@@ -237,6 +300,30 @@ graph_data %>%
 We searched for children that had the following response patterns: they responded with *wrong* when one disjunct was true but *kinda right* or *right* when both were true; as well as children that responded with *kinda right* when one disjuncts was true but *right* when both were true. We found 10 children with such response patterns. In Experiment 1 we found similar number of adults that showed some preference for a disjunctive guess when both disjuncts were true.
 
 ### Linguistic Feedback
+
+```{r chisq-tests}
+criticals <- 
+  data_main_dv3 %>% filter(!is.na(response), age_category == "Children", 
+         trial_type %in% c("X.XorY","X.XandY","XY.XorY","XY.XandY"))
+criticals$trial_type <- factor(criticals$trial_type)
+
+ctable <-
+  criticals %>% select(feedback, trial_type) %>%
+  group_by(trial_type, feedback) %>%
+  summarise (counts = n()) %>%
+  spread(trial_type, counts)
+ctable <- as.data.frame(ctable)
+
+chisq_1andor <- chisq.test(ctable[,2], p= ctable[,3], rescale.p = T)
+chisq_and12 <- chisq.test(ctable[,2], p = ctable[,4], rescale.p = T)
+chisq_1and2or <- chisq.test(ctable[,2], p = ctable[,5], rescale.p = T)
+chisq_1or2and <- chisq.test(ctable[,3], p= ctable[,4], rescale.p = T)
+chisq_or12 <- chisq.test(ctable[,3], ctable[,5], rescale.p = T)
+chisq_2andor <- chisq.test(ctable[,4], p=ctable[,5], rescale.p = T)
+
+```
+
+We performed chi-squared goodness-of-fit tests to compare the feedback distributions in each condition. We found that in conjunction trials, children's linguistic feedback is not equally distributed when there is one animal vs. two animals on the card ($\chi$(`r chisq_and12$parameter`, N = `r sum(chisq_and12$observed)`) = `r round(chisq_and12$statistic,2)`, p < .05). Children's feedback is also not equally distributed when there is only one animal on the card and the puppet uses *and* vs. *or* ($\chi$(`r chisq_1andor$parameter`, N = `r sum(chisq_1andor$observed)`) = `r round(chisq_1andor$statistic,2)`, p < .05). However, a chi-squared test did not find any significant difference between the trials where *or* was used and there was one animals vs. two animals on the card ($\chi$(`r chisq_or12$parameter`, N = `r sum(chisq_or12$observed)`) = `r round(chisq_or12$statistic,2)`, p < .05). Finally, we found a signifcant difference between the distribution of feedback between the trials with *and* vs. *or* when both animals were on the card ($\chi$(`r chisq_2andor$parameter`, N = `r sum(chisq_2andor$observed)`) = `r round(chisq_2andor$statistic,2)`, p < .05). 
 
 We also categorized children's linguistic feedback to the puppet. Figure 5 shows the results. We excluded the *None* feedback (e.i. the child did not say anything) since a similar rate of such responses was present in each trial type. Children's linguistic feedback fell into three patterns: 1. the one-animal conjunctive and two-animal disjunctive (top left and bottom right) trials show higher proportion of *Corrections* than the other trial types. These are trials that the guesses are either false or infelicitous. The higher number of corrective feedback in these two trial types hints at children's sensitivity to both semantic and pragmatic violations. 2. The one-animal disjunctive trials (bottom left) showed the highest proportion of *Descriptions*. These are trials that the guess is correct but not specific enough; leaves two possibilities open.  3. The two-animal conjunctive trials (top right) show the highest proportion of *Judgements* such as *you are right!*. This is not surprising given that in these trials represent the most optimal guessing scenario.
 
@@ -266,7 +353,7 @@ graph_data_2 %>%
   ggplot(aes(x=feedback, y=prop,fill=connective)) + 
   geom_bar(stat="identity", width = 0.6, position="dodge") + 
   geom_errorbar(aes(ymax = cih, ymin= cil), position = position_dodge(.6), width=0.2) + facet_grid(connective~animal) + 
-  guides(fill=FALSE) + labs(title = "", x = "", y = "") + theme(text = element_text(size=7))
+  guides(fill=FALSE) + labs(title = "", x = "", y = "") + theme_few() + theme(text=element_text(size=9), axis.text.x = element_text(angle=20))
 ```
 
 ## Discussion
@@ -297,3 +384,5 @@ We would like to thank Eve V. Clark and Christopher Potts for their generous hel
 \setlength{\parindent}{-0.1in} 
 \setlength{\leftskip}{0.125in}
 \noindent
+
+

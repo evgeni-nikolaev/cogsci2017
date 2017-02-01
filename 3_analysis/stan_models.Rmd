@@ -11,24 +11,18 @@ require(ggplot2)
 library(forcats)
 library(rstan)
 library(ggmcmc)
+```
 
-## for bootstrapping 95% confidence intervals
-theta <- function(x,xdata) {mean(xdata[x])}
-ci.low <- function(x) {
-  quantile(bootstrap(1:length(x),1000,theta,x)$thetastar,.025)}
-ci.high <- function(x) {
-  quantile(bootstrap(1:length(x),1000,theta,x)$thetastar,.975)}
-
+```{r raw-data}
 ## reading the processed data
 data_main <- read.csv("../2_processed_data/cardgame_data_processed.csv")
 
 ## isolating the trials with 3 values as DV
 data_main_dv3 <- data_main %>%
-  filter(dv_type==3) 
-View(data_main_dv3)
+  filter(dv_type==3)
 ```
 
-```{r }
+```{r rstan-child-data}
 df_stan <- as_tibble(data_main_dv3) %>%
   filter(age_category == "Children") %>%
   select(-age_category, -dv_type) %>%
@@ -38,26 +32,20 @@ df_stan <- as_tibble(data_main_dv3) %>%
          trial_type %in% c("X.XorY","X.XandY","XY.XorY","XY.XandY")) %>%
   mutate(sid = factor(sid), 
          trial_type = fct_relevel(factor(trial_type), "XY.XandY"))
-
-df_stan_small <- df_stan %>%
-  filter(sid %in% unique(data_main_dv3$sid)[1:5]) %>%
-  mutate(sid = factor(sid))
 ```
 
-```{r chisq-test}
-criticals <- 
-  data_main_dv3 %>% filter(!is.na(response), 
-         trial_type %in% c("X.XorY","X.XandY","XY.XorY","XY.XandY"))
-criticals$trial_type <- factor(criticals$trial_type)
-
-tbl <- table(criticals$response, criticals$trial_type)
-View(tbl)
-chimodel <- chisq.test(tbl)
-
-summary(chimodel)
+```{r rstan-adult-data}
+df_stan_adult <- as_tibble(data_main_dv3) %>%
+  filter(age_category == "Adults", dv_type== 3) %>%
+  select(-age_category, -dv_type, -age_year, -feedback) %>%
+  mutate(response = fct_relevel(response, "Wrong","Kinda Right")) %>%
+  filter(!is.na(response), 
+         trial_type %in% c("X.XorY","X.XandY","XY.XorY","XY.XandY")) %>%
+  mutate(sid = factor(sid), 
+         trial_type = fct_relevel(factor(trial_type), "XY.XandY"))
 ```
 
-```{r stats}
+```{r rstan-model}
 rstan_options(auto_write = TRUE)
 options(mc.cores = parallel::detectCores())
 
@@ -98,8 +86,10 @@ model {
         beta_x_and * x_and[n] + beta_x_or * x_or[n] + beta_xy_or * xy_or[n] + sub_intercept[subj[n]], c);
 }
 "
+```
 
-stan_data <- list(subj = as.integer(df_stan$sid),
+```{r chid-sampling}
+stan_childata <- list(subj = as.integer(df_stan$sid),
                   response = as.integer(df_stan$response),
                   x_and = as.integer(df_stan$trial_type == "X.XandY"),
                   x_or = as.integer(df_stan$trial_type == "X.XorY"),
@@ -108,30 +98,44 @@ stan_data <- list(subj = as.integer(df_stan$sid),
                   J = length(unique(df_stan$sid)),
                   K = 3)
 
-cardgame_model <- stan(model_code = cardgame_model,
-                       data = stan_data, 
-                       warmup = 1000,
-                       iter = 2000, chains = 4)
+childmodel_stan <- stan(model_code = cardgame_model,
+                       data = stan_childata, 
+                       warmup = 1500,
+                       iter = 3000, chains = 4)
+
+child_samples <- ggs(childmodel_stan)
+write_csv(child_samples, "child_samples")
+```
+
+```{r}
+stan_adultdata <- list(subj = as.integer(df_stan_adult$sid),
+                  response = as.integer(df_stan_adult$response),
+                  x_and = as.integer(df_stan_adult$trial_type == "X.XandY"),
+                  x_or = as.integer(df_stan_adult$trial_type == "X.XorY"),
+                  xy_or = as.integer(df_stan_adult$trial_type == "XY.XorY"),
+                  N = nrow(df_stan_adult),
+                  J = length(unique(df_stan_adult$sid)),
+                  K = 3)
+
+adultmodel_stan <- stan(model_code = cardgame_model,
+                       data = stan_adultdata, 
+                       warmup = 1500,
+                       iter = 3000, chains = 4)
+
+adult_samples <- ggs(adultmodel_stan)
+write_csv(adult_samples, "adult_samples")
 ```
 
 Extract the betas:
 
-```{r}
-cardgame_samples <- ggs(cardgame_model) 
+```{r betas}
+#adult_samples <- read_csv("adult_samples")
 
-fixefs <- filter(cardgame_samples, 
+fixefs <- filter(child_samples, 
                  Parameter %in% c("alpha","beta_x_or",
                                   "beta_x_and","beta_xy_or"))
 
-fixefs %>%  
-  group_by(Parameter) %>%
-  summarise(mean = mean(value), 
-            hdp_lower = quantile(value, .025),
-            hdp_upper = quantile(value, .975)) %>%
-  knitr::kable(digits = 2)
-
-
-fixefs %>%
+sumtab <- fixefs %>%
   spread(Parameter, value) %>%
   mutate(and_mean = alpha - beta_x_and,
          x_mean = beta_x_and - beta_x_or, 
@@ -140,10 +144,10 @@ fixefs %>%
   gather(Parameter, value, and_mean, x_mean, or_mean, beta_xy_or) %>%
   group_by(Parameter) %>%
   summarise(mean = mean(value), 
-            hdp_lower = quantile(value, .025),
-            hdp_upper = quantile(value, .975)) %>%
-  knitr::kable(digits = 2)
+            hdp_lower = quantile(value, .01),
+            hdp_upper = quantile(value, .99)) 
 
+  ggplot(sumtab, aes(x=Parameter,y=mean)) + geom_point() + geom_errorbar(aes(ymin=hdp_lower,ymax=hdp_upper), width=0.2)
 ```
 
 Does intercept trade off with cutpoints?
@@ -151,17 +155,6 @@ Does intercept trade off with cutpoints?
 ```{r}
 ggmcmc:ggs_pairs(cardgame_samples)
 
-```
-
-```
-
-
-%>%
-  mutate(x_and_or = beta_x_or-beta_x_and,
-         xy_x_or = beta_xy_or - beta_x_or) %>% select(x_and_or, xy_x_or) %>% summarize(x_and_or_low = quantile(x_and_or,.025), 
-            x_and_or_high = quantile(x_and_or,.975),
-            xy_x_or_low = quantile(xy_x_or,.025), 
-            xy_x_or_high = quantile(xy_x_or,.975)) %>% View()
 ```
 
 ```{r}
@@ -235,3 +228,26 @@ model {
 To test this we look at the difference in paramter estimate iteration by iteration, the 95% confidence intervals for each iteration. 95% confidence interval on the difference between the two.
 Report the means for the three betas with the confidence intervals and then a table for the differences with their confidence intervals
 '
+
+```{r chisq-test}
+criticals <- 
+  data_main_dv3 %>% filter(!is.na(response), age_category == "Children", 
+         trial_type %in% c("X.XorY","X.XandY","XY.XorY","XY.XandY"))
+criticals$trial_type <- factor(criticals$trial_type)
+
+ctable <-
+  criticals %>% select(feedback, trial_type) %>%
+  group_by(trial_type, feedback) %>%
+  summarise (counts = n()) %>%
+  spread(trial_type, counts)
+ctable <- as.data.frame(ctable)
+
+chisq_1andor <- chisq.test(ctable[,2], p= ctable[,3], rescale.p = T)
+chisq_and12 <- chisq.test(ctable[,2], p = ctable[,4], rescale.p = T)
+chisq_1and2or <- chisq.test(ctable[,2], p = ctable[,5], rescale.p = T)
+chisq_1or2and <- chisq.test(ctable[,3], p= ctable[,4], rescale.p = T)
+chisq_or12 <- chisq.test(ctable[,3], ctable[,5], rescale.p = T)
+chisq_2andor <- chisq.test(ctable[,4], p=ctable[,5], rescale.p = T)
+
+```
+
