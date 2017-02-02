@@ -110,15 +110,16 @@ critical_2$trial_type <- factor(critical_2$trial_type, levels = c("X.XorY", "XY.
 ```{r}
 data_main_dv3 %>%
   filter(age_category=="Children") %>%
+  filter(response != "") %>%
   group_by(trial_type, sid) %>%
   mutate(trial_number = 1:n()) %>%
   unite(trials, trial_type, trial_number, sep=".") %>%
-  select(sid, trials, response) %>%
+  select(sid, trials, response) %>% 
   spread(trials, response) %>%
   select(XY.XandY.1, XY.XandY.2, X.XandY.1, X.XandY.2, XY.XorY.1, XY.XorY.2, X.XorY.1, X.XorY.2) %>%
-  group_by(XY.XorY.1, XY.XorY.2, X.XorY.1, X.XorY.2) %>% 
+  group_by(XY.XorY.1, XY.XorY.2, X.XorY.1, X.XorY.2) %>%
   mutate(index = 1:n()) %>%
-  summarise(mixim = max(index))
+  summarise(mixim = max(index)) %>% View()
 
 data_main_dv3 %>%
   filter(age_category=="Adults") %>%
@@ -143,61 +144,4 @@ df_stan_small <- df_stan %>%
   filter(sid %in% unique(data_main_dv3$sid)[1:5]) %>%
   mutate(sid = factor(sid))
   
-```
-
-```{r stats}
-rstan_options(auto_write = TRUE)
-options(mc.cores = parallel::detectCores())
-
-cardgame_model <- "
-data {
-  int K; // number of responses
-	int<lower=1> N; // number of trials
-	int<lower=1> J; // number of subs
-	real<lower=0> age_year[N];
-	int<lower=1, upper=3> response[N];
-	int<lower=1, upper=12> trial_type[N];
-	int<lower=1, upper=J> subj[N];
-}
-
-parameters {
-	// vector[3] beta; // fixed intercept and slopes
-	// vector[J] u; //subject intercepts
-	// real<lower=0> sigma_e; //error sd
-	// real<lower=0> sigma_u; //subj sd
-  real alpha;
-  real beta_age;
-  ordered[K-1] c; // cutpoints
-}
-
-model {
-  alpha ~ normal(0, 5);
-  beta_age ~ normal(0, 5);
-  c ~ normal(0, 5);
-
-  for (n in 1:N)
-    response[n] ~ ordered_logistic(alpha + beta_age * age_year[n], c);
-}
-"
-
-stan_data <- list(subj = as.integer(df_stan_small$sid),
-                  response = as.integer(df_stan_small$response),
-                  trial_type = as.integer(df_stan_small$trial_type),
-                  age_year = df_stan_small$age_centered_years,
-                  N = nrow(df_stan_small),
-                  J = length(unique(df_stan_small$sid)),
-                  K = 3)
-
-cardgame_model <- stan(model_code = cardgame_model,
-                       data = stan_data, 
-                       warmup = 500,
-                       iter = 1000, chains = 4)
-```
-
-Explore chains
-
-```{r}
-cardgame_samples <- ggs(cardgame_model)
-
-ggmcmc(cardgame_samples)
 ```
