@@ -1,0 +1,93 @@
+---
+title: "Reveiwer Comments"
+author: "Masoud Jasbi"
+date: ""
+output: 
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Lit Review
+
+> This leads to another, more general, comment which is that the work is consistent with what we know, which is that semantic readings are good enough for younger participants and that pragmatic enrichments of disjunction become more common with age. This robust finding (that, as the authors know, is consistent with an array of pragmatic effects) has been around since the beginning of the development-of-scalar-implicature literature; that literature folded earlier, intriguing, hard-to-interpret findings on disjunction (from Braine and Rumain, Paris as well as Sternberg) from the 1970's and 80's into Grice-inspired interpretations that dominated the discussion since the early 2000’s.  Those earlier disjunctive tasks were harder and included older kids, but those original findings are in line with what is reported here.  While Braine & Rumain (1981), for example, noted how there was a shift from (conjunctive to) inclusive to exclusive readings of disjunctions with age and how they were stumped by that, the Grice-inspired analyses made sense of those data.
+
+#### <span style="color:red"> Revise the intro to engage with the previous literature more?</span>
+
+# Method
+
+## DV choice
+
+> In the experiments, the response format is original because it is not bivalent. The authors take the Kasos & Bishop (2011) idea to use a ternary scale with the three options: “wrong”, “kinda right” and “right”. I think that it is a very good point for the paper. There are some new evidences that the binary scale is not relevant to study the logical connective interpretation (see for example Politzer, Over & Baratgin, 2013; Baratgin, Over & Politzer, 2014).  However, the paper doesn’t not justify this choice. It will be interesting for example to know why authors don’t use a symmetrical ternary scale (let’s said “wrong”, “neither wrong nor right” and “right”), why using “kinda right” and not “kinda wrong”, etc…? In the same way, with the context of guess used in the experiments, it would be important to know how participants (and specially children) interpret the terms ‘right” and “wrong” of this response scale (they may actually interpret it as a level of confidence of the guess). References: Baratgin, J., Over, D. E., & Politzer, G. (2014). New Psychological Paradigm for Conditionals and General de Finetti Tables, Mind & Language, 29(1), 73-84. Politzer, G., Over, D. E., & Baratgin, J. (2010). Betting on conditionals. Thinking & Reasoning, 16, (3), 172-197.
+
+#### <span style="color:red"> Explain a bit more about why we chose 3 levels and why using "a little right"/"kinda right": was simple enough for children to understand and provided a good middle option. "neither wrong nor right" is not great for children. </span>
+
+> The authors also add a wrinkle by providing three response options - right, kinda right, and wrong. (It should be pointed out that, while this wrinkle might make the task more appealing, it does not necessarily sharpen our understanding of the question. That is, a “kinda right” response -- or a rating task with rewards (strawberries or whatever) -- makes these types of task metalinguistic.  The participant’s task becomes “was the speaker’s utterance optimal” as opposed to “is this utterance minimally satisfying.”  The youngest of participants are probably unaffected by these response options, but older children and adults are arguably.
+
+#### <span style="color:red"> We can explain that we wanted the task to capture more than "minimal satisfaction". </span>
+
+## Design
+
+> the unequal number of trials between Exp. 1 and 2 (typically one might expect that researchers would use fewer trials for children; fewer trials for adults not motivated, also, it seems that having multiple trials for children per trial type makes the developmental data slightly harder to talk about as being consistent)
+
+#### <span style="color:red"> The main reason was that the adults experiment was more of testing the waters with the paradigm. I wanted to check the outcome for all trial types, but the task was super easy and 2 per trial type was extremely boring. I also did not think that given how easy the task is for adults, the second trial per trial type is gonna add much to the results. However, if a big problem I can run it again focusing on the relevant trial types and with two trials per trial type. </span>
+
+# Analysis
+
+> the lack of statistical reporting in the main results sections;
+
+> the lack of descriptive statistics for the linguistic feedback measure;
+
+> potential errors in the reporting of the chi-squared analyses (could be a typo (one of the analyses has different numbers for df and observations)? Could be due to differences in numbers of productions by connective type? Hard to tell from the data provided);
+
+> a lack of comparison between adults and children that the general discussion focuses on. 
+
+> Criterion for Rejecting the Conjunctive Hypothesis:
+
+> The authors, for reasons that escape me, use a very strict criterion to test the idea that the disjunction IS the conjunction for younger participants. So, the authors apply conjunctivehood to all disjunctions (including to the 1 animal condition). This seems like an exagerrated claim and I am not aware of anyone in linguistic-pragmatics who makes it (this is different than saying that disjunctions are treated as inclusive by younger folks). Nevertheless, the main finding from the older studies is confirmed.  All this to say that it is not clear why grammaticocentric accounts are the authors' reference when these data speak to pragmatic development that has little to do with the kind of constraints (such as disjunction under negation, Demorgans, etc.) that preoccupy conventionalists. By opening the paper up to more generally robust findings, one would make the paper more appealing to a Cogsci audience and not just to linguists. This would address R2's comment about the niche way this was written (which was indeed very clear). 
+
+> Second, the pragmatically rich one (left out of the analyses) would be revealing of pragmatic development generally.  Its exclusion from the analyses is unfortunate because it would retrain a focus on pragmatic development, where the data lead, and away from the authors’ grammatically-inspired analyses of logical particles that do not in the least address the main results.
+
+## Age Trend
+
+> One point that may deserve some consideration relates to the age of the children. I suggest that the authors examine and report whether there is any age-related trend in the responses (maybe after splitting the sample into two halves). The reason is that the age range (3; 02 to 5;02) covers a crucial period both for the development of pragmatic skills and, in parallel, for cognitive development in terms of theory of mind; the latter being relevant because children were asked to assess the puppet's sentence qua guess and the capacity to perform this task is likely to be related to it.
+
+## Order Effect
+
+> no mention of any possible order effects, or any suggestion that the authors considered alternative factors driving their results (despite random presentation of trials, one can still look at if there is an effect of having experienced a 2T “and” trial before “or” and vice versa, as some might expect if one believes the story that having an alternative available increases pragmatic interpretations ala Barner, Brooks, and Bale (2011)); 
+
+#### Response: Report an analysis of possible order effects
+
+# Discussion
+
+> the authors play down the merit of their findings, by suggesting that akin to previous findings that children treat “or” inclusively, when their data suggests that as individuals they do not consistently do so more than adults. The supporting evidence from the linguistic feedback supports a theory that our measures as a field are not sensitive enough to capture children’s true knowledge.
+
+#### Response: Be clear that by "treatiing or as inclusive" we mean exclusivity inferences are fewer in the 2DT trials in children. Wait for experiment 2 to make the strong claim about the sensitivity of our mesasures.
+
+# Completeness and Clarity
+
+> the potential lack of control trials / “wrong” trials in the design; 
+
+> page 2, section Materials and Design it would be helpful to spell out the 12 different trial types.
+
+> page 2, first paragraph of the Results section, the sentence “The number of animals...." is incomprehensible. Please restate this.
+
+> They ultimately claim to find that despite their new measures, children still appear to treat “or” as inclusive “or” (akin to “and”), whereas adults do not, but that their statements about trials suggest that they might actually differentiate between “or” and “and”.
+
+> However, in the General Discussion the authors make the claim that “children were more likely to interpret “or” as inclusive disjunction”, or at least moreso than adults, but in the analyses the authors do not 1) directly compare the results statistically (unless one is considering the possible sign differences in the Bayesian modeling, which suggest that children are slightly more positive, but it is not ever reported that they are significantly more positive), 2) mention that in terms of individual differences that nearly the same proportion of children show evidence of preferring inclusive “or” as adults in Experiment 1.
+
+> Figure 4 could be improved by having different shapes rather than colors used to delineated adults/kids
+
+> In “Linguistic Feedback” for Experiment 2, why are there more degrees of freedom, and fewer observations for disjunction trials between 1T and 2T than for conjunction trials? 
+
+> Also, I guess the graph in Fig 5 doesn’t really give any indication for the overall differences in the number of comments made by children between 1T/2T, disjunction/conjunction, just the proportion of responses (while I expect that they likely differ, and it’s difficult to elicit comments by children, perhaps some additional descriptive stats would be nice)
+
+> Also, the authors raise the point in the discussion that they would consider manipulating the goal of the task in future experiments, but I feel like the description of the goal of the current task is underspecified in this paper. Specifically, when I encountered the portion of the discussion in Experiment 1 where the authors claim that one possibility why they might find a specific pattern of results in individual differences because there might be a pragmatic pressure for the participants to prefer guesses that match in number to the number of animals on a card – is there any explanation given to the participants about why the guesser makes a guess for one or two animals (do they know the card has one or more animals on it? Given it’s a guessing game, it would seem odd to use “and” because there is no reason for the guesser to be certain that both 1) there would be more than one item on a card, and 2) that they know which two are on the card (it’s pragmatically weird to make a guess with “and”, but less so, with “or” given that any animal could be on a card, or two animals could be on a card). Perhaps a little more detail about how the task was explained to the participants would satisfy this.
+
+> The text was not 100% clear about the details of the paradigm because the authors place an emphasis on there being "two types of cards" and because the investigation focuses on just four of the cases (which I will turn to shortly).  It does become clear eventually that there are 12 types of trials when one crosses the 3 types of statement -- i.e. the "P," "P & Q," "P OR Q" guesses -- with the four kinds of cards. The method could be more complete and clearer.

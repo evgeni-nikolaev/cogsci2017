@@ -106,16 +106,12 @@ We recruited 52 English speaking adults online. The task took about 5 minutes on
 
 We used Amazon’s Mechanical Turk (MTurk) for recruitment and the online platform Qualtrics for data collection and survey design. 
 
-The study included six cards with cartoon images of a cat, a dog, and an elephant. There were two types of cards: cards with only one animal on them and the ones with two animals. We also used three types of descriptions as guesses for these cards: simple (e.g. *There is a cat*), conjunctive (e.g. *There is a cat and a dog*), and disjunctive (e.g. *There is a cat or a dog*). Pairing the card-types with the guesses resulted in 6 types of card-guess scenarios (one-animal conjunctive, two-animal disjunctive, etc.). In each scenario, the animal labels used in the guess and the animal images on the card may have no overlap (e.g. Image: dog, Guess: *There is a cat or an elephant*), a partial overlap (e.g. Image: Cat, Guess: *There is a cat or an elephant*), or a total overlap (e.g. Image: cat and elephant, Guess: *There is a cat or an elephant*). Crossing the number of animals on the card,  the type of guess, and the overlap between the guess and the card resulted in 12 different trial types.
-
+The study resembled a card game. There were several cards with cartoon images of either one or two animals. The animals included a cat, a dog, and an elephant. The game also used three types of guesses: simple (e.g. *There is a cat*), conjunctive (e.g. *There is a cat and a dog*), and disjunctive (e.g. *There is a cat or a dog*). Pairing the cards with the guesses resulted in 6 types of card-guess scenarios: a one-animal card with a conjunction guess, a two-animal card with a disjunction guess, etc. In each scenario, the animal labels used in the guess and the animal images on the card may have no overlap (e.g. Image: dog, Guess: *There is a cat or an elephant*), a partial overlap (e.g. Image: Cat, Guess: *There is a cat or an elephant*), or a total overlap (e.g. Image: cat and elephant, Guess: *There is a cat or an elephant*). Crossing the number of animals on the card, the type of guess, and the overlap between the guess and the card resulted in 12 different trial types.^[For the details of the design, randomization, results, data, and R code visit (https://github.com/jasbi/cogsci2017).]
 
 ### Procedure
-The experiment had three phases: introduction, instruction, and test. In the introduction, participants saw the six cards and read that they will play a guessing game with them. Then a blindfolded cartoon character named Bob appeared on the screen and they were told that in each round of the game, they will see a card and Bob is going to guess what animal is on the card. We emphasized that Bob cannot see anything. We asked participants to judge whether Bob's guess is *wrong*, *kinda right*, or *right*. In the instruction phase, participants saw an example trial where a card with the image of a dog was shown and the following sentence was written above Bob's head: *Bob: There is a cat on the card*. All participants correctly responded with *wrong* and proceeded to the next phase.^[Randomization code, data, and R code for analyses available at (https://github.com/masoud-jasbi/connective\_cardgame\_cogsci2017).]
+The experiment had three phases: introduction, instruction, and test. In the introduction, participants saw the six cards and read that they will play a guessing game with them. Then a blindfolded cartoon character named Bob appeared on the screen and they were told that in each round of the game, they will see a card and Bob is going to guess what animal is on the card. We emphasized that Bob cannot see anything. We asked participants to judge whether Bob's guess is *wrong*, *kinda right*, or *right*. In the instruction phase, participants saw an example trial where a card with the image of a dog was shown and the following sentence was written above Bob's head: *Bob: There is a cat on the card*. All participants correctly responded with *wrong* and proceeded to the next phase.
 
 In the test phase, participants saw one trial per trial type for the total of 12 trials. Within each trial type, the specific card-guess scenario was chosen at random. The order of trial types was also randomized. At the end of the study, participants received $0.4 as compensation.
-
-<!-- ### Measurement -->
-<!-- In each trial, participants were asked to judge whether Bob's guess was *wrong*, *kinda right*, or *right*. Participants had to click on the radio buttons next to these options and click Next to go to the next trial. -->
 
 ```{r critical, fig.env = "figure", fig.pos = "t", fig.align='center', fig.width=3.6, fig.height=2.6, set.cap.width=T, num.cols.cap=1, fig.cap = "Critical trials with example cards."}
 img <- png::readPNG("figs/critical_trials.png")
@@ -124,15 +120,11 @@ grid::grid.raster(img)
 
 ## Results 
 
-Here we focus on the results of the critical trial types (pictured in Figure 1). These scenarios include conjunctive and disjunctive guesses with some overlap between the guessed animals and the animal(s) on the cards.^[Participants judged the trials with no overlap as *wrong* consistently.] The number of animals in the critical trials of this study corresponds to the number of true conjunct/disjuncts: one animal is 1 conjunct/disjunct true (1T) and two animals, two conjunct/disjuncts true (2T) [@tieu2016]. 
-
-<!-- Figure 2 shows the results for these critical trials. The columns mark the number of animals on the cards and the rows the type of guess, namely conjunctive vs. disjunctive. -->
-<!-- Comparing the rows allows us to know whether adults interpret *and* and *or* differently. The column comparison shows whether *or* is interpreted as inclusive or exclusive. -->
+Here we focus on the results of the critical trial types, pictured in Figure 1.^[For the results of non-critical trials visit the paper's github repository.] These are trials with conjunctive and disjunctive guesses that have some overlap between the guessed animals and the animal(s) on the cards. We identify these trials using two features: 1. Guess Type: which connective was used for guessing (AND vs. OR) 2. Number of Animals: how many of the guessed animals were present on the card (One Animal vs. Two Animals). Guess type is represented as rows and number of animals as columns in Figure 1. The number of animals represent how many disjuncts/conjuncts were true for each guess: one animal is 1 conjunct/disjunct true (1T) and two animals, two conjunct/disjuncts true (2T).
 
 Adult responses differed both by guess type and number of animals (Figure 2). First, the response patterns in the conjunctive and disjunctive trials are different. For conjunction, the responses were on the extremes of *right* and *wrong*  while for disjunction, they were distributed on *kinda right* and *right*. This pattern suggests that adults interpret *and* and *or* differently. Second, the responses were different between the trials where one disjunct/conjunct was true (1T) and those where both disjuncts/conjuncts were true (2T). This difference was greater for conjunction than disjunction. Adults showed a small preference for the use of disjunction when only one disjunct was true rather than when both were true. This pattern suggests a small preference for an exclusive interpretation in the context of this experiment.
 
-
-```{r plot, fig.env="figure", fig.pos = "t", fig.align = "center", fig.width=3.5, fig.height=3.5, fig.cap = "Adult judgments across trial types (panels), for critical trials of Experiment 1. Error bars represent 95\\% confidence intervals." }
+```{r plot, fig.env="figure", fig.pos = "t", fig.align = "center", fig.width=3.5, fig.height=3.5, fig.cap = "Adult judgments in critical trials of Experiment 1. Error bars represent 95\\% confidence intervals." }
  
 adults <- graph_data %>%
   filter(age_category=="Adults") %>%
@@ -147,10 +139,12 @@ ggplot(adults,
   labs(title = "", x = "", y = "") + 
   theme_few() + 
   theme(axis.text.x = element_text(angle=90, hjust = 1, vjust = .5)) +
-  scale_fill_solarized()
+  scale_fill_brewer(type = "qual", palette = 7)
+
+#    scale_fill_solarized()
 ```
 
-```{r child_data, fig.env="figure", fig.pos = "t", fig.align = "center", fig.width=3.5, fig.height=3.5, fig.cap = "Children's judgments across trial types (panels), for critical trials of Experiment 2. Error bars represent 95\\% confidence intervals."}
+```{r child_data, fig.env="figure", fig.pos = "t", fig.align = "center", fig.width=3.5, fig.height=3.5, fig.cap = "Children's judgments for critical trials in Experiment 2. Error bars represent 95\\% confidence intervals."}
 
 kids <- graph_data %>%
   filter(age_category=="Children") %>%
@@ -165,9 +159,8 @@ ggplot(kids,
   labs(title = "", x = "", y = "") + 
   theme_few() + 
   theme(axis.text.x = element_text(angle=90, hjust = 1, vjust = .5)) +
-  scale_fill_solarized()
+  scale_fill_brewer(type = "qual", palette = 2)
 ```
-
 
 ### Individual Responses
 
@@ -216,7 +209,7 @@ We recruited 42 English speaking children from the Bing Nursery School at Stanfo
 
 ### Materials and Design
 
-We used the same set of cards and linguistic stimuli as the ones in Experiment 1. The study used 8 trial types and 2 trials per trial type for a total of 16 trials. The trials were balanced to include the same number of one-animal and two-animal cards, the same number of simple and connective guesses, and the same number of expected true vs. false judgments. However, we made a few changes to make the experiment more suitable for children. Instead of Bob, a puppet named Jazzy played the guessing game with the children. Jazzy had a sleeping mask on his eyes during the game. To introduce a three-valued scale, we placed a set of red circles, small blue stars, and big blue stars in front of the children. These tokens were used to reward the puppet after each guess. The use of tokens as rewards proved to be a more successful measure during piloting than hand gestures or only verbal feedback (e.g. *Jazzy you were right!*). One experimenter was involved in this study.
+We used the same set of cards and linguistic stimuli as the ones in Experiment 1. The study used 8 trial types and 2 trials per trial type for a total of 16 trials. The trials were balanced to include the same number of one-animal and two-animal cards, the same number of simple and connective guesses, and the same number of expected true vs. false judgments. However, we made a few changes to make the experiment more suitable for children. Instead of Bob, a puppet named Jazzy played the guessing game with the children. Jazzy wanted to guess what animals were on the cards without seeing them. So he had a sleeping mask on his eyes during the game. Children knew that Jazzy likes guessing but they did not know why Jazzy would choose to guess the way he does: sometimes guessing simple sentences and sometimes with conjunctions or disjunctions. To introduce a three-valued scale, we placed a set of red circles, small blue stars, and big blue stars in front of the children. These tokens were used to reward the puppet after each guess. The use of tokens as rewards proved to be a more successful measure during piloting than hand gestures or only verbal feedback (e.g. *Jazzy you were right!*). One experimenter was involved in this study.
 
 ### Procedure
 
@@ -226,9 +219,9 @@ The goal of the introduction phase was to show the animal cards to children and 
 
 In the test phase, the experimenter removed the three instruction cards and placed a deck of 16 randomized cards on the table. The experimenter explained that it was the child's turn to play with the puppet. The test phase followed the pattern described in the instruction phase.
 
-### Offline Coding
+### Offline Coding of Linguistic Feedback
 
-During analysis of the videos, children's linguistic feedback to the puppet after each guess was categorized into four types: 1. None, 2. judgments, 3. Descriptions, and 4. Corrections. The first category referred to cases where children did not provide any linguistic feedback. judgments referred to linguistic feedback such as *you are right!*, *yes*, *nope*, *you winned*. Such feedback only expressed judgments and mirrored the rewards. Descriptions were cases that the child simply mentioned what was on the card: *cat!*, *dog and elephant!*, *There is a cat and a dog!* etc. Finally, corrections referred to feedback that provided corrections to what the puppet had said. Examples include: *Just a cat!*, *Both!*, *The two are!*, *Only cat*, *cat AND dog* (with emphasis placed on *and*).
+During analysis of the videos, children's linguistic feedback to the puppet after each guess was categorized into four types: 1. None, 2. Judgments, 3. Descriptions, and 4. Corrections. The first category referred to cases where children did not provide any linguistic feedback. judgments referred to linguistic feedback such as *you are right!*, *yes*, *nope*, *you winned*. Such feedback only expressed judgments and mirrored the rewards. Descriptions were cases that the child simply mentioned what was on the card: *cat!*, *dog and elephant!*, *There is a cat and a dog!* etc. Finally, corrections referred to feedback that provided corrections to what the puppet had said. Examples include: *Just a cat!*, *Both!*, *The two are!*, *Only cat*, *cat AND dog* (with emphasis placed on *and*).
 
 ```{r child_adult_data, fig.env="figure", fig.pos = "t", fig.align = "center", fig.width=3.5, fig.height=3.5, fig.cap = "Results for Adults' and Children's Conjunction and Disjunction Trials. Error bars represent 95\\% confidence intervals.", eval=FALSE }
 # graph_data %>%
@@ -266,7 +259,7 @@ child_comps <- filter(child_samples,
 acomp_tab <- adult_comps %>%
   spread(Parameter, value) %>%
   mutate(and_mean = alpha - beta_x_and,
-         x_mean = beta_x_and - beta_x_or, 
+         x_mean = beta_x_or - beta_x_and, 
          or_mean = beta_xy_or - beta_x_or) %>%
   select(-alpha, -beta_x_and, -beta_x_or) %>%
   rename(`and, 1T vs. 2T` = and_mean, `or, 1T vs. 2T`=or_mean, 
@@ -281,7 +274,7 @@ acomp_tab <- adult_comps %>%
 ccomp_tab <- child_comps %>%
   spread(Parameter, value) %>%
   mutate(and_mean = alpha - beta_x_and,
-         x_mean = beta_x_and - beta_x_or, 
+         x_mean =  beta_x_or - beta_x_and, 
          or_mean = beta_xy_or - beta_x_or) %>%
   select(-alpha, -beta_x_and, -beta_x_or) %>%
   rename(`and, 1T vs. 2T` = and_mean, `or, 1T vs. 2T`=or_mean, 
@@ -334,21 +327,21 @@ ctable <-
   spread(trial_type, counts)
 ctable <- as.data.frame(ctable)
 
-chisq_1andor <- chisq.test(ctable[,2], p= ctable[,3], rescale.p = T)
-chisq_and12 <- chisq.test(ctable[,2], p = ctable[,4], rescale.p = T)
-chisq_1and2or <- chisq.test(ctable[,2], p = ctable[,5], rescale.p = T)
-chisq_1or2and <- chisq.test(ctable[,3], p= ctable[,4], rescale.p = T)
-chisq_or12 <- chisq.test(ctable[,"X.XorY"], 
-                         ctable[,"XY.XorY"], 
-                         rescale.p = TRUE)
-chisq_2andor <- chisq.test(ctable[,"XY.XandY"], 
-                           p=ctable[, "XY.XorY"], rescale.p = T)
+chisq_and12 <- chisq.test(cbind(ctable[,"X.XandY"], ctable[,"XY.XandY"]))
 
+chisq_or12 <- chisq.test(cbind(ctable[,"X.XorY"], ctable[,"XY.XorY"]))
+
+chisq_1andor <- chisq.test(cbind(ctable[,"X.XandY"], ctable[,"X.XorY"]))
+
+chisq_2andor <- chisq.test(cbind(ctable[,"XY.XandY"], ctable[, "XY.XorY"]))
+
+chisq_1and2or <- chisq.test(cbind(ctable[,"X.XandY"], ctable[,"XY.XorY"]))
+chisq_1or2and <- chisq.test(cbind(ctable[,"X.XorY"], ctable[,"XY.XandY"]))
 ```
  
 
-We next examined children's linguistic feedback to the puppet (Figure 5). We performed chi-squared goodness-of-fit tests to compare the feedback distributions in each condition.
-Children's linguistic feedback fell into three patterns. First, the one-animal conjunctive and two-animal disjunctive (top left and bottom right) trials show higher proportion of *Corrections* than the other trial types. These are trials that the guesses are either false or infelicitous. 
+We next examined children's linguistic feedback to the puppet (Figure 5). We performed chi-squared tests of homogeneity to compare the feedback distributions between trial types.
+Children's linguistic feedback fell into three patterns. First, the one-animal conjunctive and two-animal disjunctive (top left and bottom right) trials show higher proportions of *Corrections* than the other trial types. These are trials that the guesses are either false or infelicitous. 
 In the conjunction trials, a comparison of the feedback distribution in one-animal and two-animal conditions was statistically significant ($\chi$(`r chisq_and12$parameter`, `r sum(chisq_and12$observed)`) = `r  round(chisq_and12$statistic,2)`, p < .0001), indicating different feedback for false sentences. A similar numerical trend was present in the disjunction trials, but was not significant ($\chi$(`r chisq_or12$parameter`, `r sum(chisq_or12$observed)`) = `r round(chisq_or12$statistic,2)`, p = `r round(chisq_or12$p.value,2)`). Second, the one-animal disjunctive trials (bottom left) showed the highest proportion of *Descriptions*. These are trials in which the guess is correct but not specific enough: it leaves two possibilities open. These trials were significantly different than the one-animal trials for conjunction ($\chi$(`r chisq_1andor$parameter`, `r sum(chisq_1andor$observed)`) = `r round(chisq_1andor$statistic,2)`, p < .0001). Finally, the two-animal conjunctive trials (top right) showed the highest proportion of *Judgments* such as *you are right!*. This is not surprising given that in these trials represent the most optimal guessing scenario. These trials had a significantly different feedback distribution from the matching disjunction trials ($\chi$(`r chisq_2andor$parameter`, `r sum(chisq_2andor$observed)`) = `r round(chisq_2andor$statistic,2)`, p < .0001).
 
 
